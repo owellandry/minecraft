@@ -1,0 +1,434 @@
+[2025/02/06 22:20:56]: §9          __             _       
+[2025/02/06 22:20:56]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/02/06 22:20:56]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/02/06 22:20:56]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/02/06 22:20:56]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/02/06 22:20:56]: §9                  |___/            
+[2025/02/06 22:20:56]: §9 By: www.nickuc.com - V 10.4.21
+[2025/02/06 22:20:56]: §9 
+[2025/02/06 22:20:56]: §3[nLogin] [DEBUG] All settings were loaded in 196 ms.
+[2025/02/06 22:20:57]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:20:57]: §3[nLogin] [DEBUG] All plugin messages were loaded in 120 ms (languageByClient=false).
+[2025/02/06 22:20:57]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[2025/02/06 22:20:57]: §3[nLogin] [DEBUG] Loading database...
+[2025/02/06 22:20:57]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/02/06 22:21:38]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$iQWypdRR3Y/sKdRrKTn7L.kSRzn.VoFwtpeHGD3rXrg38YHnLItt2', `last_ip` = '127.147.107.109', `creation_date` = 2025-02-06 21:20:05.488, `last_seen` = 2025-02-06 22:21:38.517, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2025/02/06 22:21:38]: [nLogin] The user Prototypexyzx has successfully logged in.
+[2025/02/06 22:23:07]: §3[nLogin] [DEBUG] All settings were loaded in 7 ms.
+[2025/02/06 22:23:07]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:23:07]: §3[nLogin] [DEBUG] All plugin messages were loaded in 5 ms (languageByClient=false).
+[2025/02/06 22:23:07]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:23:20]: §3[nLogin] [DEBUG] All settings were loaded in 4 ms.
+[2025/02/06 22:23:20]: §4[nLogin] [ERROR] §cCannot load plugins/nLogin/lang/messages_es.yml config file, aborting load
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 27, column 3:
+      login: '#8addffTe has logueado c ... 
+      ^
+expected <block end>, but found '<anchor>'
+ in 'reader', line 35, column 18:
+        unregister: '&aTe desregistraste con éxito.'
+                     ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112)
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+	at com.nickuc.login.ξνΩρΛγβψεζεςΠκ.a(:108)
+	at com.nickuc.login.ΠζΣΨαΩψοηιηΓΓ.X(:112)
+	at com.nickuc.login.ΠζΣΨαΩψοηιηΓΓ.<init>(:64)
+	at com.nickuc.login.ΠζΣΨαΩψοηιηΓΓ.<init>(:58)
+	at com.nickuc.login.ΦτχπδσρχΓΨω.<init>(:887)
+	at com.nickuc.login.ΦτχπδσρχΓΨω.<init>(:876)
+	at com.nickuc.login.βυπΓσεμη.a(:141)
+	at com.nickuc.login.βυπΓσεμη.g(:131)
+	at com.nickuc.login.ΛπψζΩΣΓωΛΣδΓκΦχ.a(:699)
+	at com.nickuc.login.ΛπψζΩΣΓωΛΣδΓκΦχ.c(:553)
+	at com.nickuc.login.ΛηακψΨηξη.b(:34)
+	at com.nickuc.login.ηΓωυυθΔυκπ.a(:49)
+	at com.nickuc.login.ψψθςδχΔνΠ.a(:157)
+	at com.nickuc.login.ξξοηλξνΨ.b(:92)
+	at com.nickuc.login.ξομολθκπγτ.d(:118)
+	at com.nickuc.login.σΩτβσυσψΨ.i(:85)
+	at io.papermc.paper.threadedregions.scheduler.FoliaAsyncScheduler$AsyncScheduledTask.run(FoliaAsyncScheduler.java:217)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: while parsing a block mapping
+ in 'reader', line 27, column 3:
+      login: '#8addffTe has logueado c ... 
+      ^
+expected <block end>, but found '<anchor>'
+ in 'reader', line 35, column 18:
+        unregister: '&aTe desregistraste con éxito.'
+                     ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575)
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105)
+	... 21 more
+[2025/02/06 22:23:20]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:23:20]: §3[nLogin] [DEBUG] All plugin messages were loaded in 5 ms (languageByClient=false).
+[2025/02/06 22:23:20]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:23:22]: §3[nLogin] [DEBUG] All settings were loaded in 6 ms.
+[2025/02/06 22:23:22]: §4[nLogin] [ERROR] §cCannot load plugins/nLogin/lang/messages_es.yml config file, aborting load
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 27, column 3:
+      login: '#8addffTe has logueado c ... 
+      ^
+expected <block end>, but found '<anchor>'
+ in 'reader', line 35, column 18:
+        unregister: '&aTe desregistraste con éxito.'
+                     ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112)
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+	at com.nickuc.login.ξνΩρΛγβψεζεςΠκ.a(:108)
+	at com.nickuc.login.ΠζΣΨαΩψοηιηΓΓ.X(:112)
+	at com.nickuc.login.ΠζΣΨαΩψοηιηΓΓ.<init>(:64)
+	at com.nickuc.login.ΠζΣΨαΩψοηιηΓΓ.<init>(:58)
+	at com.nickuc.login.ΦτχπδσρχΓΨω.<init>(:887)
+	at com.nickuc.login.ΦτχπδσρχΓΨω.<init>(:876)
+	at com.nickuc.login.βυπΓσεμη.a(:141)
+	at com.nickuc.login.βυπΓσεμη.g(:131)
+	at com.nickuc.login.ΛπψζΩΣΓωΛΣδΓκΦχ.a(:699)
+	at com.nickuc.login.ΛπψζΩΣΓωΛΣδΓκΦχ.c(:553)
+	at com.nickuc.login.ΛηακψΨηξη.b(:34)
+	at com.nickuc.login.ηΓωυυθΔυκπ.a(:49)
+	at com.nickuc.login.ψψθςδχΔνΠ.a(:157)
+	at com.nickuc.login.ξξοηλξνΨ.b(:92)
+	at com.nickuc.login.ξομολθκπγτ.d(:118)
+	at com.nickuc.login.σΩτβσυσψΨ.i(:85)
+	at io.papermc.paper.threadedregions.scheduler.FoliaAsyncScheduler$AsyncScheduledTask.run(FoliaAsyncScheduler.java:217)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: while parsing a block mapping
+ in 'reader', line 27, column 3:
+      login: '#8addffTe has logueado c ... 
+      ^
+expected <block end>, but found '<anchor>'
+ in 'reader', line 35, column 18:
+        unregister: '&aTe desregistraste con éxito.'
+                     ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575)
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105)
+	... 21 more
+[2025/02/06 22:23:22]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:23:22]: §3[nLogin] [DEBUG] All plugin messages were loaded in 8 ms (languageByClient=false).
+[2025/02/06 22:23:22]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:23:31]: §3[nLogin] [DEBUG] All settings were loaded in 3 ms.
+[2025/02/06 22:23:31]: §4[nLogin] [ERROR] §cCannot load plugins/nLogin/lang/messages_es.yml config file, aborting load
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 27, column 3:
+      login: '#8addffTe has logueado c ... 
+      ^
+expected <block end>, but found '<anchor>'
+ in 'reader', line 35, column 18:
+        unregister: '&aTe desregistraste con éxito.'
+                     ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112)
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+	at com.nickuc.login.ξνΩρΛγβψεζεςΠκ.a(:108)
+	at com.nickuc.login.ΠζΣΨαΩψοηιηΓΓ.X(:112)
+	at com.nickuc.login.ΠζΣΨαΩψοηιηΓΓ.<init>(:64)
+	at com.nickuc.login.ΠζΣΨαΩψοηιηΓΓ.<init>(:58)
+	at com.nickuc.login.ΦτχπδσρχΓΨω.<init>(:887)
+	at com.nickuc.login.ΦτχπδσρχΓΨω.<init>(:876)
+	at com.nickuc.login.βυπΓσεμη.a(:141)
+	at com.nickuc.login.βυπΓσεμη.g(:131)
+	at com.nickuc.login.ΛπψζΩΣΓωΛΣδΓκΦχ.a(:699)
+	at com.nickuc.login.ΛπψζΩΣΓωΛΣδΓκΦχ.c(:553)
+	at com.nickuc.login.ΛηακψΨηξη.b(:34)
+	at com.nickuc.login.ηΓωυυθΔυκπ.a(:49)
+	at com.nickuc.login.ψψθςδχΔνΠ.a(:157)
+	at com.nickuc.login.ξξοηλξνΨ.b(:92)
+	at com.nickuc.login.ξομολθκπγτ.d(:118)
+	at com.nickuc.login.σΩτβσυσψΨ.i(:85)
+	at io.papermc.paper.threadedregions.scheduler.FoliaAsyncScheduler$AsyncScheduledTask.run(FoliaAsyncScheduler.java:217)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: while parsing a block mapping
+ in 'reader', line 27, column 3:
+      login: '#8addffTe has logueado c ... 
+      ^
+expected <block end>, but found '<anchor>'
+ in 'reader', line 35, column 18:
+        unregister: '&aTe desregistraste con éxito.'
+                     ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575)
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105)
+	... 21 more
+[2025/02/06 22:23:31]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:23:31]: §3[nLogin] [DEBUG] All plugin messages were loaded in 3 ms (languageByClient=false).
+[2025/02/06 22:23:31]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:24:09]: §3[nLogin] [DEBUG] All settings were loaded in 3 ms.
+[2025/02/06 22:24:09]: §4[nLogin] [ERROR] §cCannot load plugins/nLogin/lang/messages_es.yml config file, aborting load
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 27, column 3:
+      login: '#8addffTe has logueado c ... 
+      ^
+expected <block end>, but found '<anchor>'
+ in 'reader', line 35, column 18:
+        unregister: '&aTe desregistraste con éxito.'
+                     ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112)
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+	at com.nickuc.login.ξνΩρΛγβψεζεςΠκ.a(:108)
+	at com.nickuc.login.ΠζΣΨαΩψοηιηΓΓ.X(:112)
+	at com.nickuc.login.ΠζΣΨαΩψοηιηΓΓ.<init>(:64)
+	at com.nickuc.login.ΠζΣΨαΩψοηιηΓΓ.<init>(:58)
+	at com.nickuc.login.ΦτχπδσρχΓΨω.<init>(:887)
+	at com.nickuc.login.ΦτχπδσρχΓΨω.<init>(:876)
+	at com.nickuc.login.βυπΓσεμη.a(:141)
+	at com.nickuc.login.βυπΓσεμη.g(:131)
+	at com.nickuc.login.ΛπψζΩΣΓωΛΣδΓκΦχ.a(:699)
+	at com.nickuc.login.ΛπψζΩΣΓωΛΣδΓκΦχ.c(:553)
+	at com.nickuc.login.ΛηακψΨηξη.b(:34)
+	at com.nickuc.login.ηΓωυυθΔυκπ.a(:49)
+	at com.nickuc.login.ψψθςδχΔνΠ.a(:157)
+	at com.nickuc.login.ξξοηλξνΨ.b(:92)
+	at com.nickuc.login.ξομολθκπγτ.d(:118)
+	at com.nickuc.login.σΩτβσυσψΨ.i(:85)
+	at io.papermc.paper.threadedregions.scheduler.FoliaAsyncScheduler$AsyncScheduledTask.run(FoliaAsyncScheduler.java:217)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: while parsing a block mapping
+ in 'reader', line 27, column 3:
+      login: '#8addffTe has logueado c ... 
+      ^
+expected <block end>, but found '<anchor>'
+ in 'reader', line 35, column 18:
+        unregister: '&aTe desregistraste con éxito.'
+                     ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575)
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105)
+	... 21 more
+[2025/02/06 22:24:09]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:24:09]: §3[nLogin] [DEBUG] All plugin messages were loaded in 3 ms (languageByClient=false).
+[2025/02/06 22:24:09]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:24:11]: §3[nLogin] [DEBUG] All settings were loaded in 3 ms.
+[2025/02/06 22:24:11]: §4[nLogin] [ERROR] §cCannot load plugins/nLogin/lang/messages_es.yml config file, aborting load
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 27, column 3:
+      login: '#8addffTe has logueado c ... 
+      ^
+expected <block end>, but found '<anchor>'
+ in 'reader', line 35, column 18:
+        unregister: '&aTe desregistraste con éxito.'
+                     ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112)
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+	at com.nickuc.login.ξνΩρΛγβψεζεςΠκ.a(:108)
+	at com.nickuc.login.ΠζΣΨαΩψοηιηΓΓ.X(:112)
+	at com.nickuc.login.ΠζΣΨαΩψοηιηΓΓ.<init>(:64)
+	at com.nickuc.login.ΠζΣΨαΩψοηιηΓΓ.<init>(:58)
+	at com.nickuc.login.ΦτχπδσρχΓΨω.<init>(:887)
+	at com.nickuc.login.ΦτχπδσρχΓΨω.<init>(:876)
+	at com.nickuc.login.βυπΓσεμη.a(:141)
+	at com.nickuc.login.βυπΓσεμη.g(:131)
+	at com.nickuc.login.ΛπψζΩΣΓωΛΣδΓκΦχ.a(:699)
+	at com.nickuc.login.ΛπψζΩΣΓωΛΣδΓκΦχ.c(:553)
+	at com.nickuc.login.ΛηακψΨηξη.b(:34)
+	at com.nickuc.login.ηΓωυυθΔυκπ.a(:49)
+	at com.nickuc.login.ψψθςδχΔνΠ.a(:157)
+	at com.nickuc.login.ξξοηλξνΨ.b(:92)
+	at com.nickuc.login.ξομολθκπγτ.d(:118)
+	at com.nickuc.login.σΩτβσυσψΨ.i(:85)
+	at io.papermc.paper.threadedregions.scheduler.FoliaAsyncScheduler$AsyncScheduledTask.run(FoliaAsyncScheduler.java:217)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: while parsing a block mapping
+ in 'reader', line 27, column 3:
+      login: '#8addffTe has logueado c ... 
+      ^
+expected <block end>, but found '<anchor>'
+ in 'reader', line 35, column 18:
+        unregister: '&aTe desregistraste con éxito.'
+                     ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575)
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105)
+	... 21 more
+[2025/02/06 22:24:11]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:24:11]: §3[nLogin] [DEBUG] All plugin messages were loaded in 2 ms (languageByClient=false).
+[2025/02/06 22:24:11]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:24:27]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'owellandry', `unique_id` = ded01df0e363337583fb0e1074f5ac4f,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$K34.SbPFIK1O2MNWJVz8I.T/D0TRtq1xSBLAI8xGbopBN7W6eqol.', `last_ip` = '127.76.248.177', `creation_date` = 2025-02-06 21:32:00.341, `last_seen` = 2025-02-06 22:24:27.266, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/02/06 22:24:27]: [nLogin] The user owellandry has successfully logged in.
+[2025/02/06 22:24:29]: §3[nLogin] [DEBUG] All settings were loaded in 4 ms.
+[2025/02/06 22:24:29]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:24:29]: §3[nLogin] [DEBUG] All plugin messages were loaded in 3 ms (languageByClient=false).
+[2025/02/06 22:24:29]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:25:37]: §3[nLogin] [DEBUG] All settings were loaded in 4 ms.
+[2025/02/06 22:25:37]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:25:37]: §3[nLogin] [DEBUG] All plugin messages were loaded in 2 ms (languageByClient=false).
+[2025/02/06 22:25:37]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:25:45]: §3[nLogin] [DEBUG] All settings were loaded in 4 ms.
+[2025/02/06 22:25:45]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:25:45]: §3[nLogin] [DEBUG] All plugin messages were loaded in 3 ms (languageByClient=false).
+[2025/02/06 22:25:45]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:25:49]: §3[nLogin] [DEBUG] All settings were loaded in 2 ms.
+[2025/02/06 22:25:49]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:25:49]: §3[nLogin] [DEBUG] All plugin messages were loaded in 1 ms (languageByClient=false).
+[2025/02/06 22:25:49]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:25:51]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'owellandry', `unique_id` = ded01df0e363337583fb0e1074f5ac4f,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$K34.SbPFIK1O2MNWJVz8I.T/D0TRtq1xSBLAI8xGbopBN7W6eqol.', `last_ip` = '127.76.248.177', `creation_date` = 2025-02-06 21:32:00.341, `last_seen` = 2025-02-06 22:25:51.277, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/02/06 22:25:53]: §3[nLogin] [DEBUG] All settings were loaded in 4 ms.
+[2025/02/06 22:25:53]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:25:53]: §3[nLogin] [DEBUG] All plugin messages were loaded in 2 ms (languageByClient=false).
+[2025/02/06 22:25:53]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:25:58]: §3[nLogin] [DEBUG] All settings were loaded in 2 ms.
+[2025/02/06 22:25:58]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:25:58]: §3[nLogin] [DEBUG] All plugin messages were loaded in 2 ms (languageByClient=false).
+[2025/02/06 22:25:58]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:26:08]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$iQWypdRR3Y/sKdRrKTn7L.kSRzn.VoFwtpeHGD3rXrg38YHnLItt2', `last_ip` = '127.147.107.109', `creation_date` = 2025-02-06 21:20:05.488, `last_seen` = 2025-02-06 22:26:08.622, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2025/02/06 22:26:26]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$iQWypdRR3Y/sKdRrKTn7L.kSRzn.VoFwtpeHGD3rXrg38YHnLItt2', `last_ip` = '127.147.107.109', `creation_date` = 2025-02-06 21:20:05.488, `last_seen` = 2025-02-06 22:26:26.306, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2025/02/06 22:26:26]: [nLogin] The user Prototypexyzx has successfully logged in.
+[2025/02/06 22:26:44]: §3[nLogin] [DEBUG] All settings were loaded in 2 ms.
+[2025/02/06 22:26:44]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:26:44]: §3[nLogin] [DEBUG] All plugin messages were loaded in 2 ms (languageByClient=false).
+[2025/02/06 22:26:44]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:26:45]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$iQWypdRR3Y/sKdRrKTn7L.kSRzn.VoFwtpeHGD3rXrg38YHnLItt2', `last_ip` = '127.147.107.109', `creation_date` = 2025-02-06 21:20:05.488, `last_seen` = 2025-02-06 22:26:45.422, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2025/02/06 22:26:56]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$iQWypdRR3Y/sKdRrKTn7L.kSRzn.VoFwtpeHGD3rXrg38YHnLItt2', `last_ip` = '127.147.107.109', `creation_date` = 2025-02-06 21:20:05.488, `last_seen` = 2025-02-06 22:26:56.502, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2025/02/06 22:26:56]: [nLogin] The user Prototypexyzx has successfully logged in.
+[2025/02/06 22:28:48]: §3[nLogin] [DEBUG] All settings were loaded in 2 ms.
+[2025/02/06 22:28:48]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:28:48]: §3[nLogin] [DEBUG] All plugin messages were loaded in 2 ms (languageByClient=false).
+[2025/02/06 22:28:48]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:28:48]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$iQWypdRR3Y/sKdRrKTn7L.kSRzn.VoFwtpeHGD3rXrg38YHnLItt2', `last_ip` = '127.147.107.109', `creation_date` = 2025-02-06 21:20:05.488, `last_seen` = 2025-02-06 22:28:48.972, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2025/02/06 22:29:10]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$iQWypdRR3Y/sKdRrKTn7L.kSRzn.VoFwtpeHGD3rXrg38YHnLItt2', `last_ip` = '127.147.107.109', `creation_date` = 2025-02-06 21:20:05.488, `last_seen` = 2025-02-06 22:29:10.472, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2025/02/06 22:29:10]: [nLogin] The user Prototypexyzx has successfully logged in.
+[2025/02/06 22:30:39]: §3[nLogin] [DEBUG] All settings were loaded in 4 ms.
+[2025/02/06 22:30:39]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:30:39]: §3[nLogin] [DEBUG] All plugin messages were loaded in 3 ms (languageByClient=false).
+[2025/02/06 22:30:39]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:30:40]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$iQWypdRR3Y/sKdRrKTn7L.kSRzn.VoFwtpeHGD3rXrg38YHnLItt2', `last_ip` = '127.147.107.109', `creation_date` = 2025-02-06 21:20:05.488, `last_seen` = 2025-02-06 22:30:40.722, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2025/02/06 22:30:56]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$iQWypdRR3Y/sKdRrKTn7L.kSRzn.VoFwtpeHGD3rXrg38YHnLItt2', `last_ip` = '127.147.107.109', `creation_date` = 2025-02-06 21:20:05.488, `last_seen` = 2025-02-06 22:30:56.866, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2025/02/06 22:30:56]: [nLogin] The user Prototypexyzx has successfully logged in.
+[2025/02/06 22:31:48]: §3[nLogin] [DEBUG] All settings were loaded in 2 ms.
+[2025/02/06 22:31:48]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:31:48]: §3[nLogin] [DEBUG] All plugin messages were loaded in 1 ms (languageByClient=false).
+[2025/02/06 22:31:48]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:31:49]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$iQWypdRR3Y/sKdRrKTn7L.kSRzn.VoFwtpeHGD3rXrg38YHnLItt2', `last_ip` = '127.147.107.109', `creation_date` = 2025-02-06 21:20:05.488, `last_seen` = 2025-02-06 22:31:49.322, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2025/02/06 22:32:00]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$iQWypdRR3Y/sKdRrKTn7L.kSRzn.VoFwtpeHGD3rXrg38YHnLItt2', `last_ip` = '127.147.107.109', `creation_date` = 2025-02-06 21:20:05.488, `last_seen` = 2025-02-06 22:32:00.305, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2025/02/06 22:32:00]: [nLogin] The user Prototypexyzx has successfully logged in.
+[2025/02/06 22:32:18]: §3[nLogin] [DEBUG] All settings were loaded in 3 ms.
+[2025/02/06 22:32:18]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:32:18]: §3[nLogin] [DEBUG] All plugin messages were loaded in 4 ms (languageByClient=false).
+[2025/02/06 22:32:18]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:32:19]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$iQWypdRR3Y/sKdRrKTn7L.kSRzn.VoFwtpeHGD3rXrg38YHnLItt2', `last_ip` = '127.147.107.109', `creation_date` = 2025-02-06 21:20:05.488, `last_seen` = 2025-02-06 22:32:19.672, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2025/02/06 22:32:31]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$iQWypdRR3Y/sKdRrKTn7L.kSRzn.VoFwtpeHGD3rXrg38YHnLItt2', `last_ip` = '127.147.107.109', `creation_date` = 2025-02-06 21:20:05.488, `last_seen` = 2025-02-06 22:32:31.909, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2025/02/06 22:32:31]: [nLogin] The user Prototypexyzx has successfully logged in.
+[2025/02/06 22:33:18]: §3[nLogin] [DEBUG] All settings were loaded in 4 ms.
+[2025/02/06 22:33:18]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:33:18]: §3[nLogin] [DEBUG] All plugin messages were loaded in 3 ms (languageByClient=false).
+[2025/02/06 22:33:18]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:33:36]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$iQWypdRR3Y/sKdRrKTn7L.kSRzn.VoFwtpeHGD3rXrg38YHnLItt2', `last_ip` = '127.147.107.109', `creation_date` = 2025-02-06 21:20:05.488, `last_seen` = 2025-02-06 22:33:36.021, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2025/02/06 22:33:36]: §3[nLogin] [DEBUG] [SQLite] [UNREGISTER]: Removing the Prototypexyzx's account...
+[2025/02/06 22:33:36]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = null, `last_ip` = null, `creation_date` = 1970-01-01 00:00:00.0, `last_seen` = 1970-01-01 00:00:00.0, `email` = null, `discord` = null, `settings` = null WHERE `ai` = 2" (applied to all columns)
+[2025/02/06 22:33:36]: §3[nLogin] [DEBUG] The Prototypexyzx player had his account unregistered by CONSOLE.
+[2025/02/06 22:33:48]: §3[nLogin] [DEBUG] All settings were loaded in 4 ms.
+[2025/02/06 22:33:48]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/06 22:33:48]: §3[nLogin] [DEBUG] All plugin messages were loaded in 3 ms (languageByClient=false).
+[2025/02/06 22:33:48]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[2025/02/06 22:34:03]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$7Uxg/pk8Or8Q1DKw7imMD.oUnCAy1yyn/EppL2R/3ZfTTk0nXbn.e', `last_ip` = '127.147.107.109', `creation_date` = 2025-02-06 22:34:03.413, `last_seen` = 2025-02-06 22:34:03.413, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}' WHERE `ai` = 2" (applied to all columns)
+[2025/02/06 22:34:03]: [nLogin] The user Prototypexyzx has successfully registered.
+[2025/02/06 22:34:44]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$7Uxg/pk8Or8Q1DKw7imMD.oUnCAy1yyn/EppL2R/3ZfTTk0nXbn.e', `last_ip` = '127.147.107.109', `creation_date` = 2025-02-06 22:34:03.413, `last_seen` = 2025-02-06 22:34:44.673, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2025/02/06 22:35:01]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$7Uxg/pk8Or8Q1DKw7imMD.oUnCAy1yyn/EppL2R/3ZfTTk0nXbn.e', `last_ip` = '127.147.107.109', `creation_date` = 2025-02-06 22:34:03.413, `last_seen` = 2025-02-06 22:35:01.379, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2025/02/06 22:35:01]: [nLogin] The user Prototypexyzx has successfully logged in.
+[2025/02/06 22:37:32]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$7Uxg/pk8Or8Q1DKw7imMD.oUnCAy1yyn/EppL2R/3ZfTTk0nXbn.e', `last_ip` = '127.147.107.109', `creation_date` = 2025-02-06 22:34:03.413, `last_seen` = 2025-02-06 22:37:32.472, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2025/02/06 22:37:40]: [nLogin] Successful plugin core shutdown (took 0.00s)

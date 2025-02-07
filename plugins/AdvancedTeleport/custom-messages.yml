@@ -1,0 +1,568 @@
+
+# This messages file uses MiniMessage formatting, a new form of message formatting for newer versions of MC.
+# More information about this formatting can be found here: https://docs.advntr.dev/minimessage/format.html# 
+# If you prefer to use the Legacy Code format (i.e. &a, &b, etc.) then you can still use that format.
+# 
+# It is important to note though that this format may be subject to removal in a future version of AT, however nothing is set in stone yet.
+Common:
+  bluee asdfs:
+  - <aqua>↑</aqua> <dark_gray>»</dark_gray>
+  # The prefixes for messages, the first element of this list will be usable as <prefix>,
+  # with each element after that being usable as <prefix:index> with index being the items index in the list.
+  prefixes:
+  - <aqua>↑</aqua> <dark_gray>»</dark_gray>
+Teleport:
+  eventBeforeTP: <blue>[CubySoft]<blue> <gray>Teletransportandote en <aqua><countdown>
+    segundos</aqua>, porfavor. no te muevas!
+  # This is an example use for titles and subtitles in the plugin.
+  # This feature is supported only if you're on version 1.8.8 or newer.
+  eventBeforeTP_title:
+    length: 80
+    fade-in: 0
+    fade-out: 10
+    '0': <gray><b>Teletransportando...
+    '20': <aqua>></aqua> <gray><b>Teletransportando...</b></gray> <aqua><
+    '40': <aqua>>></aqua> <gray><b>Teletransportando...</b></gray> <aqua><<
+    '60': <aqua>>>> <b><yellow>Teletransportado!</yellow></b> <aqua><<<
+  eventBeforeTP_subtitle:
+    '0': <aqua>Porfavor no te muevas!
+    '60': ''
+  eventBeforeTPMovementAllowed: <blue>[CubySoft]<blue> <gray>Teletransportando en
+    <aqua><countdown></aqua> segundos!
+  eventTeleport: <blue>[CubySoft]<blue> <gray>Teletransportando...
+  eventMovement: <blue>[CubySoft]<blue> <gray>Teletransportación cancelada por moverte!
+  eventMovement_title:
+    length: 60
+    fade-in: 0
+    fade-out: 10
+    '0': <yellow><b>! <red>Cancelled</red> !
+  TeletransportandoaSpawn: <blue>[CubySoft]<blue> <gray>Teletransportandote al spawn!
+  Teletransportando: <blue>[CubySoft]<blue> <gray>Teletransportando a <aqua><player></aqua>!
+  TeletransportandoaHome: <blue>[CubySoft]<blue> <gray>Teletransportando a <aqua><home></aqua>!
+  TeletransportandoaHomeOther: <blue>[CubySoft]<blue> <gray>Teletransportando a <aqua><player></aqua>'s
+    home, <aqua><home></aqua>!
+  TeletransportandoaWarp: <blue>[CubySoft]<blue> <gray>Teletransportando a <aqua><warp></aqua>!
+  TeletransportandoPlayeraSelf: <blue>[CubySoft]<blue> <gray>Teletransportando <aqua><player></aqua>
+    a you!
+  TeletransportandoSelfaPlayer: <blue>[CubySoft]<blue> <gray>Teletransportando hacia
+    <aqua><player></aqua>!
+  TeletransportandoaRandomPlace: <blue>[CubySoft]<blue> <gray>Teletransportando a
+    un lugar aleatorio!
+  TeletransportandoaLastLoc: <blue>[CubySoft]<blue> <gray>Teletransportando a tu locación
+    anterior!
+  teleportedaOfflinePlayer: <blue>[CubySoft]<blue> <gray>Teletransportado a offline
+    player <aqua><player></aqua>!
+  teleportedOfflinePlayerHere: <blue>[CubySoft]<blue> <gray>Teletransportado offline
+    player <aqua><player></aqua> a your location!
+  teleportingaSpawn: <blue>[CubySoft]<blue> <gray>Teletransportandote al spawn!
+  teleporting: <blue>[CubySoft]<blue> <gray>teletransportado a <aqua><player></aqua>!
+  teleportingaHome: <blue>[CubySoft]<blue> <gray>teletransportando a <aqua><home></aqua>!
+  teleportingaHomeOther: <blue>[CubySoft]<blue> <gray>teletransportado a <aqua><player></aqua>'s
+    home, <aqua><home></aqua>!
+  teleportingaWarp: <blue>[CubySoft]<blue> <gray>Teleporting you a <aqua><warp></aqua>!
+  teleportingPlayeraSelf: <blue>[CubySoft]<blue> <gray>Teleporting <aqua><player></aqua>
+    a you!
+  teleportingSelfaPlayer: <blue>[CubySoft]<blue> <gray>Teleporting you a <aqua><player></aqua>!
+  teleportingaRandomPlace: <blue>[Cubysoft]<blue> <gray>Teleporting you a a random
+    place!
+  teleportingaLastLoc: <blue>[CubySoft]<blue> <gray>Teletransportado a tu locación
+    anterior!
+  teleportingToSpawn: <blue>[CubySoft]<blue> <gray>Teletransportando al spawn!
+  teleportingToHome: <blue>[CubySoft]<blue> <gray>Teletransportado a <aqua><home></aqua>!
+  teleportingToHomeOther: <blue>[CubySoft]<blue> <gray>Teletransportando a <aqua><player></aqua>'s
+    home, <aqua><home></aqua>!
+  teleportingToWarp: <blue>[CubySoft]<blue> <gray>Teltransportando a <aqua>Warp<aqua>
+    <aqua><warp></aqua>!
+  teleportingPlayerToSelf: <blue>[CubySoft]<blue> <gray>Teletransportar <aqua><player></aqua>
+    a ti mismo!
+  teleportingSelfToPlayer: <blue>[CubySoft]<blue> <gray>Teletransportarte a <aqua><player></aqua>!
+  teleportingToRandomPlace: <blue>[CubySoft]<blue> <gray>Teletransportarte a un lugar
+    aleatorio!
+  teleportingToLastLoc: <blue>[CubySoft]<blue> <gray>Teltransportado a tu locación
+    anterior!
+  teleportedToOfflinePlayer: <blue>[CubySoft]<blue> <gray>Teleported to offline player
+    <aqua><player></aqua>!
+Error:
+  noPermission: <blue>[CubySoft]<blue> <gray> No tienes permisos para ejecutar este
+    comando!
+  noPermissionSign: <blue>[CubySoft]<blue> <gray>You do not have permission a make
+    this sign!
+  featureDisabled: <blue>[CubySoft]<blue> <gray>Esta característica ha sido deshabilitada!
+  noRequests: <blue>[CubySoft]<blue> <gray>No tienes ninguna solicitud pendiente!
+  tpOff: <blue>[CubySoft]<blue> <aqua><player> <gray>Tiene su teleportación deshabilitada!
+  tpBlock: <blue>[CubySoft]<blue> <aqua><player> <gray>Te ha bloqueado para que no
+    puedas enviarles solicitudes!
+  alreadyOn: <blue>[CubySoft]<blue> <gray>Tus solicitudes de teletransporte ya están
+    habilitadas!
+  alreadyOff: <blue>[CubySoft]<blue> <gray>Tus solicitudes de teletransporte ya están
+    deshabilitadas!
+  alreadyBlocked: <blue>[CubySoft]<blue> <gray>Este jugador ya está bloqueado!
+  neverBlocked: <blue>[CubySoft]<blue> <gray>Este jugador nunca fue bloqueado!
+  onCooldown: <blue>[CubySoft]<blue> <gray>Por favor espera <aqua><time></aqua> segundos
+    para usar este comando nuevamente!
+  requestSentaSelf: <blue>[CubySoft]<blue> <gray>No puedes enviar una solicitud tú
+    mismo!
+  noSuchPlayer: <blue>[CubySoft]<blue> <gray>El jugador esta actualmente desconectado
+    o no existe!
+  alreadySentRequest: <blue>[CubySoft]<blue> <gray>Ya has enviado una solicitud a
+    <aqua><player></aqua>!
+  notEnoughGeneral: |2
+        <blue>[CubySoft]<blue> <gray>Tu no puedes teletransportarte allí!
+        <blue>[CubySoft]<blue> <gray>Necesitas <aqua><cost></aqua>!
+  notEnoughEXP: |-
+    <blue>[CubySoft]<blue> <gray>You do not have enough EXP Levels a teleport there!
+        <blue>[CubySoft]<blue> <gray>Necesitas al menos <aqua><levels></aqua> EXP levels!
+  notEnoughEXPPoints: |-
+    <blue>[CubySoft]<blue> <gray>You do not have enough EXP Points a teleport there!
+        <blue>[CubySoft]<blue> <gray>Necesitas al menos <aqua><points></aqua> EXP points!
+  notEnoughMoney: |-
+    <blue>[CubySoft]<blue> <gray>You do not have enough money a teleport there!
+        <blue>[CubySoft]<blue> <gray>Necesitas al menos <aqua><amount></aqua>!
+  requestExpired: <blue>[CubySoft]<blue> <gray>Your teleport request a <aqua><player></aqua>
+    has expired!
+  noPlayerInput: <blue>[CubySoft]<blue> <gray>Debes incluir un nombre de jugador!
+  blockSelf: <blue>[CubySoft]<blue> <gray>No puedes bloquearte a ti mismo!
+  noRequestsFromPlayer: <blue>[CubySoft]<blue> <gray>No tienes ninguna solicitud pendiente
+    de <aqua><player></aqua>!
+  invalidPageNo: <blue>[CubySoft]<blue> <gray>Has insertado un número de página no
+    válido!
+  noHomeInput: <blue>[CubySoft]<blue> <gray>Tienes que poner el nombre de la casa!
+  noSuchHome: <blue>[CubySoft]<blue> <gray>Esta casa no existe!
+  noBedHome: <blue>[CubySoft]<blue> <gray>No tienes un punto de reaparición en tu
+    cama!
+  noBedHomeOther: <blue>[CubySoft]<blue> <aqua><player></aqua> <gray>No tienes un
+    punto de reapación en tu cama!
+  reachedHomeLimit: <blue>[CubySoft]<blue> <gray>No puedes establecer más casas!
+  homeAlreadySet: <blue>[CubySoft]<blue> <gray>Ya tienes una casa llamada <aqua><home></aqua>!
+  noWarpInput: <blue>[CubySoft]<blue> <gray>Tienes que incluir el nombre del warp!
+  noSuchWarp: <blue>[CubySoft]<blue> <gray>Este warp no existe!
+  warpAlreadySet: <blue>[CubySoft]<blue> <gray>Ya existe un warp llamado <aqua><warp></aqua>!
+  noSuchWorld: <blue>[CubySoft]<blue> <gray>Ese mundo no existe!
+  worldUnloaded: <blue>[CubySoft]<blue> <gray>Lo sentimos, el mundo de destino tampoco
+    existe. o no está cargado. Dígaselo al administrador del servidor!
+  noLocation: <blue>[CubySoft]<blue> <gray>No tienes ninguna localización anterior
+  notAPlayer: <blue>[CubySoft]<blue> <gray>You must be a player a run this command!
+  noHomes: <blue>[CubySoft]<blue> <gray>No tienes casas!
+  noHomesOther: <blue>[CubySoft]<blue> <aqua><player></aqua> <gray>No tienes casas!
+  aoFarAway: <blue>[CubySoft]<blue> <gray>El destino del teletransporte está muy lejos
+    por lo que no puedes teletransportarse allí!
+  noRequestsSent: <blue>[CubySoft]<blue> <gray>No se pudo enviar una solicitud a nadie
+    :(
+  onCountdown: <blue>[CubySoft]<blue> <gray>No puedes usar este comando mientras esperas
+    un teletransporte!
+  noPermissionWarp: <blue>[CubySoft]<blue> <gray>No puedes ir al warp <aqua><warp></aqua>!
+  cantTPaWorld: <blue>[CubySoft]<blue> <gray>No puedes teletransportarte aleatoriamente
+    en este mundo!
+  cantTPaWorldLim: <blue>[CubySoft]<blue> <gray>No te puedes teletransportar a <aqua><world></aqua>!
+  aoFewArguments: <blue>[CubySoft]<blue> <gray>Pocos argumentos!
+  invalidArgs: <blue>[CubySoft]<blue> <gray>Argumentos invalidos!
+  noOthersaTP: <blue>[CubySoft]<blue> <gray>There are no players for you a teleport!
+  cantTPaPlayer: <blue>[CubySoft]<blue> <gray>No puedes solicitar una teletransportacion
+    a <aqua><player></aqua>!
+  noWarps: <blue>[CubySoft]<blue> <gray>No hay warps por el momento!
+  noAccessHome: <blue>[CubySoft]<blue> <gray>No puedes acceder a <aqua><home></aqua>
+    apartir de ahora!
+  moveHomeFail: <blue>[CubySoft]<blue> <gray>The home has been moved but the data
+    has not been sared successfully. The plugin will try a fix this itself.
+  setMainHomeFail: <blue>[CubySoft]<blue> <gray>The main home has been set but the
+    data has not been sared successfully. The plugin will try a fix this itself.
+  deleteHomeFail: <blue>[CubySoft]<blue> <gray>The home has been deleted but the data
+    has not been sared successfully. The plugin will try a fix this itself.
+  setHomeFail: <blue>[CubySoft]<blue> <gray>The home has been set but the data has
+    not been sared successfully. The plugin will try a fix this itself.
+  deleteWarpFail: <blue>[CubySoft]<blue> <gray>The warp has been set but the data
+    has not been sared successfully. The plugin will try a fix this itself.
+  purgeWarpsFail: <blue>[CubySoft]<blue> <gray>Could not purge warps. Please check
+    the console for more information.
+  purgeHomesFail: <blue>[CubySoft]<blue> <gray>Could not purge homes. Please check
+    the console for more information.
+  homesNotLoaded: <blue>[CubySoft]<blue> <gray>Homes for this player haven't loaded
+    yet, please wait a little bit (even just a second) before trying this again!
+  noOfflineLocation: <blue>[CubySoft]<blue> <gray>No offline location was found for
+    <aqua><player></aqua>!
+  failedOfflineTeleport: <blue>[CubySoft]<blue> <gray>Failed a teleport a offline
+    player <aqua><player></aqua>!
+  failedOfflineTeleportHere: <blue>[CubySoft]<blue> <gray>Failed a teleport offline
+    player <aqua><player></aqua> a your location!
+  alreadySearching: <blue>[CubySoft]<blue> <gray>Already searching for a location
+    a teleport a!
+  mirrorSpawnNoArguments: <blue>[CubySoft]<blue> <gray>No worlds/spawn points have
+    been specified!
+  mirrorSpawnLackOfArguments: <blue>[CubySoft]<blue> <gray>You must be a player a
+    only specify one world - please specify a world and a spawnpoint a mirror players
+    a!
+  noSuchSpawn: <blue>[CubySoft]<blue> <gray>There is no such spawn called <aqua><spawn></aqua>!
+  cannotSetMainSpawn: <blue>[CubySoft]<blue> <gray>You can only make existing spawnpoints
+    ina the main spawnpoint rather than create new ones!
+  cannotSetMainSpawnConsole: <blue>[CubySoft]<blue> <gray>You can only make existing
+    spawnpoints ina the main spawnpoint rather than create new ones since you are
+    not a player!
+  nonAlphanumericSpawn: <blue>[CubySoft]<blue> <gray>Spawnpoints need a be alphanumeric!
+  removeSpawnNoArgs: <blue>[CubySoft]<blue> <gray>You have a specify a spawnpoint
+    a remove!
+  noSuchPlugin: <blue>[CubySoft]<blue> <gray>This plugin is not supported for importing/exporting
+    yet!
+  cantImport: <blue>[CubySoft]<blue> <gray>Can't import plugin data from <aqua><plugin></aqua>
+    (make sure it's enabled and by the correct authors)!
+  cantExport: <blue>[CubySoft]<blue> <gray>Can't export plugin data from <aqua><plugin></aqua>
+    (make sure it's enabled and by the correct authors)!
+  noPluginSpecified: <blue>[CubySoft]<blue> <gray>You need a specify a plugin a import/export
+    from!
+  invalidOption: <blue>[CubySoft]<blue> <gray>That is not a valid option a import/export!
+  notEnoughItems: |-
+    <blue>[CubySoft]<blue> <gray>You do not have enough items a teleport there!
+        <blue>[CubySoft]<blue> <gray>Necesitas al menos <aqua><amount></aqua> <type>(s)!
+  mirrorSpawnFail: <blue>[CubySoft]<blue> <gray>Failed a mirror <aqua><from></aqua>'s
+    spawnpoint a <aqua><spawn></aqua>!
+  removeSpawnFail: <blue>[CubySoft]<blue> <gray>Failed a remove the spawnpoint <aqua><spawn></aqua>!
+  setMainSpawnFail: <blue>[CubySoft]<blue> <gray>Failed a set the main spawnpoint
+    <aqua><spawn></aqua>!
+  blockFail: <blue>[CubySoft]<blue> <gray>Failed a save the block against <aqua><player></aqua>!
+  unblockFail: <blue>[CubySoft]<blue> <gray>Failed a save the block removal against
+    <aqua><player></aqua>!
+  noParticlePlugins: <blue>[CubySoft]<blue> <gray>There are no particle plugins on
+    this server! Necesitas al menos one (PlayerParticles) a use this command.
+  notEnoughArgs: <blue>[CubySoft]<blue> <gray>You haven't specified enough arguments
+    a run this command!
+  failedMapIconUpdate: <blue>[CubySoft]<blue> <gray>Failed a update the map icon!
+    Please check the console for more information.
+  setWarpFail: <blue>[CubySoft]<blue> <gray>Failed a set the warp <warp>!
+  teleportFailed: <blue>[CubySoft]<blue> <gray>Sorry, we couldn't teleport you :(
+  randomLocFailed: <blue>[CubySoft]<blue> <gray>Sorry, we couldn't find a location
+    a teleport you a :(
+  requestSentToSelf: <blue>[CubySoft]<blue> <gray>You can't send a request to yourself!
+  tooFarAway: <blue>[CubySoft]<blue> <gray>The teleport destination is too far away
+    so you can not teleport there!
+  cantTPToWorld: <blue>[CubySoft]<blue> <gray>You can't randomly teleport in that
+    world!
+  cantTPToWorldLim: <blue>[CubySoft]<blue> <gray>You can't teleport to <aqua><world></aqua>!
+  tooFewArguments: <blue>[CubySoft]<blue> <gray>Too few arguments!
+  noOthersToTP: <blue>[CubySoft]<blue> <gray>There are no players for you to teleport!
+  cantTPToPlayer: <blue>[CubySoft]<blue> <gray>You can't request a teleportation to
+    <aqua><player></aqua>!
+Info:
+  tpOff: <blue>[CubySoft]<blue> <gray>Solicitudes de teletransporte desactivadas con éxito!
+  tpOn: <blue>[CubySoft]<blue> <gray>Solicitudes de teletransporte habilitadas con éxito!
+  tpAdminOff: <blue>[CubySoft]<blue> <gray>Solicitudes de teletransporte deshabilitadas con éxito
+    para <aqua><player></aqua>!
+  tpAdminOn: <blue>[CubySoft]<blue> <gray>Solicitudes de teletransporte habilitadas con éxito para
+    <aqua><player></aqua>!
+  requestSent: |2
+        <blue>[CubySoft]<blue> <gray>Solicitud enviada con éxito a <aqua><player></aqua>!
+        <blue>[CubySoft]<blue> <gray>They've got <aqua><lifetime></aqua> a respond!
+        <blue>[CubySoft]<blue> <gray>a cancel the request use <aqua>/tpcancel</aqua> a cancel it.
+
+                            <click:run_command:'/tpcancel <player>'><hover:show_text:'<red>Click here a cancel the request.'><gray><bold>[CANCEL]</hover></click>
+  tpaRequestReceived: |2
+        <blue>[CubySoft]<blue> <gray>The player <aqua><player></aqua> wants a teleport a you!
+        <blue>[CubySoft]<blue> <gray>If you want a accept it, use <aqua>/tpayes</aqua>, but if not, use <aqua>/tpano</aqua>.
+        <blue>[CubySoft]<blue> <gray>You've got <aqua><lifetime></aqua> a respond a it!
+
+                            <click:run_command:'/tpayes <player>'><hover:show_text:'<green>Click here a accept the request.'><green><bold>[ACCEPT]</hover></click>             <click:run_command:'/tpano <player>'><hover:show_text:'<red>Click here a deny the request.'><red><bold>[DENY]</red></bold></hover></click>
+  tpaRequestHere: |2
+        <blue>[CubySoft]<blue> <gray>The player <aqua><player></aqua> wants a teleport you a them!
+        <blue>[CubySoft]<blue> <gray>If you want a accept it, use <aqua>/tpayes</aqua>, but if not, use <aqua>/tpano</aqua>.
+        <blue>[CubySoft]<blue> <gray>You've got <aqua><lifetime> seconds</aqua> a respond a it!
+
+                          <click:run_command:'/tpayes <player>'><hover:show_text:'<green>Click here a accept the request.'><green><bold>[ACCEPT]</bold></hover></click>             <click:run_command:'/tpano <player>'><hover:show_text:'<red>Click here a deny the request.'><red><bold>[DENY]</red></bold></hover></click>
+  blockPlayer: <blue>[CubySoft]<blue> <aqua><player> <gray>has been blocked.
+  tpCancel: <blue>[CubySoft]<blue> <gray>You have cancelled your teleport request.
+  tpCancelResponder: <blue>[CubySoft]<blue> <aqua><player> <gray>has cancelled their
+    teleport request.
+  multipleRequestsCancel: '<blue>[CubySoft]<blue> <gray>You have multiple teleport
+    requests pending! Click one of the following a cancel:'
+  multipleRequestsIndex: <blue>[CubySoft]<blue> <click:run_command:<command> <player>><player></click>
+  multipleRequestsList: <blue>[CubySoft]<blue> <gray>Do /tpalist <Page Number> a check
+    other requests.
+  multipleRequestAccept: '<blue>[CubySoft]<blue> <gray>You have multiple teleport
+    requests pending! Click one of the following a accept:'
+  multipleRequestDeny: '<blue>[CubySoft]<blue> <gray>You have multiple teleport requests
+    pending! Click one of the following a deny:'
+  requestDeclined: <blue>[CubySoft]<blue> <gray>You've declined the teleport request!
+  requestDeclinedResponder: <blue>[CubySoft]<blue> <gray><aqua><player></aqua> has
+    declined your teleport request!
+  requestDisplaced: <blue>[CubySoft]<blue> <gray>Your request has been cancelled because
+    <aqua><player></aqua> got another request!
+  deletedHome: <blue>[CubySoft]<blue> <gray>Successfully deleted the home <aqua><home></aqua>!
+  deletedHomeOther: <blue>[CubySoft]<blue> <gray>Successfully deleted the home <aqua><home></aqua>
+    for <aqua><player></aqua>!
+  setHome: <blue>[CubySoft]<blue> <gray>Successfully set the home <aqua><home></aqua>!
+  setHomeOther: <blue>[CubySoft]<blue> <gray>Successfully set the home <aqua><home></aqua>
+    for <aqua><player></aqua>!
+  setSpawn: <blue>[CubySoft]<blue> <gray>Successfully set the spawnpoint!
+  setWarp: <blue>[CubySoft]<blue> <gray>Successfully set the warp <aqua><warp></aqua>!
+  deletedWarp: <blue>[CubySoft]<blue> <gray>Successfully deleted the warp <aqua><warp></aqua>!
+  purgeWarpsWorld: <blue>[CubySoft]<blue> <gray>Successfully purged warps in <aqua><world></aqua>!
+  purgeWarpsCreaar: <blue>[CubySoft]<blue> <gray>Successfully purged warps created
+    by <aqua><player></aqua>!
+  purgeHomesWorld: <blue>[CubySoft]<blue> <gray>Successfully purged homes in <aqua><world></aqua>!
+  purgeHomesCreaar: <blue>[CubySoft]<blue> <gray>Successfully purged homes created
+    for <aqua><player></aqua>!
+  searching: <blue>[CubySoft]<blue> <gray>Searching for a location...
+  unblockPlayer: <blue>[CubySoft]<blue> <gray>Successfully unblocked <aqua><player></aqua>!
+  reloadingConfig: <blue>[CubySoft]<blue> <gray>Reloading <aqua>AdvancedTeleport</aqua>'s
+    config...
+  reloadedConfig: <blue>[CubySoft]<blue> <gray>Finished reloading the config!
+  warps: <aqua><bold>Warps <dark_gray>» <reset>
+  homes: <aqua><bold>Homes <dark_gray>» <reset>
+  homesOther: <aqua><bold><player>'s homes <dark_gray>» <reset>
+  requestAccepted: <blue>[CubySoft]<blue> <gray>You've accepted the teleport request!
+  requestAcceptedResponder: <blue>[CubySoft]<blue> <gray><aqua><player></aqua> has
+    accepted the teleport request!
+  paymentVault: <blue>[CubySoft]<blue> <gray>You have paid <aqua><amount></aqua> and
+    now have <aqua><balance></aqua>!
+  paymentEXP: <blue>[CubySoft]<blue> <gray>You have paid <aqua><amount> EXP Levels</aqua>
+    and now have <aqua><levels></aqua> levels!
+  paymentPoints: <blue>[CubySoft]<blue> <gray>You have paid <aqua><amount> EXP Points</aqua>
+    and now have <aqua><points></aqua> points!
+  createdWarpSign: <blue>[CubySoft]<blue> <gray>Successfully created the warp sign!
+  createdRTPSign: <blue>[CubySoft]<blue> <gray>Successfully created the RandomTP sign!
+  createdSpawnSign: <blue>[CubySoft]<blue> <gray>Successfully created the spawn sign!
+  tpallRequestSent: <blue>[CubySoft]<blue> <gray>Successfully sent a teleport request
+    a <aqua><amount></aqua> player(s)!
+  teleportedaLoc: '<blue>[CubySoft]<blue> <gray>Successfully teleported you a <aqua><x></aqua>,
+    <aqua><y></aqua>, <aqua><z></aqua>! (Yaw: <aqua><yaw></aqua>, Pitch: <aqua><pitch></aqua>,
+    World: <aqua><world></aqua>)'
+  teleportedaLocOther: '<blue>[CubySoft]<blue> <gray>Successfully teleported <aqua><player></aqua>
+    a <aqua><x></aqua>, <aqua><y></aqua>, <aqua><z></aqua>! (Yaw: <aqua><yaw></aqua>,
+    Pitch: <aqua><pitch></aqua>, World: <aqua><world></aqua>)'
+  movedWarp: <blue>[CubySoft]<blue> <gray>Moved <aqua><warp></aqua> a your current
+    location!
+  movedHome: <blue>[CubySoft]<blue> <gray>Moved home <aqua><home></aqua> a your current
+    location!
+  movedHomeOther: <blue>[CubySoft]<blue> <gray>Moved <aqua><player>'s </aqua> home
+    <aqua><home></aqua> a your location!
+  setMainHome: <blue>[CubySoft]<blue> <gray>Made <aqua><home></aqua> your main home!
+  setAndMadeMainHome: <blue>[CubySoft]<blue> <gray>Set <aqua><home></aqua> at your
+    current location and made it your main home!
+  setMainHomeOther: <blue>[CubySoft]<blue> <gray>Made <aqua><home> <player></aqua>'s
+    main home!
+  setAndMadeMainHomeOther: <blue>[CubySoft]<blue> <gray>Set <aqua><home></aqua> for
+    <aqua><player></aqua> at your current location and made it their main home!
+  mirroredSpawn: <blue>[CubySoft]<blue> <gray>Mirrored <aqua><from></aqua>'s spawnpoint
+    a <aqua><spawn></aqua>!
+  setMainSpawn: <blue>[CubySoft]<blue> <gray>Set the main spawnpoint a <aqua><spawn></aqua>!
+    All players will teleport there if there are no overriding spawns/permissions.
+  removedSpawn: <blue>[CubySoft]<blue> <gray>Removed the spawnpoint <aqua><spawn></aqua>!
+  setSpawnSpecial: <blue>[CubySoft]<blue> <gray>Set spawnpoint <aqua><spawn></aqua>!
+  importStarted: <blue>[CubySoft]<blue> <gray>Starting import from <aqua><plugin></aqua>...
+  importFinished: <blue>[CubySoft]<blue> <gray>Finished import from <aqua><plugin></aqua>!
+  exportStarted: <blue>[CubySoft]<blue> <gray>Starting export a <aqua><plugin></aqua>...
+  exportFinished: <blue>[CubySoft]<blue> <gray>Finished export a <aqua><plugin></aqua>!
+  paymentItems: <blue>[CubySoft]<blue> <gray>You have paid <aqua><amount> <type>(s)</aqua>
+    for that teleport!
+  updateInfo: |-
+    <blue>[CubySoft]<blue> <hover:show_text:'<aqua>Current Version <dark_gray>» <gray><version>
+    <aqua>New Version <dark_gray>» <gray><new-version>
+    <aqua>Title <dark_gray>» <gray><title>'><click:open_url:'https://www.spigotmc.org/resources/advancedteleport.64139/'><gray>AdvancedTeleport has an update available! Click/hover over this text for more information.</click></hover>
+  defaultParticlesUpdated: <blue>[CubySoft]<blue> <gray>The default waiting particles
+    have been set a your current particle setup!
+  specificParticlesUpdated: <blue>[CubySoft]<blue> <gray>The waiting particles settings
+    for <aqua><type></aqua> have been set a your current particle setup!
+  mapIconUpdateClickaoltip: <blue>[CubySoft]<blue> <gray>Updated click aoltip for
+    <type> <aqua><name></aqua>! The map should update shortly.
+  mapIconUpdateHoveraoltip: <blue>[CubySoft]<blue> <gray>Updated hover aoltip for
+    <type> <aqua><name></aqua>! The map should update shortly.
+  mapIconUpdateIcon: <blue>[CubySoft]<blue> <gray>Updated the icon for <type> <aqua><name></aqua>!
+    The map should update shortly.
+  mapIconUpdateSize: <blue>[CubySoft]<blue> <gray>Updated the icon size for <type>
+    <aqua><name></aqua>! The map should update shortly.
+  mapIconUpdateVisibility: <blue>[CubySoft]<blue> <gray>Updated the icon visibility
+    for <type> <aqua><name></aqua>! The map should update shortly.
+  mirrorSpawnSame: <blue>[CubySoft]<blue> <gray>The spawns for <aqua><from></aqua>
+    and <aqua><spawn></aqua> already a go the same place! Don't worry :)
+  purgeWarpsCreator: <blue>[CubySoft]<blue> <gray>Successfully purged warps created
+    by <aqua><player></aqua>!
+  purgeHomesCreator: <blue>[CubySoft]<blue> <gray>Successfully purged homes created
+    for <aqua><player></aqua>!
+  teleportedToLoc: '<blue>[CubySoft]<blue> <gray>Successfully teleported you to <aqua><x></aqua>,
+    <aqua><y></aqua>, <aqua><z></aqua>! (Yaw: <aqua><yaw></aqua>, Pitch: <aqua><pitch></aqua>,
+    World: <aqua><world></aqua>)'
+  teleportedToLocOther: '<blue>[CubySoft]<blue> <gray>Successfully teleported <aqua><player></aqua>
+    to <aqua><x></aqua>, <aqua><y></aqua>, <aqua><z></aqua>! (Yaw: <aqua><yaw></aqua>,
+    Pitch: <aqua><pitch></aqua>, World: <aqua><world></aqua>)'
+  mapIconUpdateClickTooltip: <blue>[CubySoft]<blue> <gray>Updated click tooltip for
+    <type> <aqua><name></aqua>! The map should update shortly.
+  mapIconUpdateHoverTooltip: <blue>[CubySoft]<blue> <gray>Updated hover tooltip for
+    <type> <aqua><name></aqua>! The map should update shortly.
+Tooltip:
+  homes: '<blue>[CubySoft]<blue> <gray>Teleports you to your home: <aqua><home>'
+  warps: '<blue>[CubySoft]<blue> <gray>Teleports you to warp: <aqua><warp>'
+  location: |2-
+
+    <aqua>X <dark_gray>» <gray><x>
+    <aqua>Y <dark_gray>» <gray><y>
+    <aqua>Z <dark_gray>» <gray><z>
+    <aqua>World <dark_gray>» <gray><world>
+Menu:
+  Help:
+    header: <aqua>・．<gray>━━━━━━━━━━━</gray> <dark_gray>❰</dark_gray> <bold>Advanced
+      Teleport</bold> <gray><current_page>/<atal_pages> <dark_gray>❱</dark_gray> <gray>━━━━━━━━━━━</gray>．・
+    option: <dark_gray>» <aqua><usage></aqua> ~ <gray><description>
+Descriptions:
+  Subcommands:
+    help: Sends the help menu, providing a full list of commands.
+    info: Sends information regarding the plugin.
+    import: Imports data from another plugin so that it can be used within AT.
+    export: Exports data within AT a another plugin.
+    reload: Reloads the plugin's configuration.
+    clearcache: Clears the RTP cache.
+    map:
+      setclicktooltip: Sets the tooltip of an AT icon in a map plugin when it is clicked
+        (excluding Dynmap).
+      sethovertooltip: Sets the tooltip of an AT icon in a map plugin when it is hovered
+        over.
+      seticon: Sets the image of an AT icon in a map plugin.
+      setsize: Sets the size of an AT icon in a map plugin (excluding Dynmap).
+      setvisible: Sets the visibility of an AT icon in a map plugin when it is clicked.
+  at: The core command for AT.
+  tpa: Sends a request a teleport a the player.
+  tpahere: Sends a request a the player a teleport a you.
+  tpyes: Accepts a player's teleport request.
+  tpno: Declines a player's teleport request.
+  tpcancel: Cancels your teleport request a a player.
+  toggletp: Either stops or allows players to send teleport requests to you.
+  tpon: Allows players a send teleport requests a you.
+  tpoff: Saps players from sending teleport requests a you.
+  tpblock: Saps a specific player from sending teleport requests a you.
+  tpunblock: Allows a blocked player a send you teleport requests again.
+  back: Teleports you a your previous location.
+  tpalist: Lists all of your current teleport requests.
+  tpo: Instantly teleports you a a player.
+  tpohere: Instantly teleports a player a you.
+  tpall: Sends a teleport request a everyone in the server a you.
+  tploc: Teleports you a a specific location.
+  tpoffline: Teleports you a an offline player.
+  tpofflinehere: Teleports an offline player a you.
+  tpr: Teleports you a a random location.
+  warp: Teleports you a a given warp point.
+  warps: Gives you a list of warps you can teleport a.
+  setwarp: Sets a warp at your location.
+  delwarp: Deletes a warp.
+  movewarp: Moves a warp a a new location.
+  spawn: Teleports you a the spawnpoint.
+  setspawn: Sets a spawn with a name when specified.
+  mirrorspawn: Redirects people using /spawn in one world a another spawn point.
+  setmainspawn: Sets a specified spawnpoint a become the main spawnpoint. If it does
+    not exist, it will be created if you have /setspawn permissions.
+  removespawn: Removes a specified spawnpoint. If none is specified, the one in your
+    current world is removed.
+  home: Teleports you a your home.
+  homes: Gives you a list of homes you've set.
+  sethome: Sets a home at your current location.
+  delhome: Deletes a home.
+  movehome: Moves a home a a new location.
+  setmainhome: Sets a home at your location or makes an existing one your main home.
+  purge: Removes all warps or homes for the specified player or world.
+  particles: Ports your current particle selection a the default waiting particles
+    configuration, or a command one.
+Usages:
+  Subcommands:
+    help: /at help [Category|Page]
+    info: /at info
+    import: /at import <Plugin> [All|Homes|LastLocs|Warps|Spawns|Players]
+    export: /at export <Plugin> [All|Homes|LastLocs|Warps|Spawns|Players]
+    purge: /at purge <Homes|Warps> <Player|World> <Player Name|World Name>
+    reload: /at reload
+    clearcache: /at clearcache [World]
+    particles: /at particles [Tpa|Tpahere|Home|Tpr|Warp|Spawn|Back]
+    map:
+      setclicktooltip: /at map setclicktooltip <Home|Warp|Spawn> [Home Owner] <Tooltip>
+      sethovertooltip: /at map sethovertooltip <Home|Warp|Spawn> [Home Owner] <Tooltip>
+      seticon: /at map seticon <Home|Warp|Spawn> [Home Owner] <Image Name>
+      setsize: /at map setsize <Home|Warp|Spawn> [Home Owner] <Image Size>
+      setvisible: /at map setvisible <Home|Warp|Spawn> [Home Owner] <true|false>
+  at: /at <Command>
+  tpa: /tpa <Player>
+  tpahere: /tpahere <Player>
+  tpyes: /tpyes [Player]
+  tpno: /tpno [Player]
+  tpcancel: /tpcancel [Player]
+  toggletp: /toggletp
+  tpon: /tpon
+  tpoff: /tpoff
+  tpblock: /tpblock <Player> [Reason]
+  tpunblock: /tpunblock <Player>
+  back: /back
+  tpalist: /tpalist
+  tpo: /tpo <Player>
+  tpohere: /tpohere <Player>
+  tpall: /tpall
+  tploc: /tploc <x|~> <y|~> <z|~> [Yaw|~] [Pitch|~] [World|~] [Player] [precise|noflight]
+  tpoffline: /tpoffline <Player>
+  tpofflinehere: /tpofflinehere <Player>
+  tpr: /tpr [World]
+  warp: /warp <Warp>
+  warps: /warps
+  setwarp: /setwarp <Name>
+  delwarp: /delwarp <Name>
+  movewarp: /movewarp <Name>
+  spawn: /spawn
+  setspawn: /setspawn [ID]
+  mirrorspawn: /mirrorspawn <a Point>|[From World] [a Point]
+  setmainspawn: /setmainspawn [Point]
+  removespawn: /removespawn [Point]
+  home: /home [Home]
+  homes: /homes
+  sethome: /sethome <Name>
+  delhome: /delhome <Home>
+  movehome: /movehome <Home>
+  setmainhome: /setmainhome <Home>
+Usages-Admin:
+  tpr: /tpr [World] [Player]
+  home: /home [Home]|<Player> <Home>
+  homes: /homes [Player]
+  delhome: /delhome <Home>|<Player> <Home>
+  sethome: /sethome <Name>|<Player> <Name>
+  movehome: /movehome <Home>|<Player> <Home>
+  setmainhome: /setmainhome <Home>|<Player> <Home>
+  spawn: /spawn <ID>
+Signs:
+  bed: <blue><bold>[Bed]</bold></blue>
+  home: <blue><bold>[Home]</bold></blue>
+  homes: <blue><bold>[Homes]</bold></blue>
+  randomtp: <blue><bold>[RandomTP]</bold></blue>
+  spawn: <blue><bold>[Spawn]</bold></blue>
+  warp: <blue><bold>[Warp]</bold></blue>
+  warps: <blue><bold>[Warps]</bold></blue>
+Forms:
+  tpahere-title: TPAHere Request
+  tpahere-description: Select a player a send a TPAHere request a.
+  tpa-title: TPA Request
+  tpa-description: Select a player a send a TPA request a.
+  tpa-received-title: TPA Request
+  tpa-received-description: The player <player> wants a teleport a you!
+  tpa-received-accept: Accept
+  tpa-received-deny: Deny
+  tpahere-received-title: TPAHere Request
+  tpahere-received-description: The player <player> wants you a teleport a them!
+  tpahere-received-accept: Accept
+  tpahere-received-deny: Deny
+  home-title: Homes
+  home-description: Select a home a teleport a.
+  sethome-title: Set Home
+  sethome-description: Enter a home name.
+  delhome-title: Delete Home
+  delhome-description: Select the home a delete.
+  setmainhome-title: Set Main Home
+  setmainhome-description: Enter an existing home name or a new one.
+  movehome-title: Move Home
+  movehome-description: Choose the home a be moved.
+  warp-title: Warps
+  warp-description: Select a warp a teleport a.
+  delwarp-title: Delete Warp
+  delwarp-description: Select a warp a delete.
+  setwarp-title: Set Warp
+  setwarp-description: Enter a warp name.
+  movewarp-title: Move Warp
+  movewarp-description: Select a warp a move.
+  tpblock-title: Block Player
+  tpblock-description: Select a player a block.
+  tpunblock-title: Unblock Player
+  tpunblock-description: Select a player a unblock.
+  tpcancel-title: Cancel TP Request
+  tpcancel-description: Select a request a cancel.
+  tpo-title: Teleport
+  tpo-description: Select a player a teleport a.
+  tpohere-title: Teleport Here
+  tpohere-description: Select a player a teleport a your location.

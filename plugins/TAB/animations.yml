@@ -1,0 +1,113 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+    - '&d-&3--------------'
+    - '&3-&d-&3-------------'
+    - '&3--&d-&3------------'
+    - '&3---&d-&3-----------'
+    - '&3----&d-&3----------'
+    - '&3-----&d-&3---------'
+    - '&3------&d-&3--------'
+    - '&3-------&d-&3-------'
+    - '&3--------&d-&3------'
+    - '&3---------&d-&3-----'
+    - '&3----------&d-&3----'
+    - '&3-----------&d-&3---'
+    - '&3------------&d-&3--'
+    - '&3-------------&d-&3-'
+    - '&3--------------&d-'
+    - '&3-------------&d-&3-'
+    - '&3------------&d-&3--'
+    - '&3-----------&d-&3---'
+    - '&3----------&d-&3----'
+    - '&3---------&d-&3-----'
+    - '&3--------&d-&3------'
+    - '&3-------&d-&3-------'
+    - '&3------&d-&3--------'
+    - '&3-----&d-&3---------'
+    - '&3----&d-&3----------'
+    - '&3---&d-&3-----------'
+    - '&3--&d-&3------------'
+    - '&3-&d-&3-------------'
+    - '&d-&3--------------'
+ServerName:
+  change-interval: 300
+  texts:
+  - '&c&lServerName'
+  - '&c&n&lServerName'
+  - '&b&lServerName'
+  - '&b&l&nServerName'
+  - '&e&lServerName'
+  - '&e&n&lServerName'
+web:
+  change-interval: 200
+  texts:
+  - '&ewww.cubysoft.uk'
+  - '&ewww.cubysoft.uk'
+  - '&ewww.cubysoft.uk'
+  - '&ewww.cubysoft.uk'
+  - '&ewww.cubysoft.uk'
+  - '&ewww.cubysoft.uk'
+  - '&6w&eww.cubysoft.uk'
+  - '&ew&6w&ew.cubysoft.uk'
+  - '&eww&6w&e.cubysoft.uk'
+  - '&ewww&6.&ecubysoft.uk'
+  - '&ewww.&6c&eubysoft.uk'
+  - '&ewww.c&6u&ebysoft.uk'
+  - '&ewww.cu&6b&eysoft.uk'
+  - '&ewww.cub&6y&esoft.uk'
+  - '&ewww.cuby&6s&eoft.uk'
+  - '&ewww.cubys&6o&eft.uk'
+  - '&ewww.cubyso&6f&et.uk'
+  - '&ewww.cubysof&6t&e.uk'
+  - '&ewww.cubysoft&6.&euk'
+  - '&ewww.cubysoft.&6u&ek'
+  - '&ewww.cubysoft.u&6k&e'
+  - '&ewww.cubysoft.u&6k'
+  - '&ewww.cubysoft.uk&6'
+  - '&ewww.cubysoft.uk'
+  - '&ewww.cubysoft.uk'
+  - '&ewww.cubysoft.uk'
+  - '&ewww.cubysoft.uk'
+  - '&ewww.cubysoft.uk'
+  - '&ewww.cubysoft.uk'
+vote:
+  change-interval: 1000
+  texts:
+  - '&avote.cubysoft.uk'
+  - '&a&nvote.cubysoft.uk'
+  - '&5vote.cubysoft.uk'
+  - '&5&nvote.cubysoft.uk'
+Welcome:
+  change-interval: 400
+  texts:
+  - '&7&lW_'
+  - '&7&lW_'
+  - '&7&lWe_'
+  - '&7&lWel_'
+  - '&7&lWelc_'
+  - '&7&lWelco_'
+  - '&7&lWelcom_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcom_'
+  - '&7&lWelco_'
+  - '&7&lWelc_'
+  - '&7&lWel_'
+  - '&7&lWe_'
+  - '&7&lW_'
+  - '&7&lW_'
+time:
+  change-interval: 3000
+  texts:
+    - '&7Time &b%time%'
+    - '&7Date &b%date%'
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW

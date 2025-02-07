@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.147.107.109
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1738867105179
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1738824721835
+  login: 1738866876226
+money: '0'
+logoutlocation:
+  world: c41f97b1-52f1-4e83-bcec-b701dda71b84
+  world-name: selector
+  x: 17.84250202201113
+  y: 162.92008227937916
+  z: -20.273493519515856
+  yaw: 144.88189697265625
+  pitch: 34.512264251708984
+last-account-name: Prototypexyzx
+lastlocation:
+  world: 3bffe21a-e0a8-4720-811e-bae7c5cca3de
+  world-name: lobby
+  x: 26.01700345022266
+  y: 30.0
+  z: 8.11448322860317
+  yaw: 50.21274185180664
+  pitch: -31.434326171875

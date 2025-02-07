@@ -1,0 +1,61 @@
+buttons:
+  previous-page:
+    material: ARROW
+    durability: 0
+    glow: false
+  next-page:
+    material: ARROW
+    durability: 0
+    glow: false
+  back:
+    material: BARRIER
+    durability: 0
+    glow: false
+gui:
+  actions:
+    consumeon0uses:
+      material: APPLE
+    uses:
+      material: IRON_PICKAXE
+      durability: 0
+    mxuses:
+      material: DIAMOND_PICKAXE
+    permission:
+      material: IRON_BARS
+      durability: 0
+    cooldown:
+      material: COMPASS
+      durability: 0
+    cooldownid:
+      material: NAME_TAG
+      durability: 0
+    cooldowndisplay:
+      material: ENDER_PEARL
+    displayuses:
+      material: PAINTING
+      durability: 0
+    info:
+      material: PAPER
+      durability: 0
+    addline:
+      material: LIME_DYE
+      durability: 0
+    set:
+      material: BLUE_DYE
+      durability: 0
+    remove:
+      material: RED_DYE
+      durability: 0
+    consume:
+      material: APPLE
+      durability: 0
+    maxuses:
+      material: DIAMOND_PICKAXE
+      durability: 0
+    visualcooldown:
+      material: ENDER_PEARL
+      durability: 0
+  actionslines:
+    line:
+      material: COMMAND_BLOCK
+      durability: 0

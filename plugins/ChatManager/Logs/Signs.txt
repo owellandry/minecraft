@@ -1,0 +1,8 @@
+[Thu Feb 06 20:05:36 UTC 2025] owellandry | Location: X: 16 Y: 160 Z: -30 | Line: 0 | estoy afk
+[Thu Feb 06 20:05:36 UTC 2025] owellandry | Location: X: 16 Y: 160 Z: -30 | Line: 1 | 
+[Thu Feb 06 20:05:36 UTC 2025] owellandry | Location: X: 16 Y: 160 Z: -30 | Line: 2 | 
+[Thu Feb 06 20:05:36 UTC 2025] owellandry | Location: X: 16 Y: 160 Z: -30 | Line: 3 | 
+[Thu Feb 06 20:07:36 UTC 2025] owellandry | Location: X: 15 Y: 160 Z: -29 | Line: 0 | usando un coman
+[Thu Feb 06 20:07:36 UTC 2025] owellandry | Location: X: 15 Y: 160 Z: -29 | Line: 1 | anti afk para que
+[Thu Feb 06 20:07:36 UTC 2025] owellandry | Location: X: 15 Y: 160 Z: -29 | Line: 2 | el server no se 
+[Thu Feb 06 20:07:36 UTC 2025] owellandry | Location: X: 15 Y: 160 Z: -29 | Line: 3 | apague jajsjas

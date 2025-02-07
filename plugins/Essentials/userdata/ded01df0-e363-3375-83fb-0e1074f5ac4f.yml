@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.76.248.177
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1738829538994
+  login: 1738862154537
+money: '0'
+last-account-name: owellandry
+logoutlocation:
+  world: c41f97b1-52f1-4e83-bcec-b701dda71b84
+  world-name: selector
+  x: 14.90506016731162
+  y: 160.0
+  z: -28.81230644334412
+  yaw: 86.66909790039062
+  pitch: -5.850006103515625

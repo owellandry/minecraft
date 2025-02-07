@@ -1,0 +1,12 @@
+espada_zeus:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"s","strikethrough":false,"obfuscated":true,"bold":false,"italic":false,"underlined":false,"color":"black"},{"text":"s","strikethrough":false,"obfuscated":true,"bold":false,"italic":false,"underlined":false,"color":"black"},{"text":"Zeus","obfuscated":false,"bold":true,"italic":false,"color":"gold"},{"text":"s","obfuscated":true,"bold":false,"italic":false,"color":"black"},{"text":"s","obfuscated":true,"bold":false,"italic":false,"color":"black"}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"Una espada forjada por el mismo ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"},{"text":"Zeus","bold":true,"italic":false,"color":"gold"}]}'
+      - '{"text":"","extra":[{"text":"Hecha para lanzar rayos a sus enemigos!","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'

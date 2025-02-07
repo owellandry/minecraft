@@ -1,0 +1,744 @@
+[Thu Feb 06 07:38:37 UTC 2025] xXObitoXx: /plugins
+[Thu Feb 06 07:38:40 UTC 2025] xXObitoXx: /plugins
+[Thu Feb 06 07:38:58 UTC 2025] Prototypexyzx: /tp xXObitoXx Prototypexyzx
+[Thu Feb 06 07:39:32 UTC 2025] owellandry: /lp editor
+[Thu Feb 06 07:39:53 UTC 2025] Prototypexyzx: /region flag __global__
+[Thu Feb 06 07:39:56 UTC 2025] Prototypexyzx: /region flag __global__
+[Thu Feb 06 07:39:59 UTC 2025] Prototypexyzx: /region info
+[Thu Feb 06 07:40:27 UTC 2025] Prototypexyzx: /rg flag -w "selector" __global__ exit-deny-message &c&lOye! &7No tienes permitido hacer eso.
+[Thu Feb 06 07:40:44 UTC 2025] Prototypexyzx: /lp user xXObitoXx parent set default
+[Thu Feb 06 07:40:50 UTC 2025] Prototypexyzx: /lp user xXObitoXx parent set example
+[Thu Feb 06 07:40:56 UTC 2025] Prototypexyzx: /lp user xXObitoXx parent set admin
+[Thu Feb 06 07:40:59 UTC 2025] Prototypexyzx: /lp user xXObitoXx parent set owner
+[Thu Feb 06 07:41:02 UTC 2025] Prototypexyzx: /lp user xXObitoXx parent set example
+[Thu Feb 06 07:41:05 UTC 2025] Prototypexyzx: /lp user xXObitoXx parent set default
+[Thu Feb 06 07:41:27 UTC 2025] Prototypexyzx: /info
+[Thu Feb 06 07:41:30 UTC 2025] Prototypexyzx: /info
+[Thu Feb 06 07:41:35 UTC 2025] Prototypexyzx: /region info
+[Thu Feb 06 07:42:07 UTC 2025] Prototypexyzx: /rg flag -w "selector" __global__ entry-deny-message &c&lOye! No tienes permitido hacer eso.
+[Thu Feb 06 07:42:14 UTC 2025] Prototypexyzx: /rg flag -w "selector" __global__ entry-deny-message &c&lOye! &7No tienes permitido hacer eso.
+[Thu Feb 06 07:42:31 UTC 2025] Prototypexyzx: /rg flag -w "selector" __global__ entry-deny-message &c&lOye! &7No tienes permitido hacer eso.
+[Thu Feb 06 07:42:41 UTC 2025] Prototypexyzx: /region flag
+[Thu Feb 06 07:42:43 UTC 2025] Prototypexyzx: /region info
+[Thu Feb 06 07:42:46 UTC 2025] Prototypexyzx: /rg flags -w "selector" __global__
+[Thu Feb 06 07:43:01 UTC 2025] Prototypexyzx: /region flag _
+[Thu Feb 06 07:43:07 UTC 2025] Prototypexyzx: /region flag __global__ build deny
+[Thu Feb 06 07:43:16 UTC 2025] Prototypexyzx: /region flag __global__ block-break deny
+[Thu Feb 06 07:43:22 UTC 2025] Prototypexyzx: /rg flag -w "selector" -h 1 __global__ pvp DENY
+[Thu Feb 06 07:43:41 UTC 2025] Prototypexyzx: /rg flag -w "selector" __global__ entry-deny-message &c&lOye! No tienes permitido hacer eso.
+[Thu Feb 06 07:43:48 UTC 2025] Prototypexyzx: /rg flag -w "selector" __global__ entry-deny-message &c&lOye! &7No tienes permitido hacer eso.
+[Thu Feb 06 07:43:57 UTC 2025] owellandry: /wg reload
+[Thu Feb 06 07:44:03 UTC 2025] Prototypexyzx: /rg flag -w "selector" __global__ &c&lOye! &7No tienes permitido hacer eso.
+[Thu Feb 06 07:44:52 UTC 2025] Prototypexyzx: /rg flag -w "selector" __global__ entry
+[Thu Feb 06 07:44:59 UTC 2025] Prototypexyzx: /rg flag -w "selector" __global__ pvp
+[Thu Feb 06 07:45:14 UTC 2025] Prototypexyzx: /rg flag -w "selector" __global__ pvp &c&lOye! &7No tienes permitido hacer eso.
+[Thu Feb 06 07:45:23 UTC 2025] Prototypexyzx: /rg flag -w "selector" __global__ pvp deny
+[Thu Feb 06 07:45:36 UTC 2025] Prototypexyzx: /gamemode creative
+[Thu Feb 06 07:46:09 UTC 2025] Prototypexyzx: /deop owellandry
+[Thu Feb 06 07:46:54 UTC 2025] xXObitoXx: /mv permissions
+[Thu Feb 06 07:46:56 UTC 2025] xXObitoXx: /mv permission
+[Thu Feb 06 07:46:57 UTC 2025] xXObitoXx: /mv permis
+[Thu Feb 06 07:47:00 UTC 2025] xXObitoXx: /mv info
+[Thu Feb 06 07:47:10 UTC 2025] Prototypexyzx: /mv
+[Thu Feb 06 07:47:17 UTC 2025] Prototypexyzx: /mv help 2
+[Thu Feb 06 07:47:18 UTC 2025] owellandry: /wg reload
+[Thu Feb 06 07:47:46 UTC 2025] owellandry: /worldguard reload
+[Thu Feb 06 07:49:22 UTC 2025] owellandry: /worlward help
+[Thu Feb 06 07:49:29 UTC 2025] owellandry: /ww help
+[Thu Feb 06 07:50:32 UTC 2025] owellandry: /worldguard reload
+[Thu Feb 06 07:51:19 UTC 2025] Prototypexyzx: /deop owellandry
+[Thu Feb 06 07:51:44 UTC 2025] xXObitoXx: /plugins
+[Thu Feb 06 07:51:48 UTC 2025] Prototypexyzx: /plugins
+[Thu Feb 06 07:55:19 UTC 2025] owellandry: /worldguard reload
+[Thu Feb 06 07:59:45 UTC 2025] xXObitoXx: /plugins
+[Thu Feb 06 07:59:48 UTC 2025] owellandry: /pl
+[Thu Feb 06 07:59:51 UTC 2025] Prototypexyzx: /plugins
+[Thu Feb 06 08:01:12 UTC 2025] owellandry: /region info
+[Thu Feb 06 08:01:37 UTC 2025] owellandry: /rg addowner -w "selector" __global__ owellandry
+[Thu Feb 06 08:01:44 UTC 2025] owellandry: /rg addowner -w "selector" __global__ owellandry
+[Thu Feb 06 08:01:48 UTC 2025] owellandry: /region info
+[Thu Feb 06 08:01:57 UTC 2025] owellandry: /rg flags -w "selector" __global__
+[Thu Feb 06 08:07:38 UTC 2025] owellandry: /nlogin
+[Thu Feb 06 08:07:40 UTC 2025] owellandry: /nlogin
+[Thu Feb 06 08:07:42 UTC 2025] owellandry: /nlogin
+[Thu Feb 06 08:07:49 UTC 2025] owellandry: /nlogin
+[Thu Feb 06 17:19:03 UTC 2025] owellandry: /gamemode creative
+[Thu Feb 06 17:43:48 UTC 2025] owellandry: /set air
+[Thu Feb 06 17:43:53 UTC 2025] owellandry: //set air
+[Thu Feb 06 17:46:36 UTC 2025] owellandry: //set air
+[Thu Feb 06 17:49:59 UTC 2025] owellandry: //set air
+[Thu Feb 06 17:50:10 UTC 2025] owellandry: //set air
+[Thu Feb 06 17:50:44 UTC 2025] owellandry: //undo
+[Thu Feb 06 17:50:46 UTC 2025] owellandry: //undo
+[Thu Feb 06 17:50:58 UTC 2025] owellandry: //set air
+[Thu Feb 06 17:51:09 UTC 2025] owellandry: //set air
+[Thu Feb 06 17:55:40 UTC 2025] owellandry: //set barrier
+[Thu Feb 06 17:57:10 UTC 2025] owellandry: //set barrier
+[Thu Feb 06 17:57:35 UTC 2025] owellandry: //set barrier
+[Thu Feb 06 18:03:33 UTC 2025] owellandry: //set barrier
+[Thu Feb 06 18:04:22 UTC 2025] owellandry: //set barrier
+[Thu Feb 06 18:05:29 UTC 2025] owellandry: //set air
+[Thu Feb 06 18:06:20 UTC 2025] owellandry: /effect give @p minecraft:night_vision 7200 0 true
+[Thu Feb 06 18:06:28 UTC 2025] owellandry: //set air
+[Thu Feb 06 18:07:30 UTC 2025] owellandry: //set air
+[Thu Feb 06 18:08:13 UTC 2025] owellandry: //set air
+[Thu Feb 06 18:08:43 UTC 2025] owellandry: //set air
+[Thu Feb 06 18:09:18 UTC 2025] owellandry: //set air
+[Thu Feb 06 18:09:32 UTC 2025] owellandry: //set air
+[Thu Feb 06 18:10:49 UTC 2025] owellandry: //set air
+[Thu Feb 06 18:11:12 UTC 2025] owellandry: //set air
+[Thu Feb 06 18:11:56 UTC 2025] owellandry: //set air
+[Thu Feb 06 18:12:21 UTC 2025] owellandry: //set air
+[Thu Feb 06 18:15:52 UTC 2025] owellandry: //expand 500
+[Thu Feb 06 18:16:06 UTC 2025] owellandry: //expand 500 west
+[Thu Feb 06 18:16:28 UTC 2025] owellandry: //set air
+[Thu Feb 06 18:19:39 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:19:55 UTC 2025] owellandry: //expand 500 me
+[Thu Feb 06 18:20:06 UTC 2025] owellandry: //set air
+[Thu Feb 06 18:22:23 UTC 2025] owellandry: //size
+[Thu Feb 06 18:22:35 UTC 2025] owellandry: //expand 500 me
+[Thu Feb 06 18:22:39 UTC 2025] owellandry: //set air
+[Thu Feb 06 18:22:52 UTC 2025] owellandry: //confirm
+[Thu Feb 06 18:23:40 UTC 2025] owellandry: //expand 500 me
+[Thu Feb 06 18:23:55 UTC 2025] owellandry: //expand 500 me
+[Thu Feb 06 18:24:14 UTC 2025] owellandry: //set air
+[Thu Feb 06 18:24:22 UTC 2025] owellandry: /set air
+[Thu Feb 06 18:24:36 UTC 2025] owellandry: //expand 500 me
+[Thu Feb 06 18:24:38 UTC 2025] owellandry: //set air
+[Thu Feb 06 18:24:45 UTC 2025] owellandry: //confirm
+[Thu Feb 06 18:25:05 UTC 2025] owellandry: //confirm /set air
+[Thu Feb 06 18:25:09 UTC 2025] owellandry: //set air
+[Thu Feb 06 18:25:12 UTC 2025] owellandry: //confirm /set air
+[Thu Feb 06 18:25:15 UTC 2025] owellandry: //confirm
+[Thu Feb 06 18:26:12 UTC 2025] owellandry: /clear
+[Thu Feb 06 18:26:17 UTC 2025] owellandry: /clearchat
+[Thu Feb 06 18:33:02 UTC 2025] owellandry: //outset 100
+[Thu Feb 06 18:33:19 UTC 2025] owellandry: //set 0
+[Thu Feb 06 18:33:47 UTC 2025] owellandry: //confirm
+[Thu Feb 06 18:33:52 UTC 2025] owellandry: //outset 100
+[Thu Feb 06 18:33:54 UTC 2025] owellandry: //set 0
+[Thu Feb 06 18:33:56 UTC 2025] owellandry: //confirm
+[Thu Feb 06 18:34:25 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:35:20 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 18:35:21 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:35:47 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 18:36:06 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:36:30 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:36:47 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:36:48 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:36:50 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:36:51 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:36:52 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:36:53 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:36:55 UTC 2025] Prototypexyzx: /plugins
+[Thu Feb 06 18:37:03 UTC 2025] Prototypexyzx: /mv spawn
+[Thu Feb 06 18:37:05 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:37:08 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:37:09 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:37:24 UTC 2025] Prototypexyzx: /mv spawn
+[Thu Feb 06 18:37:36 UTC 2025] Prototypexyzx: /mv tp lobby
+[Thu Feb 06 18:38:25 UTC 2025] Prototypexyzx: /tp owellandry
+[Thu Feb 06 18:38:35 UTC 2025] Prototypexyzx: /gamemode creative
+[Thu Feb 06 18:42:20 UTC 2025] Prototypexyzx: /plugins
+[Thu Feb 06 18:44:49 UTC 2025] Prototypexyzx: /pos1
+[Thu Feb 06 18:44:51 UTC 2025] Prototypexyzx: //pos1
+[Thu Feb 06 18:50:02 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:50:41 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:50:42 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:50:43 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:50:44 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:50:45 UTC 2025] owellandry: //undo
+[Thu Feb 06 18:55:12 UTC 2025] owellandry: /tab reload
+[Thu Feb 06 18:58:34 UTC 2025] Prototypexyzx: /plugins
+[Thu Feb 06 19:01:50 UTC 2025] owellandry: /lp creategroup owner
+[Thu Feb 06 19:39:13 UTC 2025] Prototypexyzx: /ban-ip owellandry
+[Thu Feb 06 19:39:18 UTC 2025] Prototypexyzx: /unbind
+[Thu Feb 06 19:40:20 UTC 2025] Prototypexyzx: /ban-ip owellandry
+[Thu Feb 06 19:40:23 UTC 2025] Prototypexyzx: /ban-ip 127.76.248.177:42551
+[Thu Feb 06 19:40:28 UTC 2025] Prototypexyzx: /ban-ip 127.76.248.177
+[Thu Feb 06 19:40:41 UTC 2025] Prototypexyzx: /banlist ips
+[Thu Feb 06 19:40:44 UTC 2025] Prototypexyzx: /unban
+[Thu Feb 06 19:41:24 UTC 2025] Prototypexyzx: /reload
+[Thu Feb 06 19:41:42 UTC 2025] Prototypexyzx: /reload confirm
+[Thu Feb 06 19:47:23 UTC 2025] owellandry: //set air
+[Thu Feb 06 19:47:38 UTC 2025] owellandry: //set air
+[Thu Feb 06 19:47:49 UTC 2025] owellandry: //set air
+[Thu Feb 06 19:47:58 UTC 2025] owellandry: //set air
+[Thu Feb 06 19:48:12 UTC 2025] owellandry: //set air
+[Thu Feb 06 19:48:36 UTC 2025] owellandry: //set air
+[Thu Feb 06 19:48:43 UTC 2025] owellandry: //set air
+[Thu Feb 06 19:48:55 UTC 2025] owellandry: //set air
+[Thu Feb 06 19:49:25 UTC 2025] owellandry: //set air
+[Thu Feb 06 19:49:54 UTC 2025] owellandry: /spawn
+[Thu Feb 06 19:56:54 UTC 2025] owellandry: //pos1 -500 -70 -500
+[Thu Feb 06 19:57:16 UTC 2025] owellandry: /tp -500 -70 -500
+[Thu Feb 06 19:57:25 UTC 2025] owellandry: //pos1
+[Thu Feb 06 19:57:45 UTC 2025] owellandry: /tp 500 -55 500
+[Thu Feb 06 19:57:51 UTC 2025] owellandry: //pos2
+[Thu Feb 06 19:58:36 UTC 2025] owellandry: /tp 1000 ~ 10000
+[Thu Feb 06 19:58:40 UTC 2025] owellandry: //set air
+[Thu Feb 06 19:58:49 UTC 2025] owellandry: //confirm
+[Thu Feb 06 20:00:09 UTC 2025] owellandry: /spawn
+[Thu Feb 06 20:02:12 UTC 2025] owellandry: //set air
+[Thu Feb 06 20:02:59 UTC 2025] owellandry: //set air
+[Thu Feb 06 20:03:23 UTC 2025] owellandry: /spawn
+[Thu Feb 06 20:08:00 UTC 2025] owellandry: /gamemode survival
+[Thu Feb 06 20:21:26 UTC 2025] owellandry: /vanish
+[Thu Feb 06 20:21:30 UTC 2025] owellandry: /gamemode creative
+[Thu Feb 06 20:21:34 UTC 2025] owellandry: /vanish
+[Thu Feb 06 21:08:52 UTC 2025] owellandry: /tp Prototypexyzx
+[Thu Feb 06 21:11:37 UTC 2025] Prototypexyzx: /plugins
+[Thu Feb 06 21:12:17 UTC 2025] Prototypexyzx: /mv spawn
+[Thu Feb 06 21:12:25 UTC 2025] Prototypexyzx: /setworldspawn
+[Thu Feb 06 21:12:47 UTC 2025] Prototypexyzx: /mv spawn
+[Thu Feb 06 21:15:00 UTC 2025] Prototypexyzx: /mv tp lobby
+[Thu Feb 06 21:15:19 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 21:15:21 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 21:16:24 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 21:16:44 UTC 2025] Prototypexyzx: /mv tp selecotr
+[Thu Feb 06 21:16:48 UTC 2025] Prototypexyzx: /mv tp selector
+[Thu Feb 06 21:16:51 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 21:16:53 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 21:17:32 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 21:18:05 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 21:18:46 UTC 2025] Prototypexyzx: /gamemode creative
+[Thu Feb 06 21:18:51 UTC 2025] Prototypexyzx: //pos1
+[Thu Feb 06 21:18:58 UTC 2025] Prototypexyzx: //pos2
+[Thu Feb 06 21:19:02 UTC 2025] Prototypexyzx: //replace air light
+[Thu Feb 06 21:19:09 UTC 2025] Prototypexyzx: //set 0
+[Thu Feb 06 21:19:13 UTC 2025] Prototypexyzx: //undo
+[Thu Feb 06 21:19:23 UTC 2025] Prototypexyzx: /mv tp selector
+[Thu Feb 06 21:19:29 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 21:20:12 UTC 2025] Prototypexyzx: /gamemode creative
+[Thu Feb 06 21:21:14 UTC 2025] Prototypexyzx: //set 0
+[Thu Feb 06 21:21:19 UTC 2025] Prototypexyzx: /undo
+[Thu Feb 06 21:21:22 UTC 2025] Prototypexyzx: //set 0
+[Thu Feb 06 21:23:02 UTC 2025] Prototypexyzx: //center
+[Thu Feb 06 21:23:06 UTC 2025] Prototypexyzx: //center red:wool
+[Thu Feb 06 21:23:10 UTC 2025] Prototypexyzx: //center red_wool
+[Thu Feb 06 21:23:13 UTC 2025] Prototypexyzx: //undo
+[Thu Feb 06 21:23:19 UTC 2025] Prototypexyzx: //center red_wool
+[Thu Feb 06 21:23:36 UTC 2025] Prototypexyzx: //center red_wool
+[Thu Feb 06 21:23:41 UTC 2025] Prototypexyzx: //center red_wool
+[Thu Feb 06 21:24:15 UTC 2025] Prototypexyzx: /undo
+[Thu Feb 06 21:24:16 UTC 2025] Prototypexyzx: /undo
+[Thu Feb 06 21:24:17 UTC 2025] Prototypexyzx: /undo
+[Thu Feb 06 21:25:28 UTC 2025] owellandry: /tp Prototypexyzx
+[Thu Feb 06 21:27:23 UTC 2025] Prototypexyzx: /kill Prototypexyzx
+[Thu Feb 06 21:27:29 UTC 2025] Prototypexyzx: /mv tp lobby
+[Thu Feb 06 21:27:31 UTC 2025] Prototypexyzx: /kill Prototypexyzx
+[Thu Feb 06 21:27:35 UTC 2025] Prototypexyzx: /kill Prototypexyzx
+[Thu Feb 06 21:27:45 UTC 2025] Prototypexyzx: /mv tp lobby
+[Thu Feb 06 21:27:49 UTC 2025] Prototypexyzx: /setworldspawn
+[Thu Feb 06 21:27:51 UTC 2025] Prototypexyzx: /kill Prototypexyzx
+[Thu Feb 06 21:27:56 UTC 2025] Prototypexyzx: /gamemode creative
+[Thu Feb 06 21:28:03 UTC 2025] Prototypexyzx: /mvsetspawn
+[Thu Feb 06 21:28:06 UTC 2025] Prototypexyzx: /kill Prototypexyzx
+[Thu Feb 06 21:28:17 UTC 2025] Prototypexyzx: /mv tp world
+[Thu Feb 06 21:28:20 UTC 2025] Prototypexyzx: /gamemode creative
+[Thu Feb 06 21:28:24 UTC 2025] Prototypexyzx: /time set day
+[Thu Feb 06 21:28:47 UTC 2025] Prototypexyzx: /mv create Spawn
+[Thu Feb 06 21:28:54 UTC 2025] Prototypexyzx: /mv create Spawn -t flat
+[Thu Feb 06 21:28:59 UTC 2025] Prototypexyzx: /mv create Spawn normal -t flat
+[Thu Feb 06 21:32:13 UTC 2025] Prototypexyzx: /tp owellandry
+[Thu Feb 06 21:32:17 UTC 2025] owellandry: /gamemode creative
+[Thu Feb 06 21:32:24 UTC 2025] Prototypexyzx: /gamemode creative
+[Thu Feb 06 21:35:30 UTC 2025] Prototypexyzx: /mv tp spawn
+[Thu Feb 06 21:35:37 UTC 2025] Prototypexyzx: /difficulty peaceful
+[Thu Feb 06 21:35:39 UTC 2025] Prototypexyzx: /gamemode creative
+[Thu Feb 06 21:38:12 UTC 2025] Prototypexyzx: /mv delete spawn
+[Thu Feb 06 21:38:17 UTC 2025] Prototypexyzx: /mv confirm
+[Thu Feb 06 21:38:41 UTC 2025] Prototypexyzx: /tpa owellandry
+[Thu Feb 06 21:38:48 UTC 2025] owellandry: /tpayes Prototypexyzx
+[Thu Feb 06 21:38:49 UTC 2025] Prototypexyzx: /gamemode creative
+[Thu Feb 06 21:39:08 UTC 2025] owellandry: /tpa Prototypexyzx
+[Thu Feb 06 21:39:12 UTC 2025] Prototypexyzx: /tpayes owellandry
+[Thu Feb 06 21:41:15 UTC 2025] Prototypexyzx: /mv create spawn
+[Thu Feb 06 21:41:16 UTC 2025] owellandry: //pos2
+[Thu Feb 06 21:41:20 UTC 2025] Prototypexyzx: /mv create spawn normal -t flat
+[Thu Feb 06 21:41:20 UTC 2025] owellandry: //set air
+[Thu Feb 06 21:45:19 UTC 2025] Prototypexyzx: /schematic load
+[Thu Feb 06 21:45:25 UTC 2025] Prototypexyzx: /schematic load something-random.schem
+[Thu Feb 06 21:45:30 UTC 2025] Prototypexyzx: /schematic
+[Thu Feb 06 21:45:35 UTC 2025] Prototypexyzx: /schematic reload
+[Thu Feb 06 21:45:40 UTC 2025] Prototypexyzx: /reload
+[Thu Feb 06 21:45:43 UTC 2025] Prototypexyzx: /reload confirm
+[Thu Feb 06 21:50:45 UTC 2025] Prototypexyzx: /mv tp lobby
+[Thu Feb 06 21:51:02 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 21:51:07 UTC 2025] Prototypexyzx: /mv tp selector
+[Thu Feb 06 21:51:09 UTC 2025] Prototypexyzx: /mv tp selector
+[Thu Feb 06 21:51:35 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 21:52:16 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 21:52:22 UTC 2025] Prototypexyzx: /mv tp selecotr
+[Thu Feb 06 21:52:24 UTC 2025] Prototypexyzx: /mv tp selector
+[Thu Feb 06 21:52:28 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 21:52:50 UTC 2025] Prototypexyzx: /gamemode creative
+[Thu Feb 06 21:54:20 UTC 2025] owellandry: /mv tp survival
+[Thu Feb 06 21:54:45 UTC 2025] Prototypexyzx: /ie rename &#1da7df a
+[Thu Feb 06 21:55:19 UTC 2025] Prototypexyzx: /ie rename &#eeeeee gris muy claro, mensajes informativos
+[Thu Feb 06 21:55:24 UTC 2025] Prototypexyzx: /ie rename &#eeeee gris muy claro, mensajes informativos
+[Thu Feb 06 21:55:32 UTC 2025] Prototypexyzx: /ie rename &#eeeeee gris muy claro, mensajes informativos
+[Thu Feb 06 21:55:39 UTC 2025] Prototypexyzx: /ie rename &eeeeee gris muy claro, mensajes informativos
+[Thu Feb 06 21:55:43 UTC 2025] Prototypexyzx: /ie rename &#eeeeee gris muy claro, mensajes informativos
+[Thu Feb 06 21:56:17 UTC 2025] owellandry: /title @a title {"text":"hellow orld","color":"dark_green"}
+[Thu Feb 06 21:56:33 UTC 2025] Prototypexyzx: /ie rename &8&#1da7df[CubySoft&8]
+[Thu Feb 06 21:56:46 UTC 2025] Prototypexyzx: /ie rename &8[&#1da7dfCubySoft&8]
+[Thu Feb 06 21:57:49 UTC 2025] owellandry: /clearchat
+[Thu Feb 06 22:00:56 UTC 2025] Prototypexyzx: /tp owellandry
+[Thu Feb 06 22:02:35 UTC 2025] Prototypexyzx: /ie rename &#4498DB&lC&#4497DA&lu&#4495DA&lb&#4494D9&ly&#4392D8&lS&#4391D7&lo&#438FD7&lf&#438ED6&lt
+[Thu Feb 06 22:03:07 UTC 2025] Prototypexyzx: /ie rename &8[&#4498DB&lC&#4193D7&lu&#3D8ED3&lb&#3A89CF&ly&#3685CA&lS&#3380C6&lo&#2F7BC2&lf&#2C76BE&lt&8]
+[Thu Feb 06 22:03:30 UTC 2025] Prototypexyzx: /ie rename &l&8[&#4498DB&lC&#4193D7&lu&#3D8ED3&lb&#3A89CF&ly&#3685CA&lS&#3380C6&lo&#2F7BC2&lf&#2C76BE&lt&l&8]
+[Thu Feb 06 22:03:31 UTC 2025] Prototypexyzx: /ie rename &l&8[&#4498DB&lC&#4193D7&lu&#3D8ED3&lb&#3A89CF&ly&#3685CA&lS&#3380C6&lo&#2F7BC2&lf&#2C76BE&lt&l&8]
+[Thu Feb 06 22:03:45 UTC 2025] Prototypexyzx: /ie rename &l&8[&#4498DB&lC&#4193D7&lu&#3D8ED3&lb&#3A89CF&ly&#3685CA&lS&#3380C6&lo&#2F7BC2&lf&#2C76BE&lt&8]
+[Thu Feb 06 22:04:39 UTC 2025] owellandry: /ie rename &#008EFFC&#2182F0u&#4176E1b&#626AD2y&#825EC3s&#A352B4o&#C346A5f&#E43A96t
+[Thu Feb 06 22:04:56 UTC 2025] Prototypexyzx: /ie rename &l&8[&#4498DB&lC&#4193D7&lu&#3D8ED3&lb&#3A89CF&ly&#3685CA&lS&#3380C6&lo&#2F7BC2&lf&#2C76BE&lt&8]
+[Thu Feb 06 22:05:25 UTC 2025] Prototypexyzx: /ie rename &#4BB0FF&lC&#46A6F3&lu&#419CE7&lb&#3C92DB&ly&#3789D0&lS&#327FC4&lo&#2D75B8&lf&#286BAC&lt
+[Thu Feb 06 22:05:41 UTC 2025] Prototypexyzx: /ie rename &#4BAFFF&lC&#46A5F2&lu&#429BE5&lb&#3D91D8&ly&#3986CB&lS&#347CBE&lo&#3072B1&lf&#2B68A4&lt
+[Thu Feb 06 22:05:55 UTC 2025] owellandry: /ie rename &#004A85C&#0E608Eu&#1B7597b&#298BA0y&#36A1AAs&#44B7B3o&#51CCBCf&#5FE2C5t
+[Thu Feb 06 22:06:13 UTC 2025] owellandry: /ie rename &#004A85C&#0E608Eu&#1B7597b&#298BA0y&#36A1AAs&#44B7B3o&#51CCBCf&#5FE2C5t
+[Thu Feb 06 22:06:14 UTC 2025] Prototypexyzx: /kill owellandry
+[Thu Feb 06 22:06:43 UTC 2025] Prototypexyzx: /ie rename &#1D739D&lC&#207DA7&lu&#2288B0&lb&#2592BA&ly&#289DC3&lS&#2BA7CD&lo&#2DB2D6&lf&#30BCE0&lt
+[Thu Feb 06 22:06:57 UTC 2025] Prototypexyzx: /ie rename &#1D739D&lC&#207EA8&lu&#228AB3&lb&#2595BE&ly&#27A1C8&lS&#2AACD3&lo&#2CB8DE&lf&#2FC3E9&lt
+[Thu Feb 06 22:07:23 UTC 2025] Prototypexyzx: /ie rename &#004A85C&#0E608Eu&#1B7597b&#298BA0y&#36A1AAs&#44B7B3o&#51CCBCf&#5FE2C5t
+[Thu Feb 06 22:08:12 UTC 2025] Prototypexyzx: /ie rename &l&#004A85C&#0E608Eu&#1B7597b&#298BA0y&#36A1AAs&#44B7B3o&#51CCBCf&#5FE2C5t
+[Thu Feb 06 22:08:20 UTC 2025] owellandry: /give owellandry minecraft:bedrock
+[Thu Feb 06 22:08:26 UTC 2025] Prototypexyzx: /ie rename &#1D739D&lC&#207EA8&lu&#228AB3&lb&#2595BE&ly&#27A1C8&lS&#2AACD3&lo&#2CB8DE&lf&#2FC3E9&lt
+[Thu Feb 06 22:08:41 UTC 2025] Prototypexyzx: /ie rename &l&#1D739D&lC&#207EA8&lu&#228AB3&lb&#2595BE&ly&#27A1C8&lS&#2AACD3&lo&#2CB8DE&lf&#2FC3E9&lt
+[Thu Feb 06 22:09:03 UTC 2025] Prototypexyzx: /ie rename &l&#1D739D&lC&#207EA8&lu&#228AB3&lb&#2595BE&ly&#27A1C8&lS&#2AACD3&lo&#2CB8DE&lf&#2FC3E9&lt
+[Thu Feb 06 22:09:08 UTC 2025] owellandry: /gamemode creative
+[Thu Feb 06 22:09:19 UTC 2025] Prototypexyzx: /ie rename &l&#&l0&l04A85C&#0E608Eu&#1B7597b&#298BA0y&#36A1AAs&#44B7B3o&#51CCBCf&#5FE2C5t
+[Thu Feb 06 22:09:25 UTC 2025] Prototypexyzx: /ie rename &#004A85C&#0E608Eu&#1B7597b&#298BA0y&#36A1AAs&#44B7B3o&#51CCBCf&#5FE2C5t
+[Thu Feb 06 22:09:46 UTC 2025] Prototypexyzx: /ie rename &#004A85C&#0E608Eu&#1B7597b&#298BA0y&#36A1AAs&#44B7B3o&#51CCBCf&&l#5FE2C5t
+[Thu Feb 06 22:09:53 UTC 2025] Prototypexyzx: /ie rename &#004A85C&#0E608Eu&#1B7597b&#298BA0y&#36A1AAs&#44B7B3o&#51CCBCf&l&#5FE2C5t
+[Thu Feb 06 22:09:57 UTC 2025] Prototypexyzx: /ie rename &#004A85C&#0E608Eu&#1B7597b&#298BA0y&#36A1AAs&#44B7B3o&#51CCBCf&L&#5FE2C5t
+[Thu Feb 06 22:10:02 UTC 2025] Prototypexyzx: /ie rename &#004A85C&#0E608Eu&#1B7597b&#298BA0y&#36A1AAs&#44B7B3o&#51CCBCf&o&#5FE2C5t
+[Thu Feb 06 22:10:08 UTC 2025] owellandry: /tp owellandry 8 0 -27
+[Thu Feb 06 22:10:09 UTC 2025] Prototypexyzx: /ie rename &#004A85C&#0E608Eu&#1B7597b&#298BA0y&#36A1AAs&#44B7B3o&#51CCBCf&#5FE2C5&lt
+[Thu Feb 06 22:10:14 UTC 2025] Prototypexyzx: /ie rename &#004A85C&#0E608Eu&#1B7597b&#298BA0y&#36A1AAs&#44B7B3&lo&#51CCBCf&#5FE2C5&lt
+[Thu Feb 06 22:10:23 UTC 2025] owellandry: /tp owellandry 8 0 -27
+[Thu Feb 06 22:10:39 UTC 2025] Prototypexyzx: /ie rename &#004A85&lC&#0E608E&lu&#1B7597&lb&#298BA0&ly&#36A1AA&ls&#44B7B3&lo&#51CCBCf&#5FE2C5&lt
+[Thu Feb 06 22:10:49 UTC 2025] Prototypexyzx: /ie rename &#004A85&lC&#0E608E&lu&#1B7597&lb&#298BA0&ly&#36A1AA&ls&#44B7B3&lo&#51CCBC&lf&#5FE2C5&lt
+[Thu Feb 06 22:11:00 UTC 2025] Prototypexyzx: /inspect
+[Thu Feb 06 22:11:03 UTC 2025] Prototypexyzx: /inspect
+[Thu Feb 06 22:11:07 UTC 2025] owellandry: /setblock 8 -100 -27 minecraft:bedrock
+[Thu Feb 06 22:11:09 UTC 2025] Prototypexyzx: /tp owellandry
+[Thu Feb 06 22:11:29 UTC 2025] Prototypexyzx: /setblock ~ -110 ~
+[Thu Feb 06 22:11:31 UTC 2025] Prototypexyzx: /setblock ~ -110 ~
+[Thu Feb 06 22:11:35 UTC 2025] owellandry: /setblock 8 -60 -27 minecraft:bedrock
+[Thu Feb 06 22:11:36 UTC 2025] Prototypexyzx: /setblock ~ -109 ~
+[Thu Feb 06 22:11:40 UTC 2025] Prototypexyzx: /setblock ~ -60 ~
+[Thu Feb 06 22:11:47 UTC 2025] Prototypexyzx: /setblock ~ -109 ~ stone
+[Thu Feb 06 22:11:52 UTC 2025] Prototypexyzx: /setblock ~ -60 ~ stone
+[Thu Feb 06 22:12:23 UTC 2025] Prototypexyzx: /ie rename
+[Thu Feb 06 22:12:25 UTC 2025] Prototypexyzx: /ie rename &#27CBF5&lC&#26BDE6&lu&#25AFD7&lb&#24A1C8&ly&#2293BA&lS&#2185AB&lo&#20779C&lf&#1F698D&lt
+[Thu Feb 06 22:14:15 UTC 2025] owellandry: //set bedrock
+[Thu Feb 06 22:14:47 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:14:52 UTC 2025] owellandry: //set bedrock
+[Thu Feb 06 22:15:10 UTC 2025] owellandry: //set bedrock
+[Thu Feb 06 22:15:14 UTC 2025] owellandry: //set bedrock
+[Thu Feb 06 22:15:40 UTC 2025] owellandry: //set bedrock
+[Thu Feb 06 22:16:31 UTC 2025] Prototypexyzx: /ie rename &x&2&7&C&B&F&5&lC&x&2&6&B&D&E&6&lu&x&2&5&A&F&D&7&lb&x&2&4&A&1&C&8&ly&x&2&2&9&3&B&A&lS&x&2&1&8&5&A&B&lo&x&2&0&7&7&9&C&lf&x&1&F&6&9&8&D&lt
+[Thu Feb 06 22:16:33 UTC 2025] Prototypexyzx: /tpa owellandry
+[Thu Feb 06 22:16:36 UTC 2025] owellandry: /tpayes Prototypexyzx
+[Thu Feb 06 22:16:36 UTC 2025] Prototypexyzx: /tp owellandry
+[Thu Feb 06 22:16:57 UTC 2025] Prototypexyzx: /difficulty easy
+[Thu Feb 06 22:17:18 UTC 2025] Prototypexyzx: //mv spawn selector
+[Thu Feb 06 22:17:22 UTC 2025] Prototypexyzx: /mv spawn selector
+[Thu Feb 06 22:17:27 UTC 2025] Prototypexyzx: /mv spawn selector
+[Thu Feb 06 22:17:29 UTC 2025] Prototypexyzx: /mv spawn
+[Thu Feb 06 22:17:37 UTC 2025] Prototypexyzx: /kill owellandry
+[Thu Feb 06 22:18:46 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:19:00 UTC 2025] owellandry: //set air
+[Thu Feb 06 22:20:07 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:20:08 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:20:09 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:20:11 UTC 2025] Prototypexyzx: /reload
+[Thu Feb 06 22:23:07 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:23:20 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:23:22 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:23:31 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:24:09 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:24:11 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:24:29 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:25:37 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:25:45 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:25:49 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:25:53 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:25:58 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:26:44 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:28:48 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:30:39 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:31:48 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:32:18 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:33:18 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:34:18 UTC 2025] Prototypexyzx: /mv tp selector
+[Thu Feb 06 22:34:41 UTC 2025] Prototypexyzx: /nlogin
+[Thu Feb 06 22:35:32 UTC 2025] Prototypexyzx: /gamemode adventure
+[Thu Feb 06 22:35:35 UTC 2025] Prototypexyzx: /gamemode creative
+[Thu Feb 06 22:50:56 UTC 2025] Prototypexyzx: /changepass
+[Thu Feb 06 22:51:02 UTC 2025] Prototypexyzx: /changepass
+[Thu Feb 06 22:51:08 UTC 2025] Prototypexyzx: /changepass
+[Thu Feb 06 22:54:18 UTC 2025] Prototypexyzx: /tp owellandry
+[Thu Feb 06 22:58:46 UTC 2025] owellandry: /summon minecraft:npc
+[Thu Feb 06 22:58:51 UTC 2025] owellandry: /summon npc
+[Thu Feb 06 22:59:40 UTC 2025] owellandry: /summon villager ~ ~ ~ {NoAI:1b, PersistenceRequired:1b, Invulnerable:1b, CustomName:'{"text":"Mi NPC"}'}
+[Thu Feb 06 23:00:23 UTC 2025] Prototypexyzx: /kick owellandry
+[Thu Feb 06 23:00:40 UTC 2025] Prototypexyzx: /tp 0 100 0
+[Thu Feb 06 23:01:07 UTC 2025] Prototypexyzx: /replacenear grass_block
+[Thu Feb 06 23:01:08 UTC 2025] owellandry: /kill @e[type=villager, name="Mi NPC"]
+[Thu Feb 06 23:01:31 UTC 2025] owellandry: /tp Prototypexyzx
+[Thu Feb 06 23:01:31 UTC 2025] Prototypexyzx: /replacenear 10000 grass_block,dirt,bedrock air
+[Thu Feb 06 23:01:33 UTC 2025] Prototypexyzx: /replacenear 10000 grass_block,dirt,bedrock air
+[Thu Feb 06 23:01:52 UTC 2025] Prototypexyzx: /replacenear 1000 grass_block,dirt,bedrock air
+[Thu Feb 06 23:01:53 UTC 2025] owellandry: /summon villager ~ ~ ~ {NoAI:1b, PersistenceRequired:1b, Invulnerable:1b, CustomName:'{"text":"Mi NPC"}'}
+[Thu Feb 06 23:01:56 UTC 2025] Prototypexyzx: /replacenear 10000000 grass_block,dirt,bedrock air
+[Thu Feb 06 23:02:04 UTC 2025] owellandry: /kill @e[type=villager, name="Mi NPC"]
+[Thu Feb 06 23:02:17 UTC 2025] Prototypexyzx: /to 315615 10 136516430
+[Thu Feb 06 23:07:53 UTC 2025] owellandry: /mv tp lobby
+[Thu Feb 06 23:08:11 UTC 2025] owellandry: /mv tp spawn
+[Thu Feb 06 23:08:23 UTC 2025] owellandry: /spawn
+[Thu Feb 06 23:08:47 UTC 2025] owellandry: /gamemode creative
+[Thu Feb 06 23:08:51 UTC 2025] owellandry: /mv list
+[Thu Feb 06 23:09:06 UTC 2025] owellandry: /mv tp selector
+[Thu Feb 06 23:09:28 UTC 2025] owellandry: /mv tp lobby
+[Thu Feb 06 23:09:37 UTC 2025] owellandry: /mv tp selector
+[Thu Feb 06 23:21:52 UTC 2025] owellandry: /mv tp spawn
+[Thu Feb 06 23:22:03 UTC 2025] owellandry: /gamemode creative
+[Thu Feb 06 23:22:31 UTC 2025] owellandry: /kill
+[Thu Feb 06 23:22:37 UTC 2025] owellandry: /kill
+[Thu Feb 06 23:22:50 UTC 2025] owellandry: /kill @a
+[Thu Feb 06 23:23:10 UTC 2025] owellandry: /kill @s
+[Thu Feb 06 23:23:36 UTC 2025] owellandry: /kill @e
+[Thu Feb 06 23:23:53 UTC 2025] owellandry: /time set day
+[Thu Feb 06 23:27:10 UTC 2025] owellandry: /enchant 1175b360-480c-45fc-84f0-cb890a881ec7 minecraft:fire_aspect 255
+[Thu Feb 06 23:27:19 UTC 2025] owellandry: /enchant 1175b360-480c-45fc-84f0-cb890a881ec7 minecraft:fire_aspect 2
+[Thu Feb 06 23:27:35 UTC 2025] owellandry: /enchant @a minecraft:fire_aspect 2
+[Thu Feb 06 23:28:20 UTC 2025] owellandry: /enchant @a minecraft:efficiency 5
+[Thu Feb 06 23:28:47 UTC 2025] owellandry: /enchant @a minecraft:power 5
+[Thu Feb 06 23:28:55 UTC 2025] owellandry: /enchant @a minecraft:punch 5
+[Thu Feb 06 23:28:58 UTC 2025] owellandry: /enchant @a minecraft:punch 2
+[Thu Feb 06 23:35:20 UTC 2025] owellandry: /kill @e[type=creeper]
+[Thu Feb 06 23:35:37 UTC 2025] owellandry: /kill @e[type=villager]
+[Fri Feb 07 02:54:30 UTC 2025] owellandry: /ie rename puto
+[Fri Feb 07 03:03:52 UTC 2025] Prototypexyzx: /mv tp lobby
+[Fri Feb 07 03:04:01 UTC 2025] Prototypexyzx: /nlogin
+[Fri Feb 07 03:04:04 UTC 2025] Prototypexyzx: /nlogin
+[Fri Feb 07 03:04:49 UTC 2025] Prototypexyzx: /gamemode adventure
+[Fri Feb 07 03:04:49 UTC 2025] Prototypexyzx: /gamemode creative
+[Fri Feb 07 03:05:15 UTC 2025] Prototypexyzx: /staff
+[Fri Feb 07 03:05:19 UTC 2025] Prototypexyzx: /staff
+[Fri Feb 07 03:05:22 UTC 2025] Prototypexyzx: /staff
+[Fri Feb 07 03:05:29 UTC 2025] Prototypexyzx: /mv tp spawn
+[Fri Feb 07 03:05:32 UTC 2025] Prototypexyzx: /staff
+[Fri Feb 07 03:05:35 UTC 2025] Prototypexyzx: /staffchat as
+[Fri Feb 07 03:05:37 UTC 2025] Prototypexyzx: /gamemode creative
+[Fri Feb 07 03:05:40 UTC 2025] Prototypexyzx: /difficulty peaceful
+[Fri Feb 07 03:05:46 UTC 2025] Prototypexyzx: /wheater clear
+[Fri Feb 07 03:05:52 UTC 2025] Prototypexyzx: /time set day
+[Fri Feb 07 03:05:57 UTC 2025] Prototypexyzx: /clone
+[Fri Feb 07 03:06:51 UTC 2025] Prototypexyzx: /warning Prototypexyzx
+[Fri Feb 07 03:06:52 UTC 2025] Prototypexyzx: /warning Prototypexyzx a
+[Fri Feb 07 03:07:04 UTC 2025] Prototypexyzx: /whisper
+[Fri Feb 07 03:07:12 UTC 2025] Prototypexyzx: /weather clear
+[Fri Feb 07 03:07:46 UTC 2025] Prototypexyzx: /plugins
+[Fri Feb 07 03:07:52 UTC 2025] Prototypexyzx: /nantibot
+[Fri Feb 07 03:08:52 UTC 2025] Prototypexyzx: /staff+
+[Fri Feb 07 03:13:50 UTC 2025] Prototypexyzx: /replacenear 500 dirt,bedrock,grass_block air
+[Fri Feb 07 03:14:18 UTC 2025] Prototypexyzx: //pos1
+[Fri Feb 07 03:14:25 UTC 2025] Prototypexyzx: //pos2
+[Fri Feb 07 03:14:27 UTC 2025] Prototypexyzx: //set 0
+[Fri Feb 07 03:14:35 UTC 2025] Prototypexyzx: /setblock 0 150 0
+[Fri Feb 07 03:14:38 UTC 2025] Prototypexyzx: /setblock 0 150 0 dirt
+[Fri Feb 07 03:14:41 UTC 2025] Prototypexyzx: /tp 0 151 0
+[Fri Feb 07 03:14:51 UTC 2025] Prototypexyzx: /schematic load
+[Fri Feb 07 03:14:53 UTC 2025] Prototypexyzx: /schematic list
+[Fri Feb 07 03:15:53 UTC 2025] Prototypexyzx: /schematic reload
+[Fri Feb 07 03:15:58 UTC 2025] Prototypexyzx: /schematic loadall
+[Fri Feb 07 03:16:00 UTC 2025] Prototypexyzx: /schematic loadall
+[Fri Feb 07 03:16:13 UTC 2025] Prototypexyzx: /schematic save brokenentity
+[Fri Feb 07 03:16:26 UTC 2025] Prototypexyzx: /schematic formats
+[Fri Feb 07 03:16:34 UTC 2025] Prototypexyzx: /schematic delete
+[Fri Feb 07 03:16:42 UTC 2025] Prototypexyzx: /schematic load something-random.schem
+[Fri Feb 07 03:16:49 UTC 2025] Prototypexyzx: /fawe reload
+[Fri Feb 07 03:16:53 UTC 2025] Prototypexyzx: /schematic load something-random.schem
+[Fri Feb 07 03:16:58 UTC 2025] Prototypexyzx: /schematic list
+[Fri Feb 07 03:17:37 UTC 2025] Prototypexyzx: /time set day
+[Fri Feb 07 03:17:45 UTC 2025] Prototypexyzx: /gamerule doDaylightCycle
+[Fri Feb 07 03:17:52 UTC 2025] Prototypexyzx: /gamerule doMobSpawning true
+[Fri Feb 07 03:17:55 UTC 2025] Prototypexyzx: /gamerule doMobSpawning false
+[Fri Feb 07 03:18:00 UTC 2025] Prototypexyzx: /gamerule doDaylightCycle false
+[Fri Feb 07 03:18:14 UTC 2025] Prototypexyzx: /gamerule fallDamage false
+[Fri Feb 07 03:46:52 UTC 2025] Prototypexyzx: /gamemode creative
+[Fri Feb 07 03:47:04 UTC 2025] Prototypexyzx: /schematic list
+[Fri Feb 07 03:49:56 UTC 2025] Prototypexyzx: /schematic list
+[Fri Feb 07 03:53:20 UTC 2025] Prototypexyzx: /schematic list
+[Fri Feb 07 03:53:30 UTC 2025] Prototypexyzx: //schematic loadall
+[Fri Feb 07 03:56:06 UTC 2025] Prototypexyzx: //schematic loadall
+[Fri Feb 07 03:56:10 UTC 2025] Prototypexyzx: //schematic list
+[Fri Feb 07 03:56:37 UTC 2025] Prototypexyzx: //schematic loadall japan-spawn-iqbuilders.schem
+[Fri Feb 07 03:56:40 UTC 2025] Prototypexyzx: //paste
+[Fri Feb 07 03:56:47 UTC 2025] Prototypexyzx: /gamemode spectator
+[Fri Feb 07 03:56:48 UTC 2025] Prototypexyzx: /gamemode creative
+[Fri Feb 07 03:56:54 UTC 2025] Prototypexyzx: //undo
+[Fri Feb 07 04:01:07 UTC 2025] Prototypexyzx: /plugins
+[Fri Feb 07 04:01:09 UTC 2025] Prototypexyzx: /cr
+[Fri Feb 07 04:10:31 UTC 2025] Prototypexyzx: /mv tp survival
+[Fri Feb 07 04:10:34 UTC 2025] Prototypexyzx: /gamemode creative
+[Fri Feb 07 04:10:40 UTC 2025] Prototypexyzx: /mv delete survival
+[Fri Feb 07 04:10:43 UTC 2025] Prototypexyzx: /mv tp spawn
+[Fri Feb 07 04:10:49 UTC 2025] Prototypexyzx: /mv tp spawn
+[Fri Feb 07 04:10:50 UTC 2025] Prototypexyzx: /mv tp spawn
+[Fri Feb 07 04:10:52 UTC 2025] Prototypexyzx: /mv confirm
+[Fri Feb 07 04:10:56 UTC 2025] Prototypexyzx: /mv delete survival
+[Fri Feb 07 04:10:57 UTC 2025] Prototypexyzx: /gamemode creative
+[Fri Feb 07 04:10:58 UTC 2025] Prototypexyzx: /mv confirm
+[Fri Feb 07 04:11:07 UTC 2025] Prototypexyzx: /gamemode spectator
+[Fri Feb 07 04:11:13 UTC 2025] Prototypexyzx: /tp 0 150 0
+[Fri Feb 07 04:11:15 UTC 2025] Prototypexyzx: /gamemode creative
+[Fri Feb 07 04:11:26 UTC 2025] Prototypexyzx: /mv setspawn
+[Fri Feb 07 04:11:28 UTC 2025] Prototypexyzx: /mv setspawn
+[Fri Feb 07 04:31:15 UTC 2025] Prototypexyzx: /mv import
+[Fri Feb 07 04:50:06 UTC 2025] Prototypexyzx: /mv import
+[Fri Feb 07 04:50:09 UTC 2025] Prototypexyzx: /mv import gargamel normal
+[Fri Feb 07 04:54:43 UTC 2025] Prototypexyzx: /tpa Prototypexyzx
+[Fri Feb 07 04:54:46 UTC 2025] Prototypexyzx: /tpa Prototypexyzxa
+[Fri Feb 07 04:54:49 UTC 2025] Prototypexyzx: /tpa
+[Fri Feb 07 04:55:33 UTC 2025] Prototypexyzx: /jobs
+[Fri Feb 07 04:56:21 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 04:56:31 UTC 2025] Prototypexyzx: /mv tp survival
+[Fri Feb 07 04:56:38 UTC 2025] Prototypexyzx: /mv create survival normal
+[Fri Feb 07 04:56:46 UTC 2025] Prototypexyzx: /mv tp survival
+[Fri Feb 07 04:57:03 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 04:57:13 UTC 2025] Prototypexyzx: /mv tp spawn
+[Fri Feb 07 04:57:18 UTC 2025] Prototypexyzx: /mv confirm
+[Fri Feb 07 04:57:25 UTC 2025] Prototypexyzx: /gamemode spectator
+[Fri Feb 07 04:57:39 UTC 2025] Prototypexyzx: /setblock 0 150 0 dirt
+[Fri Feb 07 04:57:41 UTC 2025] Prototypexyzx: /gamemode creative
+[Fri Feb 07 04:57:46 UTC 2025] Prototypexyzx: /setspawn
+[Fri Feb 07 04:57:49 UTC 2025] Prototypexyzx: /setspawn
+[Fri Feb 07 04:57:51 UTC 2025] Prototypexyzx: /mv tp survival
+[Fri Feb 07 04:57:53 UTC 2025] Prototypexyzx: /kill Prototypexyzx
+[Fri Feb 07 04:57:59 UTC 2025] Prototypexyzx: /mv tp survival
+[Fri Feb 07 04:58:02 UTC 2025] Prototypexyzx: /kill Prototypexyzx
+[Fri Feb 07 04:58:09 UTC 2025] Prototypexyzx: /setspawn
+[Fri Feb 07 04:58:11 UTC 2025] Prototypexyzx: /kill Prototypexyzx
+[Fri Feb 07 04:58:18 UTC 2025] Prototypexyzx: /setspawn
+[Fri Feb 07 04:58:20 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 04:58:29 UTC 2025] Prototypexyzx: /deop Prototypexyzx
+[Fri Feb 07 04:58:31 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:00:53 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:00:54 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:00:55 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:00:56 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:00:58 UTC 2025] Prototypexyzx: /deop Prototypexyzx
+[Fri Feb 07 05:00:59 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:01:00 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:01:00 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:01:01 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:01:03 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:02:18 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:05:45 UTC 2025] Prototypexyzx: /advancedteleport:back
+[Fri Feb 07 05:05:48 UTC 2025] Prototypexyzx: /advancedteleport
+[Fri Feb 07 05:05:54 UTC 2025] Prototypexyzx: /atp
+[Fri Feb 07 05:06:01 UTC 2025] Prototypexyzx: /at
+[Fri Feb 07 05:06:04 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:06:14 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:06:22 UTC 2025] Prototypexyzx: /deop Prototypexyzx
+[Fri Feb 07 05:06:24 UTC 2025] Prototypexyzx: /plugins
+[Fri Feb 07 05:06:25 UTC 2025] Prototypexyzx: /plugins
+[Fri Feb 07 05:06:26 UTC 2025] Prototypexyzx: /plugins
+[Fri Feb 07 05:06:46 UTC 2025] Prototypexyzx: /deop Prototypexyze
+[Fri Feb 07 05:06:49 UTC 2025] Prototypexyzx: /deop prototypexyzxe
+[Fri Feb 07 05:06:52 UTC 2025] Prototypexyzx: /gamemode creative
+[Fri Feb 07 05:06:55 UTC 2025] Prototypexyzx: /plugins
+[Fri Feb 07 05:07:06 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:07:21 UTC 2025] Prototypexyzx: /deop Prototypexyzx
+[Fri Feb 07 05:07:23 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:07:48 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:07:48 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:10:40 UTC 2025] Prototypexyzx: /deop prototypexyzxe
+[Fri Feb 07 05:10:59 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:11:02 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:11:18 UTC 2025] Prototypexyzx: /replacenear 10 air dirt
+[Fri Feb 07 05:11:20 UTC 2025] Prototypexyzx: /gamemode spectator
+[Fri Feb 07 05:11:26 UTC 2025] Prototypexyzx: /undo
+[Fri Feb 07 05:11:27 UTC 2025] Prototypexyzx: /gamemode creative
+[Fri Feb 07 05:11:38 UTC 2025] Prototypexyzx: //stack 20
+[Fri Feb 07 05:11:42 UTC 2025] Prototypexyzx: //stack 20
+[Fri Feb 07 05:11:43 UTC 2025] Prototypexyzx: //stack 20
+[Fri Feb 07 05:11:46 UTC 2025] Prototypexyzx: //stack 20
+[Fri Feb 07 05:11:48 UTC 2025] Prototypexyzx: //stack 20
+[Fri Feb 07 05:11:50 UTC 2025] Prototypexyzx: //stack 20
+[Fri Feb 07 05:11:59 UTC 2025] Prototypexyzx: //set bedrock
+[Fri Feb 07 05:12:02 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:12:05 UTC 2025] Prototypexyzx: //center dirt
+[Fri Feb 07 05:12:26 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:12:29 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:12:36 UTC 2025] Prototypexyzx: /deop Prototypexyzx
+[Fri Feb 07 05:12:37 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:13:01 UTC 2025] Prototypexyzx: /plugins
+[Fri Feb 07 05:13:36 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:13:40 UTC 2025] Prototypexyzx: /deop Prototypexyzx
+[Fri Feb 07 05:13:41 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:14:13 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:14:20 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:14:56 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:14:59 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:15:00 UTC 2025] Prototypexyzx: /spawn
+[Fri Feb 07 05:15:08 UTC 2025] Prototypexyzx: /deop
+[Fri Feb 07 05:15:32 UTC 2025] Prototypexyzx: /changepassword
+[Fri Feb 07 05:16:47 UTC 2025] xXObitoXx: /spawn
+[Fri Feb 07 05:16:56 UTC 2025] xXObitoXx: /spawn
+[Fri Feb 07 05:17:07 UTC 2025] xXObitoXx: /spawn
+[Fri Feb 07 05:17:23 UTC 2025] Prototypexyzx: /mv spawn
+[Fri Feb 07 05:17:29 UTC 2025] Prototypexyzx: /setspawn
+[Fri Feb 07 05:17:33 UTC 2025] xXObitoXx: /spawn
+[Fri Feb 07 05:17:45 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:17:47 UTC 2025] xXObitoXx: /spawn
+[Fri Feb 07 05:18:08 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:18:10 UTC 2025] xXObitoXx: /spawn
+[Fri Feb 07 05:18:16 UTC 2025] xXObitoXx: /spawn
+[Fri Feb 07 05:19:13 UTC 2025] xXObitoXx: /sethome
+[Fri Feb 07 05:19:14 UTC 2025] xXObitoXx: /home
+[Fri Feb 07 05:19:30 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:19:33 UTC 2025] xXObitoXx: /spawn
+[Fri Feb 07 05:19:39 UTC 2025] xXObitoXx: /home
+[Fri Feb 07 05:23:40 UTC 2025] Prototypexyzx: /setwarp
+[Fri Feb 07 05:23:44 UTC 2025] xXObitoXx: /warps
+[Fri Feb 07 05:23:47 UTC 2025] Prototypexyzx: /setwarp a
+[Fri Feb 07 05:23:49 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 05:24:04 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:24:07 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 05:24:15 UTC 2025] xXObitoXx: /home
+[Fri Feb 07 05:24:47 UTC 2025] xXObitoXx: /tpa xXObitoXx
+[Fri Feb 07 05:24:49 UTC 2025] Prototypexyzx: /tpayes
+[Fri Feb 07 05:24:54 UTC 2025] xXObitoXx: /tpa Prototypexyzx
+[Fri Feb 07 05:24:56 UTC 2025] Prototypexyzx: /tpayes xXObitoXx
+[Fri Feb 07 05:25:53 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:25:57 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 05:26:04 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 05:26:26 UTC 2025] xXObitoXx: /tpahere Prototypexyzx
+[Fri Feb 07 05:26:28 UTC 2025] Prototypexyzx: /tpayes xXObitoXx
+[Fri Feb 07 05:26:55 UTC 2025] Prototypexyzx: /tpall
+[Fri Feb 07 05:26:59 UTC 2025] xXObitoXx: /tpayes <player>
+[Fri Feb 07 05:27:14 UTC 2025] xXObitoXx: /tpall
+[Fri Feb 07 05:27:17 UTC 2025] xXObitoXx: /tpalist
+[Fri Feb 07 05:28:56 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:29:01 UTC 2025] Prototypexyzx: /tpa owellandry
+[Fri Feb 07 05:29:09 UTC 2025] Prototypexyzx: /tpa owellandry
+[Fri Feb 07 05:30:15 UTC 2025] Prototypexyzx: /weather clear
+[Fri Feb 07 05:34:29 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:34:33 UTC 2025] xXObitoXx: /home
+[Fri Feb 07 05:35:00 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:35:03 UTC 2025] xXObitoXx: /home
+[Fri Feb 07 05:35:51 UTC 2025] xXObitoXx: /back
+[Fri Feb 07 05:36:13 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:36:14 UTC 2025] xXObitoXx: /back
+[Fri Feb 07 05:36:20 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:36:21 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:36:22 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:36:24 UTC 2025] xXObitoXx: /back
+[Fri Feb 07 05:37:24 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:37:26 UTC 2025] xXObitoXx: /back
+[Fri Feb 07 05:37:54 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:37:57 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 05:38:22 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:38:27 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 05:39:24 UTC 2025] xXObitoXx: /tpahere Prototypexyzx
+[Fri Feb 07 05:39:25 UTC 2025] Prototypexyzx: /tpayes xXObitoXx
+[Fri Feb 07 05:39:42 UTC 2025] Prototypexyzx: /tpa xXObitoXx
+[Fri Feb 07 05:39:43 UTC 2025] xXObitoXx: /tpayes
+[Fri Feb 07 05:41:00 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 05:41:03 UTC 2025] Prototypexyzx: /tpa owellandry
+[Fri Feb 07 06:05:31 UTC 2025] Prototypexyzx: /weather clear
+[Fri Feb 07 06:05:47 UTC 2025] Prototypexyzx: /lp group example clone
+[Fri Feb 07 06:05:54 UTC 2025] Prototypexyzx: /lp group example clone tester
+[Fri Feb 07 06:06:16 UTC 2025] Prototypexyzx: /lp user xXObitoXx parent set tester
+[Fri Feb 07 06:06:29 UTC 2025] xXObitoXx: /at reload
+[Fri Feb 07 06:06:32 UTC 2025] xXObitoXx: /spawn
+[Fri Feb 07 06:10:19 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:10:22 UTC 2025] xXObitoXx: /home
+[Fri Feb 07 06:10:34 UTC 2025] xXObitoXx: /warp as
+[Fri Feb 07 06:10:35 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 06:12:02 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 06:12:21 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:12:22 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 06:12:38 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:12:39 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 06:12:56 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:12:58 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 06:16:49 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:16:51 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 06:18:52 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:18:54 UTC 2025] xXObitoXx: /warp as
+[Fri Feb 07 06:18:55 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 06:19:56 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:19:59 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 06:20:15 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:20:44 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 06:20:47 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:21:05 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 06:21:06 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:21:54 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:22:03 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 06:24:40 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:25:19 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 06:25:21 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:26:07 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:26:22 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:27:03 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:27:14 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:27:39 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:27:52 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:28:13 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:28:20 UTC 2025] xXObitoXx: /warp a
+[Fri Feb 07 06:28:36 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:28:45 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:29:08 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:29:16 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:29:40 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:30:55 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:30:57 UTC 2025] Prototypexyzx: /at reload
+[Fri Feb 07 06:31:46 UTC 2025] Prototypexyzx: /home
+[Fri Feb 07 06:31:50 UTC 2025] Prototypexyzx: /sethome
+[Fri Feb 07 06:31:53 UTC 2025] Prototypexyzx: /home
+[Fri Feb 07 06:34:12 UTC 2025] Prototypexyzx: /nlogin
+[Fri Feb 07 06:34:37 UTC 2025] Prototypexyzx: /tpa owellandry Prototypexyzx
+[Fri Feb 07 06:34:40 UTC 2025] owellandry: /tpayes Prototypexyzx
+[Fri Feb 07 06:35:01 UTC 2025] Prototypexyzx: /gamemode creative
+[Fri Feb 07 06:35:06 UTC 2025] Prototypexyzx: /clear owellandry
+[Fri Feb 07 06:35:16 UTC 2025] Prototypexyzx: /sethome
+[Fri Feb 07 06:35:18 UTC 2025] Prototypexyzx: /sethome asdsad
+[Fri Feb 07 06:35:30 UTC 2025] owellandry: /changepass
+[Fri Feb 07 06:35:39 UTC 2025] Prototypexyzx: /mv tp spawn
+[Fri Feb 07 06:35:43 UTC 2025] owellandry: /changepass
+[Fri Feb 07 06:36:10 UTC 2025] owellandry: /mv tp survival
+[Fri Feb 07 06:36:42 UTC 2025] Prototypexyzx: /gamemode creative
+[Fri Feb 07 06:36:51 UTC 2025] owellandry: /tp 1000 ~ 1000
+[Fri Feb 07 06:37:37 UTC 2025] Prototypexyzx: /tp owellandry
+[Fri Feb 07 06:37:46 UTC 2025] Prototypexyzx: /tp owellandry Prototypexyzx
+[Fri Feb 07 06:37:51 UTC 2025] Prototypexyzx: /tp owellandry Prototypexyzx
+[Fri Feb 07 06:37:52 UTC 2025] Prototypexyzx: /tp owellandry Prototypexyzx
+[Fri Feb 07 06:37:53 UTC 2025] Prototypexyzx: /tp owellandry Prototypexyzx
+[Fri Feb 07 06:37:53 UTC 2025] Prototypexyzx: /tp owellandry Prototypexyzx
+[Fri Feb 07 06:39:13 UTC 2025] Prototypexyzx: /schematic list
+[Fri Feb 07 06:39:24 UTC 2025] Prototypexyzx: //schematic loadall something-random.schem
+[Fri Feb 07 06:39:26 UTC 2025] Prototypexyzx: //paste
+[Fri Feb 07 06:39:37 UTC 2025] Prototypexyzx: //schematic loadall something-random.schem
+[Fri Feb 07 06:39:38 UTC 2025] Prototypexyzx: //paste
+[Fri Feb 07 06:40:18 UTC 2025] Prototypexyzx: //pos1
+[Fri Feb 07 06:40:26 UTC 2025] owellandry: /mv list
+[Fri Feb 07 06:40:49 UTC 2025] owellandry: /mv tp survival
+[Fri Feb 07 06:40:54 UTC 2025] owellandry: /gamemode creative
+[Fri Feb 07 06:40:55 UTC 2025] Prototypexyzx: //pos2
+[Fri Feb 07 06:41:00 UTC 2025] Prototypexyzx: //replace air light
+[Fri Feb 07 06:41:02 UTC 2025] owellandry: /tp 1000 ~ 1000
+[Fri Feb 07 06:41:11 UTC 2025] Prototypexyzx: /undo
+[Fri Feb 07 06:41:11 UTC 2025] owellandry: /tp 1000 ~ 1000
+[Fri Feb 07 06:41:17 UTC 2025] owellandry: /sethome
+[Fri Feb 07 06:41:18 UTC 2025] Prototypexyzx: //replace air light
+[Fri Feb 07 06:41:28 UTC 2025] owellandry: /sethome casa
+[Fri Feb 07 06:41:41 UTC 2025] owellandry: /home casa
+[Fri Feb 07 06:41:47 UTC 2025] owellandry: /home casa
+[Fri Feb 07 06:41:53 UTC 2025] owellandry: /home casa
+[Fri Feb 07 06:42:11 UTC 2025] Prototypexyzx: /tp 0 150 0
