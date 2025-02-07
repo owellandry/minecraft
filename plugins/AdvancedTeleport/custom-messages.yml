@@ -241,12 +241,14 @@ Error:
   cantTPToPlayer: <blue>[CubySoft]<blue> <gray>You can't request a teleportation to
     <aqua><player></aqua>!
 Info:
-  tpOff: <blue>[CubySoft]<blue> <gray>Solicitudes de teletransporte desactivadas con éxito!
-  tpOn: <blue>[CubySoft]<blue> <gray>Solicitudes de teletransporte habilitadas con éxito!
-  tpAdminOff: <blue>[CubySoft]<blue> <gray>Solicitudes de teletransporte deshabilitadas con éxito
-    para <aqua><player></aqua>!
-  tpAdminOn: <blue>[CubySoft]<blue> <gray>Solicitudes de teletransporte habilitadas con éxito para
-    <aqua><player></aqua>!
+  tpOff: <blue>[CubySoft]<blue> <gray>Solicitudes de teletransporte desactivadas con
+    éxito!
+  tpOn: <blue>[CubySoft]<blue> <gray>Solicitudes de teletransporte habilitadas con
+    éxito!
+  tpAdminOff: <blue>[CubySoft]<blue> <gray>Solicitudes de teletransporte deshabilitadas
+    con éxito para <aqua><player></aqua>!
+  tpAdminOn: <blue>[CubySoft]<blue> <gray>Solicitudes de teletransporte habilitadas
+    con éxito para <aqua><player></aqua>!
   requestSent: |2
         <blue>[CubySoft]<blue> <gray>Solicitud enviada con éxito a <aqua><player></aqua>!
         <blue>[CubySoft]<blue> <gray>They've got <aqua><lifetime></aqua> a respond!

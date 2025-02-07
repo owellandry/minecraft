@@ -24,15 +24,6 @@ pending:
     singular: '&8[&#1da7df&lCubySoft&8] Tiene {0} segundo para {iniciar sesión///registrarte}.'
     plural: '&8[&#1da7df&lCubySoft&8] Tiene {0} segundos para {iniciar sesión///registrarte}.'
 success:
-<<<<<<< HEAD
-  login: '&#8addff .'
-  register: '&aTe has registrado con éxito.'
-  session: '&aSu sesión de inicio de sesión ha sido resumida.'
-  premium: '&aUsted inicia sesión automáticamente ya que está utilizando una cuenta original.'
-  bedrock: '&aUsted se conecta automáticamente, ya que está accediendo desde una cuenta de Bedrock.'
-  change-password: '&aSu contraseña ha cambiado con éxito.'
-  reload: '&aEl plugin se ha recargado con éxito.'
-=======
   login: '&8[&#1da7df&lCubySoft&8] &#8addffTe has logueado con éxito.'
   register: '&8[&#1da7df&lCubySoft&8] &#8addffTe has registrado con éxito.'
   session: '&8[&#1da7df&lCubySoft&8] &aSu sesión de inicio de sesión ha sido resumida.'
@@ -40,7 +31,6 @@ success:
   bedrock: '&8[&#1da7df&lCubySoft&8] &aUsted se conecta automáticamente, ya que está accediendo desde una cuenta de Bedrock.'
   change-password: '&8[&#1da7df&lCubySoft&8] &#8addffSu contraseña ha cambiado con éxito.'
   reload: '&8[&#1da7df&lCubySoft&8] &#8addffEl plugin se ha recargado con exito'
->>>>>>> d524b86 (cambios por obito)
   kick:
     unregister: '&#8addffTe desregistraste con éxito.'
     marked-offline: '&7Your account has been marked as &6offline&7. Please rejoin.'
