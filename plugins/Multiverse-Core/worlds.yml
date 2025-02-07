@@ -104,6 +104,7 @@ worlds:
     respawnWorld: lobby
     allowWeather: 'true'
     difficulty: PEACEFUL
+<<<<<<< HEAD
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -151,6 +152,8 @@ worlds:
     respawnWorld: ''
     allowWeather: 'true'
     difficulty: PEACEFUL
+=======
+>>>>>>> 1ba09f9 (update changes)
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -174,16 +177,28 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
+<<<<<<< HEAD
       x: 0.5
       y: 151.0
       z: 0.5
       pitch: 8.13781
       yaw: -0.08433399
+=======
+      x: 35.69999998807907
+      y: 27.0
+      z: -6.699999988079071
+      pitch: -35.65071
+      yaw: 51.772797
+>>>>>>> 1ba09f9 (update changes)
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
+<<<<<<< HEAD
     seed: '6673615793340336490'
+=======
+    seed: '5566877655531469098'
+>>>>>>> 1ba09f9 (update changes)
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
