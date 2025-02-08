@@ -1,0 +1,235 @@
+wild-card: staff.*
+staffplus: staff
+ipPerm: staff.hideip
+block: staff.block
+blacklist: staff.blacklist.bypass
+revive: staff.revive
+member: staff.member
+strip: staff.strip
+broadcast: staff.broadcast
+cps: staff.cps
+examine: staff.examine
+infractions:
+  view: staff.infractions.view
+staff-list:
+  
+  view: staff.personnel.view
+staff-hub:
+  view: staff.hub.view
+chatchannels:
+  join: staff.chatchannels.join
+  leave: staff.chatchannels.leave
+  open: staff.chatchannels.open
+  close: staff.chatchannels.close
+report: staff.reports.report
+reports:
+  chat: staff.reports.chat
+  # All permission for managing reports
+  manage:
+    view: staff.reports.manage.view
+    delete: staff.reports.manage.delete
+    accept: staff.reports.manage.accept
+    resolve: staff.reports.manage.resolve
+    reject: staff.reports.manage.reject
+    teleport: staff.reports.manage.teleport
+    reopen-other: staff.reports.manage.reopen-other
+report-bypass: staff.reports.report-bypass
+report-update-notifications: staff.reports.update.notifications
+view-my-reports: staff.reports.view-my-reports
+view-my-warnings: staff.warnings.view-my-warnings
+warn: staff.warnings.warn
+warn-bypass: staff.warnings.warn-bypass
+warnings:
+  notifications: staff.warnings.notifications
+  # All permission for managing warnings
+  manage:
+    view: staff.warnings.manage.view
+    delete: staff.warnings.manage.delete
+    expire: staff.warnings.manage.expire
+  appeals:
+    create: staff.warnings.appeals.create
+    create-others: staff.warnings.appeals.create.others
+    approve: staff.warnings.appeals.approve
+    reject: staff.warnings.appeals.reject
+    notifications: staff.warnings.appeals.notifications
+investigations:
+  # All permission for managing investigations
+  manage:
+    investigate: staff.investigation.manage.investigate
+    notifications: staff.investigation.manage.notifications
+    view: staff.investigation.manage.view
+    link-evidence: staff.investigation.manage.link-evidence
+    add-note: staff.investigation.manage.add-note
+    delete-note: staff.investigation.manage.delete-note
+    delete-note-others: staff.investigation.manage.delete-note-others
+vanish: staff.vanish.vanish
+vanish-others:
+  total: staff.vanish.others.total
+  list: staff.vanish.others.list
+  player: staff.vanish.others.player
+see-vanished: staff.vanish.see-vanished
+vanish-total: staff.vanish.total
+vanish-list: staff.vanish.list
+vanish-player: staff.vanish.player
+chat-clear: staff.chat.clear
+chat-toggle: staff.chat.toggle
+chat-slow: staff.chat.slow
+alerts:
+  # Permission for managing the alerts you will get
+  manage-alerts: staff.alerts.alerts
+  notifications:
+    # Permission for receiving mention alerts.
+    mention: staff.alerts.mention
+    # Permission for receiving name change alerts.
+    name-change: staff.alerts.namechange
+    # Permission for receiving xray alerts.
+    xray: staff.alerts.xray
+    # Permission for receiving alt detect alerts.
+    alt-detect: staff.alerts.alt-detects
+    # Permission for receiving chat word mentions alerts.
+    chat-phrase-detection: staff.alerts.chat-phrase-detection
+    # Permission for receiving chat word mentions alerts.
+    command-detection: staff.alerts.command-detection
+    # Permission for bypassing chat word mentions alerts.
+    # Permission for receiving chat blacklist alerts.
+    blacklist-detection: staff.alerts.blacklist-detection
+name-change-bypass: staff.namechange-bypass
+mention-bypass: staff.mention-bypass
+xray-bypass: staff.xray-bypass
+command-detection-bypass: staff.command-detection.bypass
+chat-phrase-detection-bypass: staff.chat-phrase-detection.bypass
+mode: staff.mode.mode
+mode-specific: staff.mode.specific-mode
+mode-silent-chest-interaction: staff.mode.silent-chest-interaction
+compass: staff.mode.compass
+random-teleport: staff.mode.random-teleport
+random-teleport-bypass: staff.mode.random-teleport.bypass
+gui: staff.mode.gui
+counter: staff.mode.counter
+counter-show-vanished: staff.mode.counter-show-vanished
+follow: staff.mode.follow
+nightvision: staff.nightvision.nightvision
+freeze: staff.freeze.freeze
+freeze-bypass: staff.freeze.freeze-bypass
+freeze-chat: staff.freeze.chat
+teleport-to-location: staff.teleport.teleport-to-location
+teleport-to-player: staff.teleport.teleport-to-player
+teleport-here: staff.teleport.teleport-here
+teleport-bypass: staff.teleport.teleport.bypass
+trace: staff.trace.trace
+trace-bypass: staff.trace.bypass
+protect-player: staff.protect.protect-player
+protect-area: staff.protect.protect-area
+ban: staff.bans.ban
+tempban: staff.bans.tempban
+extendban: staff.bans.extendban
+reduceban: staff.bans.reduceban
+ban-silent: staff.bans.ban-silent
+ban-view: staff.bans.ban-view
+ban-template-overwrite: staff.bans.ban-template-overwrite
+unban: staff.bans.unban
+ban-bypass: staff.bans.ban-bypass
+ban-notifications: staff.bans.ban-notifications
+bans:
+  migrate: staff.bans.migrate
+  appeals:
+    view: staff.bans.appeals.view
+    create: staff.bans.appeals.create
+    create-others: staff.bans.appeals.create.others
+    approve: staff.bans.appeals.approve
+    reject: staff.bans.appeals.reject
+    notifications: staff.bans.appeals.notifications
+ipban:
+  ban: staff.ipban.ban
+  tempban: staff.ipban.tempban
+  unban: staff.ipban.unban
+  ban-check: staff.ipban.ban-check
+  ban-view: staff.ipban.ban-view
+  ban-silent: staff.ipban.ban-silent
+  ban-template-overwrite: staff.ipban.ban-template-overwrite
+  ban-notifications: staff.ipban.ban-notifications
+  migrate: staff.ipban.migrate
+ips:
+  clear-ips: staff.ips.clear-ips
+  notifications: staff.ips.notifications
+kick: staff.kicks.kick
+kick-notifications: staff.kicks.kick-notifications
+kick-bypass: staff.kicks.kick-bypass
+mute: staff.mutes.mute
+mute-view: staff.mutes.mute-view
+tempmute: staff.mutes.tempmute
+unmute: staff.mutes.unmute
+extendmute: staff.mutes.extendmute
+reducemute: staff.mutes.reducemute
+mute-bypass: staff.mutes.mute-bypass
+mute-override-softhard: staff.mutes.mute-override-softhard
+mute-notifications: staff.mutes.mute-notifications
+view-my-mutes: staff.mutes.view-my-mutes
+mutes:
+  appeals:
+    view: staff.mutes.appeals.view
+    create: staff.mutes.appeals.create
+    create-others: staff.mutes.appeals.create.others
+    approve: staff.mutes.appeals.approve
+    reject: staff.mutes.appeals.reject
+    notifications: staff.mutes.appeals.notifications
+alt-detect-whitelist: staff.altdetects.whitelist
+alt-detect-check: staff.altdetects.check
+alt-detect-bypass: staff.altdetects.bypass
+invClear: staff.inventory.clearinv
+invClear-bypass: staff.inventory.clearinv-bypass
+examine-inventory-interaction:
+  # Permission to have inventory interaction while in examine mode
+  online: staff.inventory.inventory-interaction
+  # Permission to have inventory interaction while in examine mode for offline players
+  offline: staff.inventory.inventory-interaction-offline
+examine-view-inventory:
+  # Permission to view player's inventory while in examine mode
+  online: staff.inventory.view-inventory
+  # Permission to view player's inventory while in examine mode for offline player
+  offline: staff.inventory.view-inventory-offline
+examine-view-ip: staff.examine.view-ip
+enderchests:
+  view:
+    online: staff.enderchests.view.online
+    offline: staff.enderchests.view.offline
+  interact: staff.enderchests.interact
+players: staff.players
+playerView:
+  detail:
+    food: staff.player-view.detail.food
+    ip: staff.player-view.detail.ip
+    uuid: staff.player-view.detail.uuid
+    gamemode: staff.player-view.detail.gamemode
+    location: staff.player-view.detail.location
+    timeplayed: staff.player-view.detail.timeplayed
+    frozen: staff.player-view.detail.frozen
+    protected: staff.player-view.detail.protected
+    investigation: staff.player-view.detail.investigation
+    muted: staff.player-view.detail.muted
+    vanished: staff.player-view.detail.vanished
+  overview:
+    online-players: staff.player-view.overview.onlineplayers
+    offline-players: staff.player-view.overview.offlineplayers
+    staff-members: staff.player-view.overview.staff
+    miners: staff.player-view.overview.miners
+    protected: staff.player-view.overview.protected
+player-notes:
+  view: staff.player-notes.view
+  create: staff.player-notes.create
+  create-private: staff.player-notes.create-private
+  delete: staff.player-notes.delete
+  delete-other: staff.player-notes.delete-other
+  notifications: staff.player-notes.notifications
+staff-locations:
+  view: staff.staff-locations.view
+  create: staff.staff-locations.create
+  delete: staff.staff-locations.delete
+  teleport: staff.staff-locations.teleport
+  edit: staff.staff-locations.edit
+  view-notes: staff.staff-locations.notes.view
+  delete-note: staff.staff-locations.notes.delete
+  create-note: staff.staff-locations.notes.create
+webui:
+  register: staff.webui.register
+show-style-info: staff.show-style-info

@@ -1,13 +1,1 @@
-worlds:
-  selector:
-    spawnpoint: selector:11.0:160.0:-31.0:0.0:0.0
-    y-void: -64.0
-    enabled: true
-    keep-inventory: true
-    nether: false
-  spawn:
-    spawnpoint: spawn:0.525056244233044:151.0:-10.694644822841095:-0.8010363:-0.7790419
-    y-void: -64.0
-    enabled: true
-    keep-inventory: true
-    nether: false
+worlds: {}

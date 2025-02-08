@@ -1,0 +1,16 @@
+[2025/02/08 04:45:25]: §9          __             _       
+[2025/02/08 04:45:25]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/02/08 04:45:25]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/02/08 04:45:25]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/02/08 04:45:25]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/02/08 04:45:25]: §9                  |___/            
+[2025/02/08 04:45:25]: §9 By: www.nickuc.com - V 10.4.21
+[2025/02/08 04:45:25]: §9 
+[2025/02/08 04:45:25]: §3[nLogin] [DEBUG] All settings were loaded in 108 ms.
+[2025/02/08 04:45:25]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/08 04:45:25]: §3[nLogin] [DEBUG] All plugin messages were loaded in 99 ms (languageByClient=false).
+[2025/02/08 04:45:25]: §3[nLogin] [DEBUG] All proxy settings were loaded in 2 ms.
+[2025/02/08 04:45:25]: §3[nLogin] [DEBUG] Loading database...
+[2025/02/08 04:45:26]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/02/08 04:45:58]: §3[nLogin] [DEBUG] Quiely ignoring the ProtocolLib exception (The method getUniqueId is not supported for temporary players.)
+[2025/02/08 04:46:05]: [nLogin] Successful plugin core shutdown (took 0.00s)

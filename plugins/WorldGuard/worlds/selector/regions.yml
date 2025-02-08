@@ -53,8 +53,9 @@ regions:
     __global__:
         members: {}
         flags: {build: allow, exit-deny-message: §c§lOye! §7No tienes permitido hacer
-                eso., block-break: allow, entry-deny-message: §c§lOye! §7No tienes
-                permitido hacer eso., pvp: deny, block-place: allow}
+                eso., use: allow, passthrough: allow, block-break: allow, interact: allow,
+            entry-deny-message: §c§lOye! §7No tienes permitido hacer eso., pvp: deny,
+            block-place: allow, allow-shop: allow}
         owners:
             unique-ids: [ded01df0-e363-3375-83fb-0e1074f5ac4f]
         type: global

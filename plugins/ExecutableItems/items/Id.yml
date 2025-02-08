@@ -1,0 +1,94 @@
+name: espada zeus
+glow: true
+disableEnchantGlide: false
+lore:
+- '&b&oDefault lore'
+material: NETHERITE_SWORD
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+isDurabilityBasedOnUsage: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+glider: false
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: false
+usageFeatures:
+  usage: 0
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments: {}
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+  hideAdditionalTooltip: false
+  hideToolTip: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables:
+  var0:
+    variableName: var
+    type: STRING
+    default: ''
+    isRefreshableClean: false
+    refreshTagDoNotEdit: ''
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+food:
+  nutrition: 1
+  saturation: 1
+  isMeat: false
+  canAlwaysEat: false
+consumableFeatures:
+  enable: false
+  animation: EAT
+  hasConsumeParticles: false
+  consumeSeconds: 3
+itemRarity:
+  enableRarity: false
+  rarity: COMMON
+repairableFeatures:
+  enable: false
+  repairCost: 2
+equippableFeatures:
+  enable: false
+  slot: BODY
+  enableSound: false
+  sound: ITEM.ARMOR.EQUIP_DIAMOND
+  damageableOnHurt: false
+  dispensable: true
+  swappable: true
+  allowedEntities:
+  - PLAYER
+attributes:
+  attribute0:
+    attribute: ARMOR
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: HAND
+    uuid: 007fae2f-d603-453d-bb59-aec7ab63ecb5

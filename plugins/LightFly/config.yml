@@ -1,0 +1,25 @@
+# File to use in /lang folder, to create more just copy-paste the base lang file.
+lang: en-en
+
+# This will prevent plugin enabling/disabling fly for a player in creative
+prevent_fly_in_creative: true
+
+# Send tempfly message
+send_temp_fly_message: false
+
+# Plugin will notify player if he has X time of tempfly remaining
+send_temp_fly_warning: false
+
+# Plugin will notify player when his tempfly time ends
+send_temp_fly_finished: false
+
+# How many seconds of fly should remain for the plugin to notify?
+# With default values, player will get notified when 10 seconds are remaining
+# and also when it's about to finish (last 3 seconds)
+time_warning_seconds:
+  - 10
+  - 3
+  - 2
+  - 1
+
+

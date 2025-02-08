@@ -1,0 +1,441 @@
+server-name: MyUniqueServerName
+main-world: world
+timestamp-format: dd/MM/yyyy-HH:mm:ss
+lang: lang_en
+authentication:
+  provider: noop
+blocked-commands: /example1, /example2, /example3
+blocked-mode-commands: /example1, /example2, /example3
+glass-color: 0
+glass-title: '&bChoose GUI glass color'
+offline-players-mode: true
+offline-player-cache: true
+server-sync-module:
+  vanish-sync: false
+  staffmode-sync: false
+  ban-sync: ''
+  report-sync: ''
+  warning-sync: ''
+  mute-sync: ''
+  kick-sync: ''
+  investigation-sync: ''
+  notes-sync: ''
+  staff-location-sync: ''
+locations: []
+reports-module:
+  chatchannels:
+    enabled: false
+    open-on: IN_PROGRESS
+    close-on: REJECTED;RESOLVED;DELETED
+  
+  # Whether or not the plugin will use "/report" features.
+  enabled: true
+  
+  # The sound that is played to staff when someone is reported.
+  # Set to "NONE" to disable.
+  sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  
+  # The cooldown, in seconds, for using "/report".
+  # This is disabled for players with the "permissions.report" permission.
+  cooldown: 10
+  
+  # Whether or not the player that reported another player will be visible in GUIs.
+  show-reporter: true
+  
+  # Whether or not a staff member must provide a reason when resolving/rejecting a report
+  closing-reason-enabled: true
+  
+  # Types of reports. When configured the reporter will see a UI where he must choose the type
+  report-types: []
+  fixed-reason: false
+  fixed-reason-culprit: false
+  reasons: []
+  
+  reporter-notifications:
+    # The reporter will be notified the moment he comes online that he has reports OPEN or IN_PROGRESS
+    notify-on-join: true
+    # Enable status change notifications. Whenever a staff member changes the status to one of the specified statuses, the reporter will be notified (if he is online).
+    # Statuses must be semi-colon separated
+    status-change-notifications: IN_PROGRESS;RESOLVED;REJECTED
+  # command hooks
+  accept-commands: []
+  reject-commands: []
+  reopen-commands: []
+  resolve-commands: []
+warnings-module:
+  # Whether or not the plugin will use "/warn" features.
+  enabled: true
+  # The sound that is played to the player when warned.
+  # Set to "NONE" to disable.
+  sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  # Whether or not the player issued the warning will be visible in GUIs.
+  show-issuer: true
+  
+  # Enables the ability to notify a user when he has warnings
+  # User will be notified the moment he comes online.
+  user-notifications:
+    enabled: true
+    # Enable this to show the message every time the user comes online.
+    # If Disabled the warnings will be marked as "read" and he will only be notified of new warnings
+    always-notify: false
+  
+  actions: []
+  severity-levels:
+  - name: MINOR
+    score: 1
+    expiresAfter: 1 WEEK
+  - name: MAJOR
+    score: 3
+    expiresAfter: 1 MONTH
+  - name: CRITICAL
+    score: 5
+  # Define thresholds for the warning system. Whenever the player reaches a threshold the actions are triggered
+  thresholds:
+  - score: 6
+    actions:
+    - command: ban %target% &4Warning threshold has been met
+  
+  appeals:
+    enabled: true
+    resolve-reason-enabled: false
+    fixed-reason: false
+    reasons:
+    - ''
+staff-chat-module:
+  # Whether or not the plugin will use "/sc" features.
+  enabled: true
+  # Whether or not the plugin synchronises staff chat across the bungee network
+  bungee: true
+  
+  # The string that can be used at the beginning of a message to make it appear in staff chat.
+  # If you have "@" as your string, typing "@hey guys" would send "hey guys" to staff chat.
+  # Leave blank to disable.
+
+  channels:
+  - command: sc
+    handle: '@'
+    name: staffchat
+    prefix: '&dStaffChat &8»'
+    message-format: '&b%player% &8» &7%message%'
+    permission: staff.staffchat
+    sound: NONE
+vanish-module:
+  # Whether or not the plugin will use "/v" features.
+  enabled: true
+  
+  # Whether or not list vanish will hide the vanished users from tab list.
+  # Does not completely hide players in tab for 1.7 versions.
+  tab-list: true
+  
+  # Whether or not list vanish users will be shown as "away" or "offline" in the staff list.
+  show-away: false
+  
+  # Whether or not user should be shown in command tab-complete suggestions.
+  suggestions: false
+  
+  # Whether or not chat can be used when vanished.
+  chat: false
+  
+  # Whether or not to show a message on screen telling the staff member his vanish is enabled
+  vanish-message-enabled: true
+  
+  # Whether or not to show a bossbar on screen telling the staff member his vanish is enabled
+  vanish-bossbar-enabled: false
+  
+  # Default vanish mode. Gets used when using the vanish the command without arguments
+  default-mode: TOTAL
+  # Allow item drop while vanished
+  item-drop: true
+  # Allow item pickup while vanished
+  item-pickup: true
+  # When true, you can't take damage while vanished
+  invincible: false
+  # Allow giving damage while vanished
+  damage: true
+  # Allow placing blocks while vanished
+  block-place: true
+  # Allow breaking blocks while vanished
+  block-break: true
+  # Allow opening a chest normally
+  normal-chest-opening: true
+  # Allow interacting with a chest that has been normally opened
+  normal-chest-interaction: true
+  # Allow opening a chest silently
+  silent-chest-opening: false
+  # Allow interacting with a chest that has been silently opened
+  silent-chest-interaction: false
+  # Will give players night vision while vanished in TOTAL or PLAYER mode.
+  night-vision: false
+  # Enable to add join leave message in chat when a player gets vanished.
+  join-leave-message-enabled: true
+  # List all the items which the player should not be able to interact with
+  cancelled-interaction-types:
+  - '*PRESSURE_PLATE'
+  - '*TRIP*'
+chat-module:
+  # Whether or not the plugin will use "/chat" features.
+  enabled: true
+  
+  # The amount of lines that will be sent when "/chat clear" is executed.
+  lines: 100
+  
+  # The cooldown, in seconds, for chatting when the chat is slowed.
+  # Bypass permission is "chat-slow".
+  slow: 5
+  
+  # Whenever one of these words/phrases is detected in a chat message, the actions defined will be executed
+  # In addition a notification can be sent to staff members through the alerts-system or the discord integration plugin.
+  detection:
+    phrase-groups:
+    - phrases:
+      - admin
+      - mod
+      actions: []
+blacklist-module:
+  # Whether or not the blacklist will be enabled.
+  enabled: false
+  
+  censor-chat: true
+  censor-signs: true
+  censor-anvil: true
+  censor-book: true
+  # Whether or not messages that have censored words in them will be hoverable.
+  # This means you will be able to hover over a chat message to see an uncensored message if you have the "permissions.blacklist" permission.
+  # This may not work well with other chat plugins!
+  hoverable: false
+  
+  # The character that will replace blocked word characters.
+  character: '*'
+  
+  # Whether or not messages that have merged blocked words will be detected.
+  # So if you block the word "ass", it will also block "asshole" or "dickass".
+  # May cause issues with legal words like "bypass"! Fix is below.
+  merging: true
+  
+  # All words that will be censored.
+  # Separate words with commas.
+  words: fuck, shit, ass, bitch, dick, cock, piss, cunt, fag, faggot, slut, nigger,
+    nigga
+  
+  # All characters that will be censored.
+  # These are merely characters that will be detected anywhere in messages.
+  characters: 卐, 卍
+  
+  # All domain levels that will be censored.
+  # This can prevent users from sending links in chat.
+  # This will only check the end of words which have detected periods!
+  domains: com, net, org
+  
+  # All strings that will be detected as periods in messages. Of course characters like "." and "," are detected by default.
+  # This will work in coordination with "domains".
+  # For example, it can detect "mineplex()com" as "mineplex.com".
+  periods: (), (dot),
+  
+  # All words that will be allowed to be typed no matter what.
+  # This helps quite a bit if you have "merging" enabled.
+  # I recommend using http://www.morewords.com/contains/[word]/!
+  allowed: bypass, assembly, assassin, compass, assume, assault, asset, assort
+broadcast-module:
+  # Whether or not the plugin will use "/broadcast" features.
+  enabled: true
+  prefix: '&dBroadcast &8»'
+  # The servers to which the broadcasting is applied "CURRENT" is the default value and broadcasts only on the current server.
+  # This also prevents staff members from broadcasting to other servers
+  # "ALL" broadcasts to all known servers on the network.
+  # Alternatively you can provide a list of semicolon separated server names to which the broadcasting should be applied.
+  # Example: lobby;survival;skyblock
+  enabled-servers: CURRENT
+infractions-module:
+  # Whether or not the plugin will enable the infractions gui.
+  enabled: true
+  show-bans: true
+  show-mutes: true
+  show-warnings: true
+  show-reporter:
+    report-created: true
+  show-kicks: true
+  bans-gui-item: PAPER
+  mutes-gui-item: PAPER
+  warnings-gui-item: PAPER
+  reported-gui-item: PAPER
+  kicks-gui-item: PAPER
+ban-module:
+  # Whether or not the plugin will use "/ban-player" features.
+  enabled: true
+  permban-template: ''
+  tempban-template: ''
+  ranks: []
+  appeals:
+    enabled: true
+    unban-on-approve: true
+    resolve-reason-enabled: false
+    fixed-reason: false
+    reasons:
+    - ''
+  ipban:
+    enabled: true
+    confirmation: CHAT
+    permban-template: ''
+    tempban-template: ''
+kick-module:
+  # Whether or not the plugin will use "/kick" features.
+  enabled: true
+  fixed-reason: false
+  reasons: []
+mute-module:
+  # Whether or not the plugin will use "/mute player" features.
+  enabled: true
+  # Will the player know he is muted.
+  default-soft-mutes: false
+  # Commands that get blocked when a player is muted
+  blocked-commands:
+  - msg
+  - whisper
+  - tell
+  appeals:
+    enabled: true
+    unmute-on-approve: true
+    resolve-reason-enabled: false
+    fixed-reason: false
+    reasons:
+    - ''
+    on-approved-commands: []
+    on-rejected-commands: []
+joinmessages-module:
+  # Whether or not the plugin will use "/mute player" features.
+  enabled: true
+  messages:
+  - permission: staff.joinmessages.staff
+    message: '&6[Staff] &4%player% &7joined the server'
+    weight: 1
+protect-module:
+  # Whether or not the plugin will use "/protect-player" features.
+  player-enabled: true
+  # Whether or not the plugin will use "/protect-area" features.
+  area-enabled: true
+  # The max area size that can be protected.
+  area-max-size: 40
+alt-detect-module:
+  enabled: false
+  same-ip-required: false
+alerts-module:
+  # Whether or not staff will be notified when a user changes their name.
+  name-notify: true
+  name-notify-console: false
+  name-notify-bungee: ''
+  
+  # Whether or not staff will be notified when they are mentioned.
+  mention-notify: true
+  mention-notify-console: false
+  mention-notify-bungee: ''
+  
+  # Whether or not staff will be notified when the chat module detect phrases.
+  chat-phrase-detection: true
+  chat-phrase-detection-console: false
+  chat-phrase-detection-bungee: ''
+  
+  # Whether or not staff will be notified when the command-detection gets triggered.
+  command-detection: true
+  command-detection-console: false
+  
+  # Whether or not staff will be notified when the command-detection gets triggered.
+  blacklist-detection: true
+  blacklist-detection-console: false
+  blacklist-notify-bungee: ''
+  
+  # The sound that is played to staff when notified.
+  sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  
+  # Notifies staff when a player mines blocks listed in "blocks".
+  xray-alerts:
+    # Whether or not this module is enabled.
+    enabled: true
+    console: false
+    notify-bungee: ''
+    # Block type that, when mined, will invoke an alert.
+    blocks: SPAWNER, EMERALD_ORE, DIAMOND_ORE, GOLD_ORE, IRON_ORE, COAL_ORE, LAPIS_ORE,
+      REDSTONE_ORE
+  
+  alt-detect-notify:
+    enabled: true
+    console: false
+    # Trust levels for which an alert should be triggered
+    # POSITIVE;FAIRLY_POSITIVE;POSSIBLE;NOT_LIKELY
+    trust-levels: FAIRLY_POSITIVE;POSITIVE
+command-detection:
+  enabled: true
+  command-groups:
+  - commands:
+    - op
+    - deop
+    - lp
+    actions: []
+trace-module:
+  enabled: true
+  # List all the events that should be traced separated by ";"
+  # Possible values: PICKUP_ITEM|DROP_ITEM|BLOCK_BREAK|BLOCK_PLACE|COMMANDS|CHAT|WORLD_CHANGE|INVENTORY|DAMAGE
+  # For a more detailed explanation of what each event traces please refer to the wiki
+  trace-events: PICKUP_ITEM;DROP_ITEM;BLOCK_BREAK;BLOCK_PLACE;COMMANDS;CHAT;WORLD_CHANGE;INVENTORY;DAMAGE
+  # The channels determines where the trace will be printed to separated by ";". Multiple channels are possible.
+  # If FILE is used, the trace files will be saved to a 'trace' directory underneath the StaffPlusPlus plugin folder.
+  # Possible values: CHAT|FILE
+  output-channels: CHAT;FILE
+enderchest-module:
+  enabled: true
+investigations-module:
+  enabled: true
+  allow-offline-investigation: false
+  enforce-staff-mode: false
+  max-concurrent-investigations: 1
+  automatic-pause: true
+  notifications:
+    investigated:
+      title-message-enabled: true
+      chat-message-enabled: true
+  start-investigation-commands: []
+  conclude-investigation-commands: []
+  pause-investigation-commands: []
+freeze-module:
+  enabled: true
+  chatchannels:
+    enabled: false
+  chat: false
+  damage: false
+  blindness: false
+  timer: 5
+  sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  prompt: false
+  prompt-title: '&bFrozen'
+  logout-commands: ban %player%
+  title-message-enabled: true
+  chat-message-enabled: true
+  # Commands that are allowed when a player is frozen
+  allowed-commands: []
+  # command hooks for freeze/unfreeze
+  freeze-commands: []
+  unfreeze-commands: []
+staff-locations-module:
+  enabled: true
+  icons: []
+webui-module:
+  enabled: false
+  host: https://web.staffplusplus.org
+  role: MEMBER
+  application-key: EXAMPLE_KEY
+storage:
+  # Type is how it will store either a sqlite or mysql
+  type: sqlite
+  migrations-table-name: migrations
+  mysql:
+    host: localhost
+    user: root
+    database: root
+    password: mypass
+    port: 3306
+    max-pool-size: 5
+    ssl-enabled: false
+config-version: 6205
+clock: 10
+animation-packets: PacketPlayOutBlockBreakAnimation, PacketPlayOutBlockAction
+sound-names: random.chestopen, random.chestclosed
+metrics: true

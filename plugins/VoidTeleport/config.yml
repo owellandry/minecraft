@@ -41,21 +41,21 @@
 #                                                                                                                       #
 #-----------------------------------------------------------------------------------------------------------------------#
 
-prefix: "&8[&#1da7df&lCubySoft&8]"
+prefix: "&8&l[&3&lVoidTeleport&8&l]"
 
 help:
   - "&8&l&m---------------------------------------------"
   - "&3&l                  VoidTeleport v%version"
   - "&8&l&m---------------------------------------------"
-  - "&a/vt list &7- Lista de mundos donde VoidTeleport está habilitado"
-  - "&a/vt toggle [world] &7- Activar/Desactivar VoidTeleport en ese mundo"
+  - "&a/vt list &7- List of worlds where VoidTeleport is enabled"
+  - "&a/vt toggle [world] &7- Toggle VoidTeleport in that world"
   - ""
   - "&a/vt setspawn [world]"
   - "&a/vt offset <world> <y>"
   - "&a/vt keepinventory <world> <true/false>"
   - "&a/vt nether [world] [true/false]"
   - ""
-  - "&a/vt reload &7- Recargar los archivos de configuración"
+  - "&a/vt reload &7- Reload the configuration files"
   - "&8&l&m---------------------------------------------"
 
 list:
@@ -63,51 +63,51 @@ list:
     - "&8&l&m------------------------------------"
     - "&3&l             VoidTeleport"
     - "&8&l&m------------------------------------"
-  body: "&aMundos habilitados: "
+  body: "&aEnabled worlds: "
   footer:
     - "&8&l&m------------------------------------"
 
 usage:
-  toggle: "&8[&#1da7df&lCubySoft&8] &7Usa &c/vt toggle [world]"
-  offset: "&8[&#1da7df&lCubySoft&8] &7Usa &c/vt offset <world> <y>"
-  setspawn: "&8[&#1da7df&lCubySoft&8] &7Usa &c/vt setspawn [world]"
-  keepinventory: "&8[&#1da7df&lCubySoft&8] &7Usa &c/vt keepinventory <world> <true/false>"
-  nether: "&8[&#1da7df&lCubySoft&8] &7Usa &c/vt nether <world> <true/false>"
+  toggle: "%prefix &7Use &c/vt toggle [world]"
+  offset: "%prefix &7Use &c/vt offset <world> <y>"
+  setspawn: "%prefix &7Use &c/vt setspawn [world]"
+  keepinventory: "%prefix &7Use &c/vt keepinventory <world> <true/false>"
+  nether: "%prefix &7Use &c/vt nether <world> <true/false>"
 
-player-teleported: "&8[&#1da7df&lCubySoft&8] &7Ten cuidado, no te vuelvas a caer!"
+player-teleported: "%prefix &7You have been successfully teleported!"
 
-nether-message: "&8[&#1da7df&lCubySoft&8] &c¡No puedes ir por encima del techo del Nether!"
+nether-message: "%prefix &cYou can't go over the nether roof!"
 
-empty-list: "&8[&#1da7df&lCubySoft&8] &7No se encontraron condiciones establecidas. Usa /vt setspawn <worldName> para comenzar a configurar."
+empty-list: "%prefix &7Coudn't find any set condition. Use /vt setspawn <worldName> to start setting!"
 
-world-spawnpoint-notset: "&8[&#1da7df&lCubySoft&8] &cAntes de activar VoidTeleport, debes establecer el punto de aparición en ese mundo."
+world-spawnpoint-notset: "%prefix &cBefore toggling VoidTeleport, you need to set the spawn point in that world."
 
-offset-set: "&8[&#1da7df&lCubySoft&8] &7Has establecido el offset de teletransportación a %offset para el mundo %world"
+offset-set: "%prefix &7You have set the teleportation offset to %offset for the %world world"
 
-setspawn-success: "&8[&#1da7df&lCubySoft&8] &7El punto de aparición se ha establecido correctamente."
+setspawn-success: "%prefix &7The spawnpoint has been set &asuccessfully&7."
 
-keepinventory-success: "&8[&#1da7df&lCubySoft&8] &7KeepInventory se ha establecido &acorrectamente&7."
+keepinventory-success: "%prefix &7KeepInventory has been set &asuccessfully&7."
 
-nether-world: "&8[&#1da7df&lCubySoft&8] &7No puedes cambiar esta configuración en un mundo del Nether"
+nether-world: "%prefix &7You cannot change this setting of a nether world"
 
-nether-success: "&8[&#1da7df&lCubySoft&8] &7Nether se ha establecido &acorrectamente&7."
+nether-success: "%prefix &7Nether has been set &asuccessfully&7."
 
-nether-unsuccess: "&8[&#1da7df&lCubySoft&8] &cEl mundo %world no es un mundo del Nether"
+nether-unsuccess: "%prefix &cThe %world world is not a nether world"
 
-nether-already-disabled: "&8[&#1da7df&lCubySoft&8] &cNether ya está desactivado."
+nether-already-disabled: "%prefix &cNether is already disabled."
 
-reload-success: "&8[&#1da7df&lCubySoft&8] &7¡La configuración ha sido recargada!"
+reload-success: "%prefix &7The config has been reloaded!"
 
-voidteleport-enabled: "&8[&#1da7df&lCubySoft&8] &7Has habilitado VoidTeleport en el mundo %world"
+voidteleport-enabled: "%prefix &7You have enabled VoidTeleport in the world %world"
 
-voidteleport-disabled: "&8[&#1da7df&lCubySoft&8] &7Has deshabilitado VoidTeleport en el mundo %world"
+voidteleport-disabled: "%prefix &7You have disabled VoidTeleport in the world %world"
 
-only-player: "&8[&#1da7df&lCubySoft&8] &cEste comando solo puede ser ejecutado por jugadores."
+only-player: "%prefix &cThis command can be executed only by players."
 
-no-permission: "&8[&#1da7df&lCubySoft&8] &cNo tienes suficientes permisos para hacer eso."
+no-permission: "%prefix &cYou don't have enough permission to do that."
 
-spawnpoint-notset: "&8[&#1da7df&lCubySoft&8] &cPrimero establece el punto de aparición en ese mundo /vt setspawn <worldname>."
+spawnpoint-notset: "%prefix &cJust set the spawn point in that world /vt setspawn <worldname>."
 
-world-not-enabled: "&8[&#1da7df&lCubySoft&8] &c¡El mundo %world no está habilitado! Escribe el comando '/vt setspawn/toggle %world' para comenzar a configurarlo."
+world-not-enabled: "%prefix &cThe world %world isn't enabled! Type the command '/vt setspawn/toggle %world' to start setting up."
 
-world-not-exists: "&8[&#1da7df&lCubySoft&8] &cEl mundo no existe. ¡Compruébalo!"
+world-not-exists: "%prefix &cWorld not exists. Check it!"
