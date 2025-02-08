@@ -46,13 +46,13 @@ if ! grep -q "alias /minecraft=" "$SHELL_CONFIG"; then
     cat <<EOF >> "$SHELL_CONFIG"
 
 # Alias para adjuntar la sesión de Minecraft
-alias /minecraft="tmux attach-session -t minecraft_session"
+alias minecraft="tmux attach-session -t minecraft_session"
 
 # Alias para adjuntar la sesión de Playit
-alias /playit="tmux attach-session -t playit_session"
+alias playit="tmux attach-session -t playit_session"
 
 # Alias para ver las sesiones activas
-alias /tmux-list="tmux list-sessions"
+alias tmux-list="tmux list-sessions"
 EOF
     echo "Alias añadidos correctamente."
 fi

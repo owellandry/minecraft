@@ -32,11 +32,14 @@
 Default:
   Description:
   - |-
-                &e&l&#FF1DFE&lB&#F227FE&li&#E630FE&le&#D93AFE&ln&#CC44FE&lv&#BF4EFE&le&#B357FE&ln&#A661FE&li&#996BFE&ld&#8C74FE&lo &#7388FF&la &#599BFF&lC&#4DA5FF&lu&#40AFFF&lb&#33B8FF&ly&#26C2FF&lS&#1ACCFF&lo&#0DD5FF&lf&#00DFFF&lt&r
-                  &4 &f&n[ 1.8 &7&n- &a&n1.21+ &3&n]
-  # - |-
-  #                     &#FCD05C&l&nC&#F8C05C&l&nu&#F5B05D&l&nb&#F1A05D&l&ny&#ED8F5E&l&ns&#E97F5E&l&no&#E66F5F&l&nf&#E25F5F&l&nt&r
-  #     &#00FFE0&l&n≪&#06F9E1&l&nU&#0CF2E2&l&nn&#12ECE2&l&ne&#18E6E3&l&nt&#1DDFE4&l&ne &#29D2E5&l&na &#35C6E7&l&nn&#3BBFE8&l&nu&#41B9E9&l&ne&#47B3E9&l&ns&#4CACEA&l&nt&#52A6EB&l&nr&#589FEC&l&no &#6493ED&l&nd&#6A8CEE&l&ni&#7086EF&l&ns&#7680F0&l&nc&#7B79F0&l&no&#8173F1&l&nr&#876CF2&l&nd &#9360F3&l&ny &#9F53F5&l&ng&#A54DF6&l&na&#AA46F6&l&nn&#B040F7&l&na &#BC33F9&l&np&#C22DFA&l&nr&#C826FA&l&ne&#CE20FB&l&nm&#D41AFC&l&ni&#D913FD&l&no&#DF0DFD&l&ns&#E506FE&l&n!&#EB00FF&l&n≫
+    &aA Minecraft Server.
+    &7Now with [&a&lPvP&7], [&a&lMinigames&7], and much more!
+  - |-
+    &aA Minecraft Server.
+    &eNow running the latest &lMinecraft &eversion!
+  - |-
+    &a&#45bf55A Minecraft &#0288d1Server.
+    &e%gradient#ffbe00#f4511e%Now with RGB colors. Nice!%gradient%
   Players:
     Hover:
     - |-
@@ -45,14 +48,14 @@ Default:
 Personalized:
   Description:
   - |-
-            &3 &k⋰ &#00FFE0&l&nH&#14EAE3&l&no&#27D5E5&l&nl&#3BBFE8&l&na &#6295ED&l&nd&#7680F0&l&ne &#9D55F5&l&nn&#B040F7&l&nu&#C42BFA&l&ne&#D715FC&l&nv&#EB00FF&l&no %player% &3 &k⋰⋰&r
-             &#00FFE0&l&nN&#09F5E1&l&no&#13EBE2&l&ns &#26D6E5&l&na&#2FCCE6&l&nl&#38C2E7&l&ne&#42B8E9&l&ng&#4BADEA&l&nr&#55A3EB&l&na &#678FEE&l&nv&#7185EF&l&ne&#7A7AF0&l&nr&#8470F1&l&nt&#8D66F3&l&ne &#A052F5&l&nd&#A947F6&l&ne &#BC33F9&l&nn&#C529FA&l&nu&#CF1FFB&l&ne&#D814FD&l&nv&#E20AFE&l&no&#EB00FF&l&n!
-  # - |-
-  #   &aA Minecraft Server. &7|  &eHello, &l%player%!
-  #   &eNow running the latest &lMinecraft &eversion!
-  # - |-
-  #   &a&#45bf55A Minecraft &#0288d1Server.
-  #   &e%gradient#ffbe00#f4511e%Now with RGB colors. Hello %player%!%gradient%
+    &aA Minecraft Server. &7|  &eHello, &l%player%!
+    &7Now with [&a&lPvP&7], [&a&lMinigames&7], and much more!
+  - |-
+    &aA Minecraft Server. &7|  &eHello, &l%player%!
+    &eNow running the latest &lMinecraft &eversion!
+  - |-
+    &a&#45bf55A Minecraft &#0288d1Server.
+    &e%gradient#ffbe00#f4511e%Now with RGB colors. Hello %player%!%gradient%
   Players:
     Hover:
     - |-
@@ -85,10 +88,11 @@ Unknown:
   BanOperator: somebody
   BanExpirationDate: never
 Favicon:
-  Timeout: 10s
-  RecursiveFolderSearch: false
-  ResizeStrategy: SCALE
-
+  # Timeout: 10s
+  # RecursiveFolderSearch: true
+  # ResizeStrategy: SCALE
+  Folder: 
+    - images
 # This section is only for the Bukkit plugin of ServerListPlus.
 # ProtocolLib: (DISABLE|AUTO|ENABLE) Decides if ProtocolLib should be used by ServerListPlus.
 #   Generally, AUTO (the default) is a good choice: ProtocolLib is used on Spigot for
