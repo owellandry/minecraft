@@ -1,0 +1,27 @@
+menu-settings:
+  name: '&9Cofre Sorpresa'
+  rows: 3
+  commands:
+    - 'cofresorpresa'
+  open-actions:
+    - 'tell: &a¡Bienvenido al Cofre Sorpresa!'
+
+cofre-sorpresa:
+  MATERIAL: CHEST
+  POSITION-X: 5
+  POSITION-Y: 2
+  NAME: '&9&lCofre Sorpresa'
+  LORE:
+    - '&7¡Haz clic para abrir el cofre!'
+    - '&7Puedes obtener:'
+    - '&a- Bloque de Tierra (20%)'
+    - '&a- Bloque de Oro (15%)'
+    - '&a- Bloque de Diamante (10%)'
+    - '&a- Bloque de Esmeralda (10%)'
+    - '&a- Bloque de Hierro (15%)'
+    - '&a- Bloque de Carbón (15%)'
+    - '&a- Bloque de Lapislázuli (15%)'
+  ACTIONS:
+  - 'tell: &aAbriendo cofre...'
+  - 'si give '
+  - 'tell: &a¡Has recibido tu premio!'

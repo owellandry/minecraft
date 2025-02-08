@@ -7,111 +7,111 @@
 # |                                |_| |_\____/\___/ \__, |_|_| |_|                              | #
 # |                                                    |___/                                     | #
 # |                                                                                              | #
-# |                      A practical, secure and friendly authentication plugin                  | #
+# |                      Un plugin de autenticación práctico, seguro y amigable                 | #
 # |                                                                                              | #
-# |                                © 2025 - Powered by nickuc.com                                | #
+# |                                © 2025 - Desarrollado por nickuc.com                          | #
 # |                                                                                              | #
 # |                                                                                              | #
-# |  New options are not automatically added in this file. Default values are used               | #
-# |  if an option is not found.                                                                  | #
+# |  Las nuevas opciones no se añaden automáticamente. Se usarán valores por defecto            | #
+# |  si una opción no se encuentra.                                                              | #
 # +----------------------------------------------------------------------------------------------+ #
 ####################################################################################################
 
 pending:
-  login: '&8[&#1da7df&lCubySoft&8] &#8addffUtilice el comando &#eeeeee/login <contraseña>&#8addff.'
-  register: '&8[&#1da7df&lCubySoft&8] &#8addffUtilice el comando &#eeeeee/register <contraseña> <contraseña>&e.'
+  login: '&8[&#1da7df&lCubySoft&8] &#8addffUsa el comando &#eeeeee/login <contraseña>&#8addff.'
+  register: '&8[&#1da7df&lCubySoft&8] &#8addffUsa el comando &#eeeeee/register <contraseña> <contraseña>&e.'
   action-bar:
-    singular: '&8[&#1da7df&lCubySoft&8] Tiene {0} segundo para {iniciar sesión///registrarte}.'
-    plural: '&8[&#1da7df&lCubySoft&8] Tiene {0} segundos para {iniciar sesión///registrarte}.'
+    singular: '&8[&#1da7df&lCubySoft&8] Tienes {0} segundo para {iniciar sesión///registrarte}.'
+    plural: '&8[&#1da7df&lCubySoft&8] Tienes {0} segundos para {iniciar sesión///registrarte}.'
 success:
-  login: '&8[&#1da7df&lCubySoft&8] &#8addffTe has logueado con éxito.'
-  register: '&8[&#1da7df&lCubySoft&8] &#8addffTe has registrado con éxito.'
-  session: '&8[&#1da7df&lCubySoft&8] &aSu sesión de inicio de sesión ha sido resumida.'
-  premium: '&8[&#1da7df&lCubySoft&8] &#8addffUsted inicia sesión automáticamente ya que está utilizando una cuenta original.'
-  bedrock: '&8[&#1da7df&lCubySoft&8] &aUsted se conecta automáticamente, ya que está accediendo desde una cuenta de Bedrock.'
-  change-password: '&8[&#1da7df&lCubySoft&8] &#8addffSu contraseña ha cambiado con éxito.'
-  reload: '&8[&#1da7df&lCubySoft&8] &#8addffEl plugin se ha recargado con exito'
+  login: '&8[&#1da7df&lCubySoft&8] &#8addffHas iniciado sesión correctamente.'
+  register: '&8[&#1da7df&lCubySoft&8] &#8addffTe has registrado exitosamente.'
+  session: '&8[&#1da7df&lCubySoft&8] &aTu sesión ha sido reanudada.'
+  premium: '&8[&#1da7df&lCubySoft&8] &#8addffHas iniciado sesión automáticamente con tu cuenta premium.'
+  bedrock: '&8[&#1da7df&lCubySoft&8] &aConexión automática exitosa desde una cuenta Bedrock.'
+  change-password: '&8[&#1da7df&lCubySoft&8] &#8addffContraseña cambiada exitosamente.'
+  reload: '&8[&#1da7df&lCubySoft&8] &#8addffEl plugin se ha recargado correctamente'
   kick:
-    unregister: '&#8addffTe desregistraste con éxito.'
-    marked-offline: '&7Your account has been marked as &6offline&7. Please rejoin.'
-    challenge-premium: '&7Para confirmar que estás utilizando una &acuenta premium&7, por favor, vuelve a conectarte.'
+    unregister: '&#8addffDesregistro exitoso.'
+    marked-offline: '&7Tu cuenta ha sido marcada como &6offline&7. Vuelve a conectarte.'
+    challenge-premium: '&7Para confirmar que usas una &acuenta premium&7, reconéctate.'
 error:
-  not-registered: '&8[&#1da7df&lCubySoft&8] Este apodo aún no se ha registrado.'
-  offline: '&8[&#1da7df&lCubySoft&8] El reproductor deseado está desconectado.'
-  address-limit: '&8[&#1da7df&lCubySoft&8] Has agotado los límites de la cuenta por IP.'
-  database: '&8[&#1da7df&lCubySoft&8] Lo sentimos, no pudimos completar esta operación. Inténtalo de nuevo. [SQL FAIL]'
+  not-registered: '&8[&#1da7df&lCubySoft&8] Este jugador no está registrado.'
+  offline: '&8[&#1da7df&lCubySoft&8] El jugador objetivo está desconectado.'
+  address-limit: '&8[&#1da7df&lCubySoft&8] Límite de cuentas por IP excedido.'
+  database: '&8[&#1da7df&lCubySoft&8] Error en la operación. Intenta nuevamente. [FALLO SQL]'
   command:
-    usage: '&8[&#1da7df&lCubySoft&8] Usted debe usar {0}.'
-    no-permission: '&8[&#1da7df&lCubySoft&8] No tiene permiso para ejecutar este comando.'
-    player-required: '&8[&#1da7df&lCubySoft&8] Este comando se ha inhabilitado a través de la consola.'
-    console-required: '&8[&#1da7df&lCubySoft&8] Este comando solo se puede utilizar a través de la consola.'
+    usage: '&8[&#1da7df&lCubySoft&8] Uso correcto: {0}.'
+    no-permission: '&8[&#1da7df&lCubySoft&8] Sin permisos para este comando.'
+    player-required: '&8[&#1da7df&lCubySoft&8] Este comando solo es para jugadores.'
+    console-required: '&8[&#1da7df&lCubySoft&8] Este comando es solo para consola.'
     arguments:
       password: contraseña
       current-password: contraseña actual
       new-password: nueva contraseña
   already:
-    login: '&8[&#1da7df&lCubySoft&8] Ya se ha autentificado.'
-    login-other: '&8[&#1da7df&lCubySoft&8] Este jugador ya ha iniciado sesión.'
-    registered: '&8[&#1da7df&lCubySoft&8] Este apodo ya ha sido registrado.'
-    premium: '&8[&#1da7df&lCubySoft&8] Tu cuenta ya está marcada como premium.'
+    login: '&8[&#1da7df&lCubySoft&8] Ya has iniciado sesión.'
+    login-other: '&8[&#1da7df&lCubySoft&8] Este jugador ya tiene sesión activa.'
+    registered: '&8[&#1da7df&lCubySoft&8] Nombre de usuario ya registrado.'
+    premium: '&8[&#1da7df&lCubySoft&8] Tu cuenta ya es premium.'
   password:
-    same-as-current: '&8[&#1da7df&lCubySoft&8] La contraseña introducida es la misma que la actual.'
-    too-large: '&8[&#1da7df&lCubySoft&8] La contraseña introducida es muy grande.'
-    too-small: '&8[&#1da7df&lCubySoft&8] La contraseña introducida es muy pequeña.'
-    not-secure: '&8[&#1da7df&lCubySoft&8] La contraseña proporcionada no cumple los requisitos de seguridad. Por favor, incluya un número, letras mayúsculas y minúsculas y un símbolo especial.'
-    do-not-match: '&8[&#1da7df&lCubySoft&8] Las contraseñas no son las mismas.'
-    require-confirmation: '&8[&#1da7df&lCubySoft&8] Debe confirmar su contraseña.'
-    incorrect: '&8[&#1da7df&lCubySoft&8] Contraseña incorrecta. Por favor, inténtelo de nuevo.'
+    same-as-current: '&8[&#1da7df&lCubySoft&8] La nueva contraseña es igual a la actual.'
+    too-large: '&8[&#1da7df&lCubySoft&8] Contraseña demasiado larga.'
+    too-small: '&8[&#1da7df&lCubySoft&8] Contraseña demasiado corta.'
+    not-secure: '&8[&#1da7df&lCubySoft&8] La contraseña debe contener números, mayúsculas, minúsculas y símbolos.'
+    do-not-match: '&8[&#1da7df&lCubySoft&8] Las contraseñas no coinciden.'
+    require-confirmation: '&8[&#1da7df&lCubySoft&8] Debes confirmar tu contraseña.'
+    incorrect: '&8[&#1da7df&lCubySoft&8] Contraseña incorrecta. Intenta de nuevo.'
   kick:
-    incorrect-password: '&8[&#1da7df&lCubySoft&8] La contraseña ingresada es incorrecta.'
+    incorrect-password: '&8[&#1da7df&lCubySoft&8] Contraseña incorrecta.'
     wait-server-start: |-
-      &8[&#1da7df&lCubySoft&8] El servidor aún no se ha iniciado por completo.&r
-      &r&8[&#1da7df&lCubySoft&8] Espere un momento para conectarse.
+      &8[&#1da7df&lCubySoft&8] El servidor no ha terminado de iniciar.&r
+      &r&8[&#1da7df&lCubySoft&8] Espera unos momentos.
     account-blocked: |-
-      &8[&#1da7df&lCubySoft&8] Su dirección IP ha sido bloqueada por presunta invasión.&r
-      &r&8[&#1da7df&lCubySoft&8] Tiempo de destierro restante: {0}
-    invalid-nickname: '&8[&#1da7df&lCubySoft&8] Tu apodo no es válido.'
-    bedrock-nickname: '&8[&#1da7df&lCubySoft&8] El apodo elegido &f("{0}") &8[&#1da7df&lCubySoft&8] está restringido a los jugadores de Bedrock.'
+      &8[&#1da7df&lCubySoft&8] Tu IP ha sido bloqueada por actividad sospechosa.&r
+      &r&8[&#1da7df&lCubySoft&8] Tiempo restante: {0}
+    invalid-nickname: '&8[&#1da7df&lCubySoft&8] Nombre de usuario inválido.'
+    bedrock-nickname: '&8[&#1da7df&lCubySoft&8] El nombre &f("{0}") &8[&#1da7df&lCubySoft&8] es exclusivo para Bedrock.'
     transferred-nickname: |-
-      &8[&#1da7df&lCubySoft&8] El apodo elegido &f("{0}") &8[&#1da7df&lCubySoft&8] ha sido reservado y transferido a una cuenta que utiliza el mismo UUID
+      &8[&#1da7df&lCubySoft&8] El nombre &f("{0}") &8[&#1da7df&lCubySoft&8] está reservado para otro UUID
 
-      &ePara iniciar sesión, utilice otro apodo.
-    already-online: '&8[&#1da7df&lCubySoft&8] Este reproductor ya está en línea.'
+      &eUsa otro nombre para iniciar sesión.
+    already-online: '&8[&#1da7df&lCubySoft&8] Este jugador ya está conectado.'
     unknown-hostname: |-
-      &4[nLogin] El nombre de host que se está utilizando &f({0}) &4no se ha definido en la configuración.
+      &4[nLogin] Nombre de host no reconocido &f({0}) &4
       &r
-      &r&8[&#1da7df&lCubySoft&8] Si se trata de una IP válida, por favor, añádela a la categoría más apropiada en la sección de configuración &f"premium.username-appender"&8[&#1da7df&lCubySoft&8] .
+      &r&8[&#1da7df&lCubySoft&8] Si es una IP válida, añádela en &f"premium.username-appender"
       &r
-      &r&ePara más información, consulta el tutorial de username appender:
+      &r&eGuía de configuración:
       &r&bhttps://docs.nickuc.com/nlogin/username-appender
-    premium-not-logged: '&8[&#1da7df&lCubySoft&8] You are not logged into your account. Try to restart your Minecraft client.'
-    premium-challenge: '&8[&#1da7df&lCubySoft&8] You failed the premium challenge. Please rejoin the server.'
+    premium-not-logged: '&8[&#1da7df&lCubySoft&8] No has iniciado sesión en tu cuenta premium. Reinicia tu cliente.'
+    premium-challenge: '&8[&#1da7df&lCubySoft&8] Fallaste la verificación premium. Reconéctate.'
     timeout:
-      login: '&8[&#1da7df&lCubySoft&8] Te has tardado mucho en iniciar sesión.'
-      register: '&8[&#1da7df&lCubySoft&8] Te has tardado mucho en registrarte.'
+      login: '&8[&#1da7df&lCubySoft&8] Tiempo de inicio de sesión agotado.'
+      register: '&8[&#1da7df&lCubySoft&8] Tiempo de registro agotado.'
 notification:
   all-viewed: '&aTodas las notificaciones han sido vistas.'
   premium-question:
   - ''
-  - ' &e¿Estás utilizando una cuenta premium?'
-  - ' &7(después de aceptar, tendrá que volver a ingresar).'
+  - ' &e¿Tienes una cuenta premium?'
+  - ' &7(Al aceptar, deberás reconectarte)'
   - ''
   select-language:
   - ''
-  - ' &7Hemos detectado que está utilizando el idioma &f{0}&7.'
+  - ' &7Idioma detectado: &f{0}&7.'
   - ''
-  - ' &e¿Desea cambiar el idioma de nLogin?'
+  - ' &e¿Quieres cambiar el idioma de nLogin?'
   - ''
   password-update:
   - ''
-  - ' &eEs necesario restablecer su contraseña.'
+  - ' &eDebes actualizar tu contraseña'
   - ''
-  - ' &7Por favor, cambie su contraseña con el siguiente comando:'
-  - ' &f/changepass <contraseña actual> <nueva contraseña>'
+  - ' &7Usa este comando:'
+  - ' &f/changepass <actual> <nueva>'
   - ''
   button:
     confirm-read:
-      text: '&a[Confirmar lectura]'
+      text: '&a[Confirmar]'
       hover: null
     yes-btn:
       text: '&a[Sí]'
@@ -120,308 +120,305 @@ notification:
       text: '&8[&#1da7df&lCubySoft&8] [No]'
       hover: null
 2fa:
-  not-registered: '&8[&#1da7df&lCubySoft&8] You do not have a {0} account.'
-  already-registered: '&8[&#1da7df&lCubySoft&8] You have already registered your {0}.'
-  register-limit: '&8[&#1da7df&lCubySoft&8] You have exhausted the limits of accounts with the same {0}.'
-  unregistered: '&eYour {0} was successfully disassociated'
-  incorrect-code: '&8[&#1da7df&lCubySoft&8] La contraseña introducida es incorrecta. Vuelve a intentarlo.'
-  rate-limit: '&8[&#1da7df&lCubySoft&8] Limit exceeded. Please wait {0} minutes to try again.'
-  confirmed-account: '&aYour {0} account has been successfully registered'
+  not-registered: '&8[&#1da7df&lCubySoft&8] No tienes una cuenta {0}.'
+  already-registered: '&8[&#1da7df&lCubySoft&8] Ya registraste tu {0}.'
+  register-limit: '&8[&#1da7df&lCubySoft&8] Límite de cuentas {0} alcanzado.'
+  unregistered: '&eTu {0} ha sido desvinculada'
+  incorrect-code: '&8[&#1da7df&lCubySoft&8] Código incorrecto. Intenta de nuevo.'
+  rate-limit: '&8[&#1da7df&lCubySoft&8] Espera {0} minutos para reintentar.'
+  confirmed-account: '&aCuenta {0} vinculada exitosamente'
   confirmation-message-sent: |-
-    &7A confirmation code was sent to your &6{0}&7.
+    &7Código de confirmación enviado a tu &6{0}&7.
     &8(&f{1}&8).
-  command-delay: '&8[&#1da7df&lCubySoft&8] Wait a while before executing this command again.'
+  command-delay: '&8[&#1da7df&lCubySoft&8] Espera antes de usar este comando nuevamente.'
   help-command:
   - ''
-  - ' &fStatus: [&a{2} registered//&8[&#1da7df&lCubySoft&8] {2} not registered]&f.'
+  - ' &fEstado: [&a{2} registrada//&8[&#1da7df&lCubySoft&8] {2} no registrada]&f.'
   - ''
-  - ' [&8⋆ &7/{0} add: &fRegister your {1}.]'
-  - ' [&8⋆ &7/{0} remove: &fRemove your {1}.]'
-  - ' [&8⋆ &7/{0} recover: &fRecover your account.]'
-  - ' [&8⋆ &7/{0} 2fa: &fEnables/disables the two-factor.]'
+  - ' [&8⋆ &7/{0} add: &fVincula tu {1}]'
+  - ' [&8⋆ &7/{0} remove: &fElimina tu {1}]'
+  - ' [&8⋆ &7/{0} recover: &fRecupera tu cuenta]'
+  - ' [&8⋆ &7/{0} 2fa: &fActiva/desactiva 2 factores]'
   - ''
   recover-command:
   - ''
-  - ' &eChoose a recovery method:'
+  - ' &eElige un método de recuperación:'
   - ' [&8⋆ &7{0}: &f/{1} recover]'
   - ''
   switch:
-    enabled: '&aThe two-factor feature has been activated.'
-    disabled: '&8[&#1da7df&lCubySoft&8] The two-factor feature has been deactivated.'
+    enabled: '&aAutenticación de dos factores activada.'
+    disabled: '&8[&#1da7df&lCubySoft&8] Autenticación de dos factores desactivada.'
   recover:
-    not-equal: '&8[&#1da7df&lCubySoft&8] The {0} provided is not the same as the registered one.'
-    message-sent: '&aA recovery message was sent to your associated account.'
-    change-password: '&aYour password was automatically changed to &f''{0}''&a.'
+    not-equal: '&8[&#1da7df&lCubySoft&8] El {0} no coincide.'
+    message-sent: '&aMensaje de recuperación enviado a tu cuenta.'
+    change-password: '&aTu nueva contraseña es: &f''{0}''&a.'
   discord:
     account-linked: |-
-      &aConfiguration in Discord successfully updated.
-      &aYou have been linked with &f{0} &aaccount.
+      &aConfiguración de Discord actualizada.
+      &aVinculado con &f{0}&a.
     confirm-account:
     - ''
-    - ' &7To complete the linking, you need to confirm your Discord account.'
-    - ' &7Join to &b{0} &7and type '
-    - ' &7the command in the DM of the &f{1} &7bot.'
+    - ' &7Confirma tu cuenta Discord:'
+    - ' &7Únete a &b{0} &7y escribe'
+    - ' &7el comando en MD del bot &f{1}&7.'
     - ''
-    - ' [&aClick here to get the command with the token.]'
+    - ' [&aHaz clic para obtener el comando]'
     - ''
     warn-message:
     - ''
-    - ' &7Perform the command &f/discord add &7to register'
-    - ' &7your &8[&#1da7df&lCubySoft&8] discord&7. By doing so, you'
-    - ' &7decrease the chance of being hacked.'
+    - ' &7Usa &f/discord add &7para registrar'
+    - ' &7tu cuenta Discord y mejorar la seguridad.'
     - ''
     discord-required:
     - ''
-    - ' &7The current server requires you to link a'
-    - ' &aDiscord account &7to complete registration.'
+    - ' &7Debes vincular una cuenta'
+    - ' &aDiscord &7para jugar.'
     - ''
-    - ' &6Please run &f/discord add&6.'
+    - ' &6Ejecuta &f/discord add&6.'
     - ''
     address-changed:
     - ''
-    - ' &7You need to confirm your account login.'
-    - ' &7A security message has been sent to your registered Discord.'
+    - ' &7Confirma tu identidad.'
+    - ' &7Se envió un mensaje a tu Discord.'
     - ''
-    - ' &aClick the message button to confirm your identity.'
+    - ' &aHaz clic en el mensaje para confirmar.'
     - ''
     dm:
       configure:
         too-recent:
-          title: Too recent account
-          description: You can't link your Discord because your account was created too recently.
+          title: Cuenta muy nueva
+          description: No puedes vincular Discord con una cuenta reciente.
           image: https://www.nickuc.com/static/assets/img/2fa-lock-default.png
           color: '#808080'
         invalid:
-          title: Invalid code
-          description: Sorry, but the token you entered is invalid or does not exist.
+          title: Código inválido
+          description: El token ingresado es inválido o ha expirado.
           image: https://www.nickuc.com/static/assets/img/2fa-lock-default.png
           color: '#808080'
         success:
-          title: Discord linked
-          description: Your Discord has been linked successfully.
+          title: Discord vinculado
+          description: Vinculación exitosa con Discord.
           image: https://www.nickuc.com/static/assets/img/2fa-lock-default.png
           color: '#808080'
       verify:
-        title: Confirm your account authentication.
+        title: Confirma tu autenticación
         description: |-
-          Authentication confirmation is required to access your @player account.
-
-          If it wasn't you, deny the operation and change your password immediately.
+          Se requiere confirmación para acceder a @player.
+          
+          Si no fuiste tú, rechaza y cambia tu contraseña.
         image: https://www.nickuc.com/static/assets/img/2fa-lock-default.png
         color: '#808080'
-        allow: Allow
-        deny: Deny
+        allow: Permitir
+        deny: Denegar
       recover:
-        title: Password recovery requested.
+        title: Solicitud de recuperación
         description: |-
-          A password recovery request has been requested from your @player account.
-
-          If it wasn't you, deny the operation and change your password immediately.
+          Solicitud de recuperación para @player.
+          
+          Si no fuiste tú, rechaza y cambia tu contraseña.
         image: https://www.nickuc.com/static/assets/img/2fa-lock-default.png
         color: '#808080'
-        allow: Allow
-        deny: Deny
+        allow: Permitir
+        deny: Denegar
       new-password:
-        title: New password for @player
+        title: Nueva contraseña para @player
         description: |-
-          A new password has been generated for your account:
+          Nueva contraseña generada:
           `{0}`
         image: https://www.nickuc.com/static/assets/img/2fa-lock-default.png
         color: '#808080'
       password-changed:
-        title: Password changed for @player
+        title: Contraseña actualizada
         description: |-
-          Your password has been changed to:
+          Tu nueva contraseña es:
           `{0}`
         image: https://www.nickuc.com/static/assets/img/2fa-lock-default.png
         color: '#808080'
   email:
-    invalid-email: '&8[&#1da7df&lCubySoft&8] The entered email is invalid.'
-    not-allowed: '&8[&#1da7df&lCubySoft&8] The domain of the chosen email is not allowed.'
-    server-email: '&8[&#1da7df&lCubySoft&8] You cannot use the server''s email.'
+    invalid-email: '&8[&#1da7df&lCubySoft&8] Email inválido.'
+    not-allowed: '&8[&#1da7df&lCubySoft&8] Dominio de email no permitido.'
+    server-email: '&8[&#1da7df&lCubySoft&8] No puedes usar el email del servidor.'
     warn-message:
     - ''
-    - ' &7Perform the command &f/email associate &7to register'
-    - ' &7your &9email&7. By doing so, you'
-    - ' &7decrease the chance of being hacked.'
+    - ' &7Usa &f/email associate &7para'
+    - ' &7vincular tu email y mejorar seguridad.'
     - ''
     email-required:
     - ''
-    - ' &7The current server requires you to link a'
-    - ' &avalid email &7to complete registration.'
+    - ' &7Debes vincular un'
+    - ' &aemail válido &7para jugar.'
     - ''
-    - ' &6Please run &f/email add <your email>&6.'
+    - ' &6Usa &f/email add <tu email>&6.'
     - ''
     address-changed:
     - ''
-    - ' &7You need to confirm your account login.'
-    - ' &7A security message has been sent to your registered email.'
+    - ' &7Confirma tu identidad.'
+    - ' &7Código enviado a tu email.'
     - ''
-    - ' &aUse the command §f/email <code> §ato complete the authentication.'
+    - ' &aUsa &f/email <código> &apara confirmar.'
     - ''
     stmp:
       configure:
-        subject: Confirmation of the account @player
+        subject: Confirmación para @player
         content:
         - <h1>
-        - ' Hello, @player!'
+        - ' Hola, @player!'
         - </h1>
         - <p>
-        - ' To complete your email registration process, use the command <strong>"/email @code"</strong>.'
+        - ' Usa &f"/email @code" &7para completar el registro.'
         - </p>
         - <p>
-        - ' If it wasn''t you, ignore this message.'
+        - ' Si no fuiste tú, ignora este mensaje.'
         - </p>
       verify:
-        subject: Login confirmation of the account @player
+        subject: Confirmación de inicio de sesión
         content:
         - <h1>
-        - ' Hello, @player!'
+        - ' Hola, @player!'
         - </h1>
         - <p>
-        - ' To authenticate on the server, use the command <strong>"/email @code"</strong>.'
+        - ' Usa &f"/email @code" &7para autenticarte.'
         - </p>
         - <p>
-        - ' If it was not you, change your password <strong>IMMEDIATELY</strong>.'
+        - ' ¡Cambia tu contraseña si no fuiste tú!'
         - </p>
       recover:
-        subject: Recovering the account @player
+        subject: Recuperación de cuenta
         content:
         - <h1>
-        - ' Hello, @player!'
+        - ' Hola, @player!'
         - </h1>
         - <p>
-        - ' To recover your account, use the command <strong>"/email <new password> @code"</strong>.'
+        - ' Usa &f"/email <nueva contraseña> @code" &7para recuperar.'
         - </p>
         - <p>
-        - ' If it wasn''t you, disregard this message.'
+        - ' Ignora este mensaje si no lo solicitaste.'
         - </p>
       new-password:
-        subject: New password for @player
+        subject: Nueva contraseña
         content:
         - <h1>
-        - ' Hi, @player!'
+        - ' Hola, @player!'
         - </h1>
         - <p>
-        - ' A new password has been generated for your account: {0}'
+        - ' Nueva contraseña: {0}'
         - </p>
       password-changed:
-        subject: Password changed for @player
+        subject: Contraseña actualizada
         content:
         - <h1>
-        - ' Hi, @player!'
+        - ' Hola, @player!'
         - </h1>
         - <p>
-        - ' Your password has been changed to: {0}'
+        - ' Tu contraseña ahora es: {0}'
         - </p>
 bedrock:
   forms:
     login:
-      title: Authentication
+      title: Autenticación
       content:
-      - Welcome, @player!
-      - 'To log in, please enter your password in the field below:'
+      - ¡Bienvenido, @player!
+      - 'Ingresa tu contraseña:'
       - ''
-      - '[Password//Enter your password]'
+      - '[Contraseña//Escribe tu contraseña]'
       - ''
     register:
-      title: Register
+      title: Registro
       content:
-      - Welcome, @player!
-      - To play on the server, you need to create a password.
-      - Please enter the desired password in the field below.
+      - ¡Bienvenido, @player!
+      - Crea una contraseña para jugar.
       - ''
-      - '[Password//Enter your password]'
-      - '[Confirmation//Confirm your password]'
+      - '[Contraseña//Elige una contraseña]'
+      - '[Confirmación//Confirma la contraseña]'
       - ''
 title:
   before-login:
-    title: '&#8addff&lBienvenido!'
-    subtitle: '&#eeeeeeUsa: /login contraseña.'
+    title: '&#8addff&l¡Bienvenido!'
+    subtitle: '&#eeeeeeUsa: /login contraseña'
     delays:
       fadeIn: 2
       stay: 9999
       fadeOut: 6
   before-register:
-    title: '&#8addff&lBienvenido!'
-    subtitle: '&#eeeeeeUsa: /register contraseña contraseña.'
+    title: '&#8addff&l¡Bienvenido!'
+    subtitle: '&#eeeeeeUsa: /register contraseña contraseña'
     delays:
       fadeIn: 2
       stay: 9999
       fadeOut: 6
   after-login:
     title: ''
-    subtitle: '&#8addffHas inicio sesión con éxito!'
+    subtitle: '&#8addff¡Sesión iniciada!'
     delays:
       fadeIn: 2
       stay: 30
       fadeOut: 6
   after-register:
     title: ''
-    subtitle: '&#8addffTe has registrado con éxito!'
+    subtitle: '&#8addff¡Registro exitoso!'
     delays:
       fadeIn: 2
       stay: 30
       fadeOut: 6
   incorrect-password:
     title: ''
-    subtitle: '&8[&#1da7df&lCubySoft&8] &cContraseña incorrecta!'
+    subtitle: '&8[&#1da7df&lCubySoft&8] &c¡Contraseña incorrecta!'
     delays:
       fadeIn: 2
       stay: 30
       fadeOut: 6
   already-login:
     title: ''
-    subtitle: '&8[&#1da7df&lCubySoft&8] &cYa estás conectado!'
+    subtitle: '&8[&#1da7df&lCubySoft&8] &c¡Ya estás conectado!'
     delays:
       fadeIn: 2
       stay: 30
       fadeOut: 6
   already-registered:
     title: ''
-    subtitle: '&8[&#1da7df&lCubySoft&8] &cYa estás registrado!'
+    subtitle: '&8[&#1da7df&lCubySoft&8] &c¡Ya estás registrado!'
     delays:
       fadeIn: 2
       stay: 30
       fadeOut: 6
   passwords-dont-match:
     title: ''
-    subtitle: '&8[&#1da7df&lCubySoft&8] &cLas contraseñas no son iguales!'
+    subtitle: '&8[&#1da7df&lCubySoft&8] &c¡Contraseñas no coinciden!'
     delays:
       fadeIn: 2
       stay: 30
       fadeOut: 6
   session-login:
     title: ''
-    subtitle: '&#8addffSe ha continuado su inicio de sesión.'
+    subtitle: '&#8addffSesión reanudada'
     delays:
       fadeIn: 2
       stay: 30
       fadeOut: 6
   premium-login:
     title: ''
-    subtitle: '&#8addffSu cuenta es original, ha iniciado sesión correctamente.'
+    subtitle: '&#8addffAutenticación premium exitosa'
     delays:
       fadeIn: 2
       stay: 30
       fadeOut: 6
   bedrock-login:
     title: ''
-    subtitle: '&#8addffAccediendo a través de Bedrock, se ha conectado con éxito.'
+    subtitle: '&#8addffConexión Bedrock exitosa'
     delays:
       fadeIn: 2
       stay: 60
       fadeOut: 6
   security-warning:
     title: ''
-    subtitle: '&8[&#1da7df&lCubySoft&8] Se ha enviado una nueva alerta de seguridad en el chat.'
+    subtitle: '&8[&#1da7df&lCubySoft&8] Nueva alerta de seguridad en el chat'
     delays:
       fadeIn: 2
       stay: 60
       fadeOut: 6
   answer-required:
     title: ''
-    subtitle: ' &8[&#1da7df&lCubySoft&8]&#8addffPor favor, responda a la pregunta enviada en el chat.'
+    subtitle: ' &8[&#1da7df&lCubySoft&8]&#8addffResponde la pregunta en el chat'
     delays:
       fadeIn: 2
       stay: 9999

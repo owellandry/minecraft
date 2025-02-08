@@ -1,0 +1,42 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 14
+npc:
+  '14':
+    name: '1'
+    uuid: 29f967c6-d5bf-41c4-9012-d15b06a0f43e
+    traits:
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      commandtrait:
+        commands:
+          '0':
+            command: mvtp <p> spawn
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      owner:
+        uuid: aef9bafc-d4de-38b6-8765-0e1ea63fe1f7
+      spawned: true
+      location:
+        bodyYaw: -179.60825
+        world: selector
+        x: 8.5132
+        y: 150.0
+        z: 6.5765
+        yaw: -179.6082
+        pitch: -0.9055
+      type: PLAYER
+    traitnames: spawned,scoreboardtrait,owner,commandtrait,skintrait,location,type,inventory
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false

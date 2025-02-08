@@ -1,0 +1,31 @@
+#
+# Language-File created by:		Gecolay
+#
+  
+  
+  
+Plugin:
+  
+  plugin-start: "&8[&#1da7df&lCubySoft&8]&a Das Plugin wurde erfolgreich aktiviert."
+  plugin-stop: "&8[&#1da7df&lCubySoft&8]&a Das Plugin wurde erfolgreich deaktiviert."
+  plugin-prefix: "&8[&#1da7df&lCubySoft&8]"
+  
+  
+  
+Messages:
+  
+  command-config-reload: "&8[&#1da7df&lCubySoft&8]&a Die Einstellungen wurden erfolgreich reloaded."
+  command-permission-error: "&8[&#1da7df&lCubySoft&8]&c Du hast keine Rechte auf diesen Befehl!"
+  command-consol-error: "&8[&#1da7df&lCubySoft&8]&c Dieser Befehl ist nur für Spieler!"
+  command-gfly-modus-error: "&8[&#1da7df&lCubySoft&8]&c Flugmodus kann in diesem Spielmodus nicht geändert werden!"
+  command-gfly-activated: "&8[&#1da7df&lCubySoft&8]&a Flugmodus erfolgreich&6 aktiviert!"
+  command-gfly-disabled: "&8[&#1da7df&lCubySoft&8]&a Flugmodus erfolgreich&6 deaktiviert!"
+  command-gfly-modus-other-error: "&8[&#1da7df&lCubySoft&8]&c Flugmodus kann in&6 %Player%'s&c Spielmodus nicht geändert werden!"
+  command-gfly-online-error: "&8[&#1da7df&lCubySoft&8]&c Der Spieler&6 %Player%&c ist nicht Online!"
+  command-gfly-other-activated: "&8[&#1da7df&lCubySoft&8]&a Flugmodus von&6 %Player%&a erfolgreich&6 aktiviert!"
+  command-gfly-other-disabled: "&8[&#1da7df&lCubySoft&8]&a Flugmodus von&6 %Player%&a erfolgreich&6 deaktiviert!"
+  command-gflyspeed: "&8[&#1da7df&lCubySoft&8]&a Deine Fluggeschwindigkeit:&b %Speed%"
+  command-gflyspeed-speed-error: "&8[&#1da7df&lCubySoft&8]&b %Speed%&c ist keine gültige Fluggeschwindigkeit!"
+  command-gflyspeed-online-error: "&8[&#1da7df&lCubySoft&8]&c Der Spieler&6 %Player%&c ist nicht Online!"
+  command-gflyspeed-change: "&8[&#1da7df&lCubySoft&8]&a Fluggeschwindigkeit erfolgreich auf&b %Speed%&a gesetzt!"
+  command-gflyspeed-change-other: "&8[&#1da7df&lCubySoft&8]&a Fluggeschwindigkeit von&6 %Player%&a erfolgreich auf&b %Speed%&a gesetzt!"

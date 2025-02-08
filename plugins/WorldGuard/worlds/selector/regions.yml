@@ -17,8 +17,8 @@ regions:
             ps-tax-payments-due: []
             greeting: §lEntering §b§lowellandry's §f§lprotected area
             ps-home: 99914.0 -60.0 99956.0
-            ps-tax-last-payment-added: []
             pvp: deny
+            ps-tax-last-payment-added: []
             ps-tax-autopayer: ded01df0-e363-3375-83fb-0e1074f5ac4f
             ps-block-material: EMERALD_ORE
             creeper-explosion: deny
@@ -52,9 +52,9 @@ regions:
         - {x: 99850, z: 99892}
     __global__:
         members: {}
-        flags: {build: deny, exit-deny-message: §c§lOye! §7No tienes permitido hacer
-                eso., block-break: deny, entry-deny-message: §c§lOye! §7No tienes
-                permitido hacer eso., pvp: deny, block-place: deny}
+        flags: {build: allow, exit-deny-message: §c§lOye! §7No tienes permitido hacer
+                eso., block-break: allow, entry-deny-message: §c§lOye! §7No tienes
+                permitido hacer eso., pvp: deny, block-place: allow}
         owners:
             unique-ids: [ded01df0-e363-3375-83fb-0e1074f5ac4f]
         type: global

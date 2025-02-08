@@ -1,0 +1,122 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyway, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 3|2|4189
+'1':
+  uniqueId: a3efd963-a1cb-4e1d-a8c0-1a6190d0c5d4
+  world: spawn
+  x: -17
+  y: 138
+  z: 28
+  yaw: 296.90118
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
+'2':
+  uniqueId: 6278952f-a4ed-4128-a712-77e263d31bac
+  world: spawn
+  x: -16
+  y: 138
+  z: 43
+  yaw: 249.05193
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
+'3':
+  uniqueId: dc689464-99b0-44fb-9229-a43c7c789756
+  world: spawn
+  x: -20
+  y: 138
+  z: 56
+  yaw: 96.636406
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
+'4':
+  uniqueId: 6ebfdcaa-d775-4a04-92e2-364a1f61336a
+  world: spawn
+  x: -7
+  y: 138
+  z: 71
+  yaw: 6.126057
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
+'5':
+  uniqueId: 29fe4802-a3cd-4bdb-8e81-0e9b61b3d166
+  world: spawn
+  x: 1
+  y: 138
+  z: 49
+  yaw: 282.20084
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
+'6':
+  uniqueId: 8b2eeffe-86e1-4349-b2fd-00c3f3032aec
+  world: spawn
+  x: 1
+  y: 138
+  z: 59
+  yaw: 265.69394
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
+'8':
+  uniqueId: 952c33fc-e458-4196-9cf1-66a642b1997d
+  world: spawn
+  x: 1
+  y: 138
+  z: 54
+  yaw: 261.63083
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:mason
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
