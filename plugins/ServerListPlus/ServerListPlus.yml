@@ -1,0 +1,100 @@
+# ServerListPlus v3.5.0 - https://git.io/slp
+# More information is available in the wiki: https://git.io/slp-wiki
+
+# This is the section where you can customize your server status ping!
+#  - Default is the section for the status used when the player name is unknown.
+#    Personalized is used if the client has already joined the server once.
+#    Use %player% as placeholder for the player's name.
+# 
+# Features:
+#  - Description (MotD): A short status message for your server, max. 2 lines.
+#  - Players:
+#    - Hover: The player hover message that is displayed if you hover the player count.
+#    - Slots: Custom player slot formatting, see http://git.io/slp-slots
+#  - Favicon:
+#    - Use multiple server icons or the player's head as favicon, see http://git.io/oMhJlg
+#    - Possible favicon sources: Files, Folders, URLs, Heads, Helms, Encoded
+# 
+#  More features are explained in the Wiki: http://git.io/slp-config
+# 
+# Usage:
+#  - Add multiple entries for random messages.
+#  - You can use formatting codes (&c, &l etc) and hex RGB color codes (&#rrggbb).
+#  - Save the file with valid UTF-8 encoding for special characters.
+#  - Available placeholders:
+#    - Player name: %player%
+#    - Player count: %online%, %max%, %online@server% %online@world%
+#    - Random online player name: %random_player%
+#    - Ban reason: %ban_reason%
+#    - Ban operator: %ban_operator%
+#    - Ban experiation date: %ban_expiration_date%, %ban_expiration_datetime%
+--- !Status
+Default:
+  Description:
+  - |-
+                &e&l&#FF1DFE&lB&#F227FE&li&#E630FE&le&#D93AFE&ln&#CC44FE&lv&#BF4EFE&le&#B357FE&ln&#A661FE&li&#996BFE&ld&#8C74FE&lo &#7388FF&la &#599BFF&lC&#4DA5FF&lu&#40AFFF&lb&#33B8FF&ly&#26C2FF&lS&#1ACCFF&lo&#0DD5FF&lf&#00DFFF&lt&r
+                  &4 &f&n[ 1.8 &7&n- &a&n1.21+ &3&n]
+  # - |-
+  #                     &#FCD05C&l&nC&#F8C05C&l&nu&#F5B05D&l&nb&#F1A05D&l&ny&#ED8F5E&l&ns&#E97F5E&l&no&#E66F5F&l&nf&#E25F5F&l&nt&r
+  #     &#00FFE0&l&n≪&#06F9E1&l&nU&#0CF2E2&l&nn&#12ECE2&l&ne&#18E6E3&l&nt&#1DDFE4&l&ne &#29D2E5&l&na &#35C6E7&l&nn&#3BBFE8&l&nu&#41B9E9&l&ne&#47B3E9&l&ns&#4CACEA&l&nt&#52A6EB&l&nr&#589FEC&l&no &#6493ED&l&nd&#6A8CEE&l&ni&#7086EF&l&ns&#7680F0&l&nc&#7B79F0&l&no&#8173F1&l&nr&#876CF2&l&nd &#9360F3&l&ny &#9F53F5&l&ng&#A54DF6&l&na&#AA46F6&l&nn&#B040F7&l&na &#BC33F9&l&np&#C22DFA&l&nr&#C826FA&l&ne&#CE20FB&l&nm&#D41AFC&l&ni&#D913FD&l&no&#DF0DFD&l&ns&#E506FE&l&n!&#EB00FF&l&n≫
+  Players:
+    Hover:
+    - |-
+      &aWelcome to &lA Minecraft Server&a!
+      &aCurrently &e&l%online%/%max% &aplayers are playing on our server!
+Personalized:
+  Description:
+  - |-
+            &3 &k⋰ &#00FFE0&l&nH&#14EAE3&l&no&#27D5E5&l&nl&#3BBFE8&l&na &#6295ED&l&nd&#7680F0&l&ne &#9D55F5&l&nn&#B040F7&l&nu&#C42BFA&l&ne&#D715FC&l&nv&#EB00FF&l&no %player% &3 &k⋰⋰&r
+             &#00FFE0&l&nN&#09F5E1&l&no&#13EBE2&l&ns &#26D6E5&l&na&#2FCCE6&l&nl&#38C2E7&l&ne&#42B8E9&l&ng&#4BADEA&l&nr&#55A3EB&l&na &#678FEE&l&nv&#7185EF&l&ne&#7A7AF0&l&nr&#8470F1&l&nt&#8D66F3&l&ne &#A052F5&l&nd&#A947F6&l&ne &#BC33F9&l&nn&#C529FA&l&nu&#CF1FFB&l&ne&#D814FD&l&nv&#E20AFE&l&no&#EB00FF&l&n!
+  # - |-
+  #   &aA Minecraft Server. &7|  &eHello, &l%player%!
+  #   &eNow running the latest &lMinecraft &eversion!
+  # - |-
+  #   &a&#45bf55A Minecraft &#0288d1Server.
+  #   &e%gradient#ffbe00#f4511e%Now with RGB colors. Hello %player%!%gradient%
+  Players:
+    Hover:
+    - |-
+      &aWelcome back, &l%player%&a!
+      &aCurrently &e&l%online%/%max% &aplayers are playing on our server!
+
+# PlayerTracking: Enable/disable tracking of player names to their IP-Addresses.
+#   - Persistence can be disabled with the toggle in the Storage section.
+# StripRGBIfOutdated: Strip RGB color codes for outdated clients.
+#   - With this enabled you can put an old color code (e.g. &c) before RGB codes/gradients
+#     and they will be shown for outdated clients.
+# Unknown: Placeholder replacement if the real value is unknown.
+# Favicon: Options for the creation / downloading of favicons:
+#  - RecursiveFolderSearch: Also search for favicons in sub directories.
+#  - SkinSource: The URL to get the Minecraft Skins from. (%s -> player name)
+#  - ResizeStrategy: The strategy used to resize too small or too big favicons.
+#      NONE (keep them as is, will probably fail), SCALE (scale them to the correct size)
+--- !Plugin
+PlayerTracking:
+  Enabled: true
+  Storage: !JSONStorage
+    Enabled: true
+    SaveDelay: 5m
+StripRGBIfOutdated: true
+Unknown:
+  PlayerName: player
+  PlayerCount: ???
+  Date: ???
+  BanReason: some reason
+  BanOperator: somebody
+  BanExpirationDate: never
+Favicon:
+  Timeout: 10s
+  RecursiveFolderSearch: false
+  ResizeStrategy: SCALE
+
+# This section is only for the Bukkit plugin of ServerListPlus.
+# ProtocolLib: (DISABLE|AUTO|ENABLE) Decides if ProtocolLib should be used by ServerListPlus.
+#   Generally, AUTO (the default) is a good choice: ProtocolLib is used on Spigot for
+#   full functionality, but disabled on Paper because it is not needed there.
+#   Note that this might cause other plugins that make use of ProtocolLib to overwrite
+#   the changes made by ServerListPlus. In that case, try setting ENABLE instead.
+--- !Bukkit
+ProtocolLib: AUTO
+
