@@ -1,0 +1,57 @@
+enabled: true
+identifier: vote
+display-name: '&x&7&6&F&3&9&4&lV&x&8&4&E&C&8&1&lo&x&9&3&E&4&6&F&lt&x&A&1&D&D&5&C&le
+  Crate'
+block-material: BOOKSHELF
+engine: VANILLA_BLOCK
+open-money-cost: 0.0
+open-cooldown: 0
+simultaneous-openings: true
+preview-item: false
+permission:
+  required: false
+  permission: phoenixcrates.crate./ie
+animation:
+  idle-effects:
+  - DEFAULT;{REDSTONE;#ff0000;0.0;0.0;0.0;1.0;0.1;2}
+  - DEFAULT;{FLAME;#ffffff;0.0;0.0;0.0;2.0;0.1;2}
+  - STAR;{SMOKE_NORMAL;#ffffff;0.0;0.0;0.0;0.0;0.0;2}
+  opening-animations:
+    '0':
+    - DEFAULT;{}
+    - NONE;{}
+    - DEFAULT;{#ffffff}
+hologram:
+  lines:
+  - '&x&7&6&F&3&9&4&lV&x&8&4&E&C&8&1&lo&x&9&3&E&4&6&F&lt&x&A&1&D&D&5&C&le Crate'
+  - ''
+  offset: 0.0
+menus:
+  preview: default_rewards_preview
+  select-reward: default_select_reward
+key:
+  enabled: true
+  virtual: false
+  glow: true
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":["&x&7&6&F&3&9&4&lV&x&8&4&E&C&8&1&lo&x&9&3&E&4&6&F&lt&x&A&1&D&D&5&C&le
+        Key"]}'
+      lore:
+      - '{"text":"","extra":["&eUsa esta llave para abrir la crate %crate%"]}'
+rewards-mode: RANDOM
+max-win-rewards: 0
+rewards: []
+current-milestone: NOTSET
+milestones: {}
+extra-settings:
+  animation:
+    display-item-position:
+      x: 0.0
+      y: 3.0
+      z: 0.0

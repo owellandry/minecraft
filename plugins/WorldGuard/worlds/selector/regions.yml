@@ -10,53 +10,10 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
-    ps99914x-61y99956z:
-        members: {}
-        flags:
-            wither-damage: deny
-            ps-tax-payments-due: []
-            greeting: §lEntering §b§lowellandry's §f§lprotected area
-            ps-home: 99914.0 -60.0 99956.0
-            pvp: deny
-            ps-tax-last-payment-added: []
-            ps-tax-autopayer: ded01df0-e363-3375-83fb-0e1074f5ac4f
-            ps-block-material: EMERALD_ORE
-            creeper-explosion: deny
-            farewell-action: §lLeaving §b§lowellandry's §f§lprotected area
-            greeting-action: §lEntering §b§lowellandry's §f§lprotected area
-            ps-merged-regions: [ps99918x-60y100071z, ps99913x-60y100128z, ps99913x-60y100029z,
-                ps99914x-60y99956z, ps99914x-61y99956z]
-            tnt: deny
-            ghast-fireball: deny
-            ps-merged-regions-types: [ps99918x-60y100071z EMERALD_ORE, ps99914x-61y99956z
-                    EMERALD_ORE, ps99913x-60y100029z EMERALD_ORE, ps99914x-60y99956z
-                    EMERALD_ORE, ps99913x-60y100128z EMERALD_ORE]
-            farewell: §lLeaving §b§lowellandry's §f§lprotected area
-        owners:
-            unique-ids: [ded01df0-e363-3375-83fb-0e1074f5ac4f]
-        type: poly2d
-        priority: 0
-        max-y: 32767
-        min-y: -32768
-        points:
-        - {x: 99850, z: 99892}
-        - {x: 99850, z: 99965}
-        - {x: 99849, z: 99965}
-        - {x: 99849, z: 100192}
-        - {x: 99977, z: 100192}
-        - {x: 99977, z: 100135}
-        - {x: 99982, z: 100135}
-        - {x: 99982, z: 100007}
-        - {x: 99978, z: 100007}
-        - {x: 99978, z: 99892}
-        - {x: 99850, z: 99892}
     __global__:
         members: {}
-        flags: {build: allow, exit-deny-message: §c§lOye! §7No tienes permitido hacer
-                eso., use: allow, passthrough: allow, block-break: allow, interact: allow,
-            entry-deny-message: §c§lOye! §7No tienes permitido hacer eso., pvp: deny,
-            block-place: allow, allow-shop: allow}
-        owners:
-            unique-ids: [ded01df0-e363-3375-83fb-0e1074f5ac4f]
+        flags: {build: deny, use: deny, block-break: deny, interact: deny, pvp: deny,
+            block-place: deny}
+        owners: {}
         type: global
         priority: 0

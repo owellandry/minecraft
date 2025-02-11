@@ -1,0 +1,83 @@
+enabled: true
+identifier: cubysoft
+display-name: '&#0064FF&lC&#3385F9&lu&#65A7F4&lb&#98C8EE&ly'
+block-material: RESPAWN_ANCHOR
+engine: VANILLA_BLOCK
+open-money-cost: 0.0
+open-cooldown: 0
+simultaneous-openings: true
+preview-item: false
+permission:
+  required: false
+  permission: phoenixcrates.crate.&#0064FF&lC&#3385F9&lo&#65A7F4&lm&#98C8EE&lú&#98C8EE&ln
+animation:
+  idle-effects:
+  - DEFAULT;{CRIT_MAGIC;#00ffff;0.0;0.0;0.0;1.0;0.1;2}
+  - DEFAULT;{FLAME;#ffffff;0.0;0.0;0.0;2.0;0.1;2}
+  - STAR;{SMOKE_NORMAL;#ffffff;0.0;0.0;0.0;0.0;0.0;2}
+  opening-animations:
+    '0':
+    - LIGHTNING;{}
+    - NONE;{}
+    - DEFAULT;{#ffffff}
+hologram:
+  lines:
+  - '&#1E54EA&lC&#255DEA&lu&#2D66EA&lb&#346FEA&ly&#3B78EA&lS&#4381EA&lo&#4A8AEA&lf&#5194E9&lt&#589DE9&l
+    &#60A6E9&lC&#67AFE9&lr&#6EB8E9&la&#76C1E9&lt&#7DCAE9&le'
+  - ''
+  offset: 0.0
+menus:
+  preview: default_rewards_preview
+  select-reward: default_select_reward
+key:
+  enabled: true
+  virtual: false
+  glow: true
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":["&#1E54EA&lC&#275FEA&lu&#2F69EA&lb&#3874EA&ly&#417FEA&lS&#498AEA&lo&#5294E9&lf&#5A9FE9&lt&#63AAE9&l
+        &#6CB5E9&lK&#74BFE9&le&#7DCAE9&ly"]}'
+      lore:
+      - '{"text":"","extra":["&eUsa esta llave para abrir la %crate%"]}'
+rewards-mode: RANDOM
+max-win-rewards: 0
+current-milestone: NOTSET
+milestones: {}
+extra-settings:
+  animation:
+    display-item-position:
+      x: 0.0
+      y: 3.0
+      z: 0.0
+rewards:
+  '0':
+    identifier: reward_1739255803145
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPRUCE_PLANKS
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPRUCE_PLANKS
+    win-commands: []
+    win-limits: -1
+    percentage: 100.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []

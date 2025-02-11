@@ -1,0 +1,58 @@
+enabled: true
+identifier: Spawner
+display-name: '&#FF8700&lS&#FD8B0D&lp&#FB8F1A&la&#FA9426&lw&#F89833&ln&#F69C40&le&#F4A04D&lr&#F2A459&l
+  &#F0A866&lC&#EFAD73&lr&#EDB180&la&#EBB58C&lt&#E9B999&le'
+block-material: SPAWNER
+engine: VANILLA_BLOCK
+open-money-cost: 0.0
+open-cooldown: 0
+simultaneous-openings: true
+preview-item: false
+permission:
+  required: false
+  permission: phoenixcrates.crate.&#FF8700&lS&#FD8B0D&lp&#FB8F1A&la&#FA9426&lw&#F89833&ln&#F69C40&le&#F4A04D&lr&#F2A459&l
+animation:
+  idle-effects:
+  - DEFAULT;{REDSTONE;#ff0000;0.0;0.0;0.0;1.0;0.1;2}
+  - DEFAULT;{FLAME;#ffffff;0.0;0.0;0.0;2.0;0.1;2}
+  - STAR;{SMOKE_NORMAL;#ffffff;0.0;0.0;0.0;0.0;0.0;2}
+  opening-animations:
+    '0':
+    - DEFAULT;{}
+    - NONE;{}
+    - DEFAULT;{#ffffff}
+hologram:
+  lines:
+  - '&#FF8700&lS&#FD8B0D&lp&#FB8F1A&la&#FA9426&lw&#F89833&ln&#F69C40&le&#F4A04D&lr&#F2A459&l
+    &#F0A866&lC&#EFAD73&lr&#EDB180&la&#EBB58C&lt&#E9B999&le'
+  - ''
+  offset: 0.0
+menus:
+  preview: default_rewards_preview
+  select-reward: default_select_reward
+key:
+  enabled: true
+  virtual: false
+  glow: true
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":["&#FF8700&lS&#FD8C0F&lp&#FB911F&la&#F8962E&lw&#F69B3D&ln&#F4A04D&le&#F2A55C&lr&#F0AA6B&l
+        &#EDAF7A&lK&#EBB48A&le&#E9B999&ly"]}'
+      lore:
+      - '{"text":"","extra":["&eCon esta key podras abrir la %crate%"]}'
+rewards-mode: RANDOM
+max-win-rewards: 0
+rewards: []
+current-milestone: NOTSET
+milestones: {}
+extra-settings:
+  animation:
+    display-item-position:
+      x: 0.0
+      y: 3.0
+      z: 0.0

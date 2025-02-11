@@ -1,1 +1,7 @@
-worlds: {}
+worlds:
+  spawn:
+    spawnpoint: spawn:0.45485011738508496:151.0:-10.463148643898545:-0.96969765:-0.020128198
+    y-void: -64.0
+    enabled: true
+    keep-inventory: true
+    nether: false

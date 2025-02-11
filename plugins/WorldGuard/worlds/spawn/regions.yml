@@ -11,16 +11,12 @@
 #
 regions:
     spawn:
-        min: {x: 50, y: 20, z: 524}
-        max: {x: 312, y: 158, z: 822}
-        members: {}
-        flags: {}
-        owners: {"owellandry"}
-        type: cuboid
-        priority: 0
-    __global__:
-        members: {}
-        flags: {}
+        min: {x: -153, y: -3, z: -116}
+        max: {x: 119, y: 279, z: 185}
+        members:
+            unique-ids: [ded01df0-e363-3375-83fb-0e1074f5ac4f]
+        flags: {build: deny, use: deny, passthrough: allow, block-break: deny, interact: deny,
+            pvp: deny, chest-access: allow, block-place: deny}
         owners: {}
-        type: global
+        type: cuboid
         priority: 0

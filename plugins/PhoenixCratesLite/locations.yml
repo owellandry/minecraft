@@ -1,5 +1,14 @@
 locations:
   example1: []
   example2: []
-  '&#5FE2C5&lI&#58D9B6&ln&#50D1A8&li&#49C899&lc&#41BF8A&li&#3AB77C&la&#32AE6D&ll': []
   example3: []
+  cubysoft:
+  - spawn;11;137;154;NORTH
+  Comun:
+  - spawn;5;137;147;NORTH
+  vote:
+  - spawn;18;137;147;NORTH
+  Spawner:
+  - spawn;16;137;151;NORTH
+  Legendary:
+  - spawn;6;137;151;NORTH
