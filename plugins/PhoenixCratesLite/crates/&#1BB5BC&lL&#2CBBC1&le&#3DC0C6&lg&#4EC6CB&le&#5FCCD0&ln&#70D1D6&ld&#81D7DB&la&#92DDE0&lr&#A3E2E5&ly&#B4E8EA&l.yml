@@ -2,7 +2,7 @@ enabled: true
 identifier: Legendary
 display-name: '&#1BB5BC&lL&#2CBBC1&le&#3DC0C6&lg&#4EC6CB&le&#5FCCD0&ln&#70D1D6&ld&#81D7DB&la&#92DDE0&lr&#A3E2E5&ly&#B4E8EA&l
   &#B4E8EA&lC&#B4E8EA&lr&#B4E8EA&la&#B4E8EA&lt&#B4E8EA&le'
-block-material: REINFORCED_DEEPSLATE
+block-material: CHEST
 engine: VANILLA_BLOCK
 open-money-cost: 0.0
 open-cooldown: 0
@@ -23,9 +23,10 @@ animation:
     - DEFAULT;{#ffffff}
 hologram:
   lines:
-  - '&#1BB5BC&lL&#2CBBC1&le&#3DC0C6&lg&#4EC6CB&le&#5FCCD0&ln&#70D1D6&ld&#81D7DB&la&#92DDE0&lr&#A3E2E5&ly&#B4E8EA&l
-    &#B4E8EA&lC&#B4E8EA&lr&#B4E8EA&la&#B4E8EA&lt&#B4E8EA&le'
+  - '&e&l%name% Crate'
   - ''
+  - '&7Right-Click to Open!'
+  - '&7Left-Click to Preview!'
   offset: 0.0
 menus:
   preview: default_rewards_preview
@@ -41,10 +42,12 @@ key:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      display-name: '{"text":"","extra":["&#1BB5BC&lL&#2EBBC2&le&#41C2C8&lg&#54C8CD&le&#68CFD3&ln&#7BD5D9&ld&#8EDBDF&la&#A1E2E4&lr&#B4E8EA&ly&#B4E8EA&l
+      display-name: '{"text":"","extra":["&#1BB5BC&lL&#2CBBC1&le&#3DC0C6&lg&#4EC6CB&le&#5FCCD0&ln&#70D1D6&ld&#81D7DB&la&#92DDE0&lr&#A3E2E5&ly&#B4E8EA&l
         &#B4E8EA&lK&#B4E8EA&le&#B4E8EA&ly"]}'
       lore:
-      - '{"text":"","extra":["&eCon esta key podras abrir la %crate%"]}'
+      - '{"text":"","extra":[{"text":"This is a lore line!","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+      - '""'
+      - '{"text":"","extra":[{"text":"Use this key in ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"},{"text":"%crate%","italic":false,"color":"gold"},{"text":"!","italic":false,"color":"yellow"}]}'
 rewards-mode: RANDOM
 max-win-rewards: 0
 rewards: []

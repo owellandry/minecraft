@@ -1,8 +1,8 @@
 enabled: true
 identifier: Spawner
-display-name: '&#FF8700&lS&#FD8B0D&lp&#FB8F1A&la&#FA9426&lw&#F89833&ln&#F69C40&le&#F4A04D&lr&#F2A459&l
-  &#F0A866&lC&#EFAD73&lr&#EDB180&la&#EBB58C&lt&#E9B999&le'
-block-material: SPAWNER
+display-name: '&#FF8700&lS&#FD8C0F&lp&#FB911F&la&#F8962E&lw&#F69B3D&ln&#F4A04D&le&#F2A55C&lr&#F0AA6B&l
+  Crate'
+block-material: CHEST
 engine: VANILLA_BLOCK
 open-money-cost: 0.0
 open-cooldown: 0
@@ -23,9 +23,10 @@ animation:
     - DEFAULT;{#ffffff}
 hologram:
   lines:
-  - '&#FF8700&lS&#FD8B0D&lp&#FB8F1A&la&#FA9426&lw&#F89833&ln&#F69C40&le&#F4A04D&lr&#F2A459&l
-    &#F0A866&lC&#EFAD73&lr&#EDB180&la&#EBB58C&lt&#E9B999&le'
+  - '&e&l%name% Crate'
   - ''
+  - '&7Right-Click to Open!'
+  - '&7Left-Click to Preview!'
   offset: 0.0
 menus:
   preview: default_rewards_preview
@@ -44,10 +45,11 @@ key:
       display-name: '{"text":"","extra":["&#FF8700&lS&#FD8C0F&lp&#FB911F&la&#F8962E&lw&#F69B3D&ln&#F4A04D&le&#F2A55C&lr&#F0AA6B&l
         &#EDAF7A&lK&#EBB48A&le&#E9B999&ly"]}'
       lore:
-      - '{"text":"","extra":["&eCon esta key podras abrir la %crate%"]}'
+      - '{"text":"","extra":[{"text":"This is a lore line!","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+      - '""'
+      - '{"text":"","extra":[{"text":"Use this key in ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"},{"text":"%crate%","italic":false,"color":"gold"},{"text":"!","italic":false,"color":"yellow"}]}'
 rewards-mode: RANDOM
 max-win-rewards: 0
-rewards: []
 current-milestone: NOTSET
 milestones: {}
 extra-settings:
@@ -56,3 +58,4 @@ extra-settings:
       x: 0.0
       y: 3.0
       z: 0.0
+rewards: []

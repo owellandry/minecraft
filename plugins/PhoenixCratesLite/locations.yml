@@ -10,5 +10,6 @@ locations:
   - spawn;18;137;147;NORTH
   Spawner:
   - spawn;16;137;151;NORTH
+  - spawn;18;137;150;NORTH
   Legendary:
   - spawn;6;137;151;NORTH
