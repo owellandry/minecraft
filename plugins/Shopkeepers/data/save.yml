@@ -120,3 +120,20 @@ data-version: 3|2|4189
     villagerLevel: 1
   recipes: {}
   snapshots: []
+'9':
+  uniqueId: ef32f559-f0a4-4c64-9bed-725f6d6136bd
+  world: spawn
+  x: 30
+  y: 162
+  z: 106
+  yaw: 61.67363
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []

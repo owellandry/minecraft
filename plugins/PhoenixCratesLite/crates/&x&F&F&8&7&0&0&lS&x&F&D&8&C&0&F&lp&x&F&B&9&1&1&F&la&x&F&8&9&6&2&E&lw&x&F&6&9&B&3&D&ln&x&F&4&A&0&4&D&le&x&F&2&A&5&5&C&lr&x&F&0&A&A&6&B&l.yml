@@ -1,0 +1,1368 @@
+enabled: true
+identifier: spawner
+display-name: '&x&F&F&8&7&0&0&lS&x&F&D&8&C&0&F&lp&x&F&B&9&1&1&F&la&x&F&8&9&6&2&E&lw&x&F&6&9&B&3&D&ln&x&F&4&A&0&4&D&le&x&F&2&A&5&5&C&lr&x&F&0&A&A&6&B&l
+  Crate'
+block-material: SPAWNER
+engine: VANILLA_BLOCK
+open-money-cost: 0.0
+open-cooldown: 0
+simultaneous-openings: true
+preview-item: false
+permission:
+  required: false
+  permission: phoenixcrates.crate.&x&F&F&8&7&0&0&lS&x&F&D&8&C&0&F&lp&x&F&B&9&1&1&F&la&x&F&8&9&6&2&E&lw&x&F&6&9&B&3&D&ln&x&F&4&A&0&4&D&le&x&F&2&A&5&5&C&lr&x&F&0&A&A&6&B&l
+animation:
+  idle-effects:
+  - DEFAULT;{REDSTONE;#ff0000;0.0;0.0;0.0;1.0;0.1;2}
+  - DEFAULT;{FLAME;#ffffff;0.0;0.0;0.0;2.0;0.1;2}
+  - STAR;{SMOKE_NORMAL;#ffffff;0.0;0.0;0.0;0.0;0.0;2}
+  opening-animations:
+    '0':
+    - DEFAULT;{}
+    - NONE;{}
+    - DEFAULT;{#ffffff}
+hologram:
+  lines:
+  - '&x&F&F&8&7&0&0&lS&x&F&D&8&C&0&F&lp&x&F&B&9&1&1&F&la&x&F&8&9&6&2&E&lw&x&F&6&9&B&3&D&ln&x&F&4&A&0&4&D&le&x&F&2&A&5&5&C&lr&x&F&0&A&A&6&B&l
+    Crate'
+  - ''
+  offset: 0.0
+menus:
+  preview: default_rewards_preview
+  select-reward: default_select_reward
+key:
+  enabled: true
+  virtual: false
+  glow: true
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"&X&F&F&8&7&0&0&Ls&X&F&D&8&C&0&F&Lp&X&F&B&9&1&1&F&La&X&F&8&9&6&2&E&Lw&X&F&6&9&B&3&D&Ln&X&F&4&A&0&4&D&Le&X&F&2&A&5&5&C&Lr&X&F&0&A&A&6&B&L
+        Key","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"green"}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"This is a lore line!","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+      - '""'
+      - '{"text":"","extra":[{"text":"Use this key in ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"},{"text":"%crate%","italic":false,"color":"gold"},{"text":"!","italic":false,"color":"yellow"}]}'
+rewards-mode: RANDOM
+max-win-rewards: 0
+current-milestone: NOTSET
+milestones: {}
+extra-settings:
+  animation:
+    display-item-position:
+      x: 0.0
+      y: 3.0
+      z: 0.0
+rewards:
+  '0':
+    identifier: reward_1739303781071
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"Z","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF200"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE600"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FEDA00"},{"text":"b","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFCE00"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC200"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB600"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "ZOMBIE",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"Z","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF200"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE600"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FEDA00"},{"text":"b","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFCE00"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC200"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB600"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "ZOMBIE",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 13.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '1':
+    identifier: reward_1739303781075
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"M","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF700"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFEF00"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE700"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE000"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD800"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD000"},{"text":"C","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC800"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC100"},{"text":"b","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB900"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB100"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "MAGMA_CUBE",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"M","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF700"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFEF00"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE700"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE000"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD800"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD000"},{"text":"C","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC800"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC100"},{"text":"b","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB900"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB100"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "MAGMA_CUBE",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 6.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '2':
+    identifier: reward_1739303781077
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF000"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE200"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC600"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB800"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "SLIME",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF000"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE200"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC600"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB800"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "SLIME",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 7.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '3':
+    identifier: reward_1739303781079
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"E","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF500"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFEC00"},{"text":"d","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE200"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD900"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFCF00"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC600"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBC00"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB300"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "ENDERMAN",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"E","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF500"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFEC00"},{"text":"d","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE200"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD900"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFCF00"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC600"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBC00"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB300"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "ENDERMAN",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 2.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '4':
+    identifier: reward_1739303781081
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"B","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF000"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE200"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"z","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC600"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB800"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "BLAZE",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"B","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF000"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE200"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"z","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC600"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB800"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "BLAZE",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 3.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '5':
+    identifier: reward_1739303781083
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF400"},{"text":"h","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE900"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFDF00"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"k","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC900"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBF00"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB400"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "SHULKER",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF400"},{"text":"h","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE900"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFDF00"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"k","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC900"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBF00"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB400"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "SHULKER",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 1.0000000000000002
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '6':
+    identifier: reward_1739303781085
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF700"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFEF00"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE700"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE000"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD800"},{"text":"G","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD000"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC800"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC100"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB900"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB100"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "IRON_GOLEM",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF700"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFEF00"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE700"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE000"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD800"},{"text":"G","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD000"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC800"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC100"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB900"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB100"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "IRON_GOLEM",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 0.49999999999999994
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '7':
+    identifier: reward_1739303781091
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"C","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE900"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBF00"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "COW",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"C","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE900"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBF00"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "COW",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 19.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '8':
+    identifier: reward_1739303781287
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"C","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF400"},{"text":"h","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE900"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFDF00"},{"text":"c","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"k","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC900"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBF00"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB400"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "CHICKEN",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"C","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF400"},{"text":"h","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE900"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFDF00"},{"text":"c","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"k","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC900"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBF00"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB400"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "CHICKEN",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 16.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '9':
+    identifier: reward_1739303781289
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"G","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF000"},{"text":"h","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE200"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"s","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC600"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB800"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "GHAST",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"G","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF000"},{"text":"h","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE200"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"s","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC600"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB800"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "GHAST",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 6.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '10':
+    identifier: reward_1739303781291
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"G","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF500"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFEC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE200"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD900"},{"text":"d","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFCF00"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC600"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBC00"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB300"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "GUARDIAN",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"G","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF500"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFEC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE200"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD900"},{"text":"d","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFCF00"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC600"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBC00"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB300"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "GUARDIAN",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 4.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '11':
+    identifier: reward_1739303781293
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"P","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE900"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBF00"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "PIG",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"P","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE900"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBF00"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "PIG",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 17.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '12':
+    identifier: reward_1739303781295
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF000"},{"text":"h","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE200"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC600"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB800"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "SHEEP",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF000"},{"text":"h","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE200"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC600"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB800"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "SHEEP",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 18.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '13':
+    identifier: reward_1739303781297
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"W","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF000"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE200"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"c","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC600"},{"text":"h","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB800"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "WITCH",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"W","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF000"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE200"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"c","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC600"},{"text":"h","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB800"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "WITCH",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 10.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '14':
+    identifier: reward_1739303781299
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"Z","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFA00"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF500"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF000"},{"text":"b","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFEB00"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FEE500"},{"text":"f","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE100"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFDC00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD700"},{"text":"d","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD200"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFCD00"},{"text":"P","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC800"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC300"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBE00"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB900"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB400"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAF00"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "ZOMBIFIED_PIGLIN",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"Z","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFA00"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF500"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF000"},{"text":"b","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFEB00"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FEE500"},{"text":"f","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE100"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFDC00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD700"},{"text":"d","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD200"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFCD00"},{"text":"P","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC800"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC300"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBE00"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB900"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB400"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAF00"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "ZOMBIFIED_PIGLIN",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 11.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '15':
+    identifier: reward_1739303781301
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"H","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFEE00"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFDD00"},{"text":"s","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFCC00"},{"text":"k","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBB00"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "HUSK",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"H","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFEE00"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFDD00"},{"text":"s","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFCC00"},{"text":"k","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBB00"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "HUSK",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 12.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '16':
+    identifier: reward_1739326011582
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"C","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF700"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF000"},{"text":"v","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE900"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE200"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFDB00"},{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFCD00"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC600"},{"text":"d","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB800"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB100"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "CAVE_SPIDER",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"C","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF700"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF000"},{"text":"v","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE900"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE200"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFDB00"},{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFCD00"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC600"},{"text":"d","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB800"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB100"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "CAVE_SPIDER",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 15.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '17':
+    identifier: reward_1739326011584
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF200"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE600"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FEDA00"},{"text":"d","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFCE00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC200"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB600"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "SPIDER",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF200"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE600"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FEDA00"},{"text":"d","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFCE00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC200"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB600"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "SPIDER",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 14.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '18':
+    identifier: reward_1739326011586
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF500"},{"text":"k","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFEC00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE200"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD900"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFCF00"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC600"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBC00"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB300"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "SKELETON",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF500"},{"text":"k","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFEC00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE200"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD900"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFCF00"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC600"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBC00"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB300"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "SKELETON",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 9.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '19':
+    identifier: reward_1739326011588
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"C","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF400"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE900"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFDF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC900"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBF00"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB400"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "CREEPER",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SPAWNER
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#BFFFFF"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#A3FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#88FFFF"},{"text":"w","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#6DFEFE"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#51FFFF"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#36FFFF"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#1BFFFF"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"},{"text":"(","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFF00"},{"text":"C","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFF400"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFE900"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFDF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFD400"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFC900"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFBF00"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFB400"},{"text":")","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFAA00"}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Upgrades:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#FFFFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00FFFF"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00E5E5"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00CCCC"},{"text":"g","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#00B2B2"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#009999"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#008080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"D","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFFF00"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFE500"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFCC00"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FFB200"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF9900"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF8000"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        - '{"text":"","extra":[{"text":"- ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#808080"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#FF00FF"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#E900E9"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#D400D4"},{"text":"u","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#BF00BF"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#AA00AA"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#950095"},{"text":"
+          ","strikethrough":false,"obfuscated":false,"bold":false,"italic":true,"underlined":false,"color":"#800080"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"#00FFFF"}]}'
+        ItemFlags:
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "spawnermeta:charges": 0,
+              "spawnermeta:maximum": 5000,
+              "spawnermeta:type": "CREEPER",
+              "spawnermeta:upgrades": [I; 1, 1, 1]
+          }
+        blockMaterial: SPAWNER
+    win-commands: []
+    win-limits: -1
+    percentage: 8.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 4189
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []

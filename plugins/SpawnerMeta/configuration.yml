@@ -629,9 +629,9 @@ Spawners:
     # Replace <entity> with the specific entity name, any
     #   unset upgrade values will use default ones.
     DEFAULT:
-      range: 16
-      delay: 500
-      amount: 4
+      range: 10
+      delay: 142
+      amount: 3
   value-increase:
     # Default spawner upgrade increase values.
     # For specific entities:
@@ -642,9 +642,9 @@ Spawners:
     # Replace <entity> with the specific entity name, any
     #   unset upgrade values will use default ones.
     DEFAULT:
-      range: 4
-      delay: -75
-      amount: 1
+      range: 10
+      delay: 142
+      amount: 3
   # Spawner spawning type.
   #   SINGLE - spawn entities in a single spot.
   #   SPREAD - spread entities around spawner.

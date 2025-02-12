@@ -1,0 +1,19 @@
+[2025/02/12 15:30:19]: §9          __             _       
+[2025/02/12 15:30:19]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/02/12 15:30:19]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/02/12 15:30:19]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/02/12 15:30:19]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/02/12 15:30:19]: §9                  |___/            
+[2025/02/12 15:30:19]: §9 By: www.nickuc.com - V 10.4.21
+[2025/02/12 15:30:19]: §9 
+[2025/02/12 15:30:20]: §3[nLogin] [DEBUG] All settings were loaded in 81 ms.
+[2025/02/12 15:30:20]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/02/12 15:30:20]: §3[nLogin] [DEBUG] All plugin messages were loaded in 48 ms (languageByClient=false).
+[2025/02/12 15:30:20]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[2025/02/12 15:30:20]: §3[nLogin] [DEBUG] Loading database...
+[2025/02/12 15:30:20]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/02/12 15:40:41]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Prototypexyzx', `unique_id` = aef9bafcd4de38b687650e1ea63fe1f7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$n923iDz3ezEbkszd2WLRw.tlZSBMsgAESyDjFpSP/YSDXpBwO7AWC', `last_ip` = '127.254.144.27', `creation_date` = 2025-02-06 22:34:03.413, `last_seen` = 2025-02-12 15:40:41.06, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2025/02/12 15:40:41]: [nLogin] The user Prototypexyzx has successfully logged in.
+[2025/02/12 15:41:28]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'owellandry', `unique_id` = ded01df0e363337583fb0e1074f5ac4f,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$Mvsb7emc0eqICwVzZkwx7.atFg4bLUpFezYkQwjvU8pQF1wkFGrZa', `last_ip` = '127.240.105.150', `creation_date` = 2025-02-06 21:32:00.341, `last_seen` = 2025-02-12 15:41:28.715, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/02/12 15:41:28]: [nLogin] The user owellandry has successfully logged in.
+[2025/02/12 15:43:09]: [nLogin] Successful plugin core shutdown (took 0.00s)

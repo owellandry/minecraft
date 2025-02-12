@@ -29,54 +29,16 @@ npc:
       location:
         bodyYaw: -179.60825
         world: selector
-        x: 8.4058
+        x: 8.2456
         y: 150.0
-        z: 7.1775
+        z: 7.8621
         yaw: -179.6082
         pitch: -0.9055
       type: PLAYER
-    traitnames: scoreboardtrait,spawned,owner,commandtrait,skintrait,location,type,inventory
+    traitnames: owner,spawned,scoreboardtrait,commandtrait,skintrait,location,type,inventory
     navigator:
       speedmodifier: 1.0
       avoidwater: false
       usedefaultstuckaction: false
     metadata:
       collidable: true
-  '15':
-    name: '1'
-    uuid: 14b5e686-904a-457e-87f8-309ef7b08cfa
-    traits:
-      spawned: true
-      commandtrait:
-        commands:
-          '0':
-            command: mvtp <p> spawn
-            hand: RIGHT
-            player: false
-            npc: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: -1.0
-            experienceCost: -1
-      owner:
-        uuid: aef9bafc-d4de-38b6-8765-0e1ea63fe1f7
-      location:
-        bodyYaw: -0.7167872
-        world: asdasd
-        x: 0.0041
-        y: -60.0
-        z: 4.2
-        yaw: -0.7168
-        pitch: 5.903
-      scoreboardtrait:
-        tags:
-          '0': CITIZENS_NPC
-      type: PLAYER
-    traitnames: scoreboardtrait,spawned,owner,commandtrait,skintrait,location,type,inventory,targetable
-    navigator:
-      speedmodifier: 1.0
-      avoidwater: false
-      usedefaultstuckaction: false

@@ -1,0 +1,60 @@
+enabled: true
+identifier: Legendary
+display-name: '&x&1&B&B&5&B&C&lL&x&2&C&B&B&C&1&le&x&3&D&C&0&C&6&lg&x&4&E&C&6&C&B&le&x&5&F&C&C&D&0&ln&x&7&0&D&1&D&6&ld&x&8&1&D&7&D&B&la&x&9&2&D&D&E&0&lr&x&A&3&E&2&E&5&ly&x&B&4&E&8&E&A&l
+  Crate'
+block-material: REINFORCED_DEEPSLATE
+engine: VANILLA_BLOCK
+open-money-cost: 0.0
+open-cooldown: 0
+simultaneous-openings: true
+preview-item: false
+permission:
+  required: false
+  permission: phoenixcrates.crate.&x&1&B&B&5&B&C&lL&x&2&C&B&B&C&1&le&x&3&D&C&0&C&6&lg&x&4&E&C&6&C&B&le&x&5&F&C&C&D&0&ln&x&7&0&D&1&D&6&ld&x&8&1&D&7&D&B&la&x&9&2&D&D&E&0&lr&x&A&3&E&2&E&5&ly&x&B&4&E&8&E&A&l
+animation:
+  idle-effects:
+  - DEFAULT;{REDSTONE;#ff0000;0.0;0.0;0.0;1.0;0.1;2}
+  - DEFAULT;{FLAME;#ffffff;0.0;0.0;0.0;2.0;0.1;2}
+  - STAR;{SMOKE_NORMAL;#ffffff;0.0;0.0;0.0;0.0;0.0;2}
+  opening-animations:
+    '0':
+    - DEFAULT;{}
+    - NONE;{}
+    - DEFAULT;{#ffffff}
+hologram:
+  lines:
+  - '&x&1&B&B&5&B&C&lL&x&2&C&B&B&C&1&le&x&3&D&C&0&C&6&lg&x&4&E&C&6&C&B&le&x&5&F&C&C&D&0&ln&x&7&0&D&1&D&6&ld&x&8&1&D&7&D&B&la&x&9&2&D&D&E&0&lr&x&A&3&E&2&E&5&ly&x&B&4&E&8&E&A&l
+    Crate'
+  - ''
+  offset: 0.0
+menus:
+  preview: default_rewards_preview
+  select-reward: default_select_reward
+key:
+  enabled: true
+  virtual: false
+  glow: true
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"&X&1&B&B&5&B&C&Ll&X&2&C&B&B&C&1&Le&X&3&D&C&0&C&6&Lg&X&4&E&C&6&C&B&Le&X&5&F&C&C&D&0&Ln&X&7&0&D&1&D&6&Ld&X&8&1&D&7&D&B&La&X&9&2&D&D&E&0&Lr&X&A&3&E&2&E&5&Ly&X&B&4&E&8&E&A&L
+        Key","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"green"}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"This is a lore line!","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+      - '""'
+      - '{"text":"","extra":[{"text":"Use this key in ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"},{"text":"%crate%","italic":false,"color":"gold"},{"text":"!","italic":false,"color":"yellow"}]}'
+rewards-mode: RANDOM
+max-win-rewards: 0
+rewards: []
+current-milestone: NOTSET
+milestones: {}
+extra-settings:
+  animation:
+    display-item-position:
+      x: 0.0
+      y: 3.0
+      z: 0.0
