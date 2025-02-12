@@ -35,7 +35,7 @@ npc:
         yaw: -179.6082
         pitch: -0.9055
       type: PLAYER
-    traitnames: owner,spawned,scoreboardtrait,commandtrait,skintrait,location,type,inventory
+    traitnames: spawned,scoreboardtrait,owner,commandtrait,skintrait,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
