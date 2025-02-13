@@ -1,18 +1,687 @@
-[21:24:22] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Microsoft Microsoft-10376803) on Linux 6.5.0-1025-azure (amd64)
-[21:24:22] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-138-main@5395ae3 (2025-02-02T21:42:11Z) for Minecraft 1.21.4
-[21:24:22] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[21:24:23] [ServerMain/INFO]: [PluginInitializerManager] Initialized 33 plugins
-[21:24:23] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (33):
+[04:21:04] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Microsoft Microsoft-10376803) on Linux 6.5.0-1025-azure (amd64)
+[04:21:04] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-138-main@5395ae3 (2025-02-02T21:42:11Z) for Minecraft 1.21.4
+[04:21:04] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:21:05] [ServerMain/INFO]: [PluginInitializerManager] Initialized 33 plugins
+[04:21:05] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (33):
  - 40ServidoresMC (2.5), AdvancedTeleport (6.1.2), ChestCommands (4.0.5), Citizens (2.0.37-SNAPSHOT (build 3714)), ExecutableItems (7.25.2.6), FastAsyncWorldEdit (2.12.4-SNAPSHOT-1036;2b31428), Geyser-Spigot (2.6.0-SNAPSHOT), ItemEdit (3.6.3), ItemTag (3.5.1), LightFly (1.0.2), LuckPerms (5.4.153), Multiverse-Core (4.3.14), PhoenixCratesLite (4.0), PlaceholderAPI (2.11.6), ProtectionStones (2.10.5), ProtocolLib (5.3.0), SCore (5.25.2.6), ServerListPlus (3.5.0), Shopkeepers (2.23.3), SkinsRestorer (15.5.2), SpawnerMeta (25.0), StaffPlusPlus (1.21.11), TAB (5.0.5), Tip4serv (1.2.8), Vault (1.7.3-b131), ViaBackwards (5.2.1), ViaRewind (4.0.4), ViaVersion (5.2.1), VoidTeleport (2.4.5), WorldGuard (7.0.12+829a4a4), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e)), nAntiBot (6.1.27), nLogin (10.4.21)
-[21:24:28] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:24:28] [ServerMain/ERROR]: Failed to start the minecraft server
-net.minecraft.util.DirectoryLock$LockException: /workspaces/minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
-	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:100) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
-	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:30) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:435) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
-	at net.minecraft.world.level.storage.LevelStorageSource.validateAndCreateAccess(LevelStorageSource.java:350) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
-	at net.minecraft.server.Main.main(Main.java:184) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
-	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
-	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
-	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+[04:21:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:21:12] [ServerMain/INFO]: Loaded 1370 recipes
+[04:21:12] [ServerMain/INFO]: Loaded 1481 advancements
+[04:21:12] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[04:21:12] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 244.4ms
+[04:21:12] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[04:21:12] [Server thread/INFO]: Loading properties
+[04:21:12] [Server thread/INFO]: This server is running Paper version 1.21.4-138-main@5395ae3 (2025-02-02T21:42:11Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[04:21:12] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:21:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:21:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:21:13] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[04:21:13] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[04:21:14] [Server thread/INFO]: Default game type: SURVIVAL
+[04:21:14] [Server thread/INFO]: Generating keypair
+[04:21:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:21:14] [Server thread/INFO]: Using epoll channel type
+[04:21:15] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:21:15] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 5 libraries... please wait
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/minecraft/libraries/ch/ethz/globis/phtree/phtree/2.8.1/phtree-2.8.1.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/minecraft/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/minecraft/libraries/it/unimi/dsi/fastutil/8.5.15/fastutil-8.5.15.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[04:21:16] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.16.0/adventure-text-serializer-legacy-4.16.0.jar
+[04:21:18] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[04:21:18] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[04:21:19] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[04:21:19] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[04:21:19] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[04:21:19] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[04:21:20] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[04:21:20] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.153
+[04:21:21] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[04:21:21] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.4-SNAPSHOT-1036;2b31428
+[04:21:21] [Server thread/WARN]: 
+**********************************************
+** You are using the Spigot-mapped FAWE jar on a modern Paper version.
+** This will result in slower first-run times and wasted disk space from plugin remapping.
+** Download the Paper FAWE jar from Modrinth to avoid this: https://modrinth.com/plugin/fastasyncworldedit/
+**********************************************
+[04:21:23] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@322a18d9]
+[04:21:23] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[04:21:23] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.14
+[04:21:23] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[04:21:23] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.4) has not yet been tested! Proceed with caution.
+[04:21:23] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[04:21:23] [Server thread/INFO]: [SCore] Loading server plugin SCore v5.25.2.6
+[04:21:23] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[04:21:23] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[04:21:24] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[04:21:24] [Server thread/INFO]: [floodgate] Took 530ms to boot Floodgate
+[04:21:24] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.37-SNAPSHOT (build 3714)
+[04:21:24] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.6.3
+[04:21:24] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
+[04:21:24] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.2
+[04:21:24] [Server thread/INFO]: [ChestCommands] Loading server plugin ChestCommands v4.0.5
+[04:21:24] [Server thread/INFO]: [nAntiBot] Loading server plugin nAntiBot v6.1.27
+[04:21:24] [Server thread/INFO]: [40ServidoresMC] Loading server plugin 40ServidoresMC v2.5
+[04:21:24] [Server thread/INFO]: [SpawnerMeta] Loading server plugin SpawnerMeta v25.0
+[04:21:24] [Server thread/INFO]: [Tip4serv] Loading server plugin Tip4serv v1.2.8
+[04:21:24] [Server thread/INFO]: [Shopkeepers] Loading server plugin Shopkeepers v2.23.3
+[04:21:25] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (521 ms).
+[04:21:25] [Server thread/INFO]: [Shopkeepers] Loading config.
+[04:21:25] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[04:21:25] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
+[04:21:25] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[04:21:25] [Server thread/INFO]: [ItemTag] Loading server plugin ItemTag v3.5.1
+[04:21:25] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
+[04:21:25] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[04:21:25] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[04:21:25] [Server thread/INFO]: [AdvancedTeleport] Loading server plugin AdvancedTeleport v6.1.2
+[04:21:25] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for gson
+[04:21:25] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for gson
+[04:21:25] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for jar-relocator
+[04:21:25] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for jar-relocator
+[04:21:25] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for asm
+[04:21:25] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for asm
+[04:21:25] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for asm-commons
+[04:21:25] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for asm-commons
+[04:21:25] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for gson
+[04:21:25] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for gson
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-api
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-api
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-key
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-key
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for examination-api
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for examination-api
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for examination-string
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for examination-string
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-minimessage
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-minimessage
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-nbt
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-nbt
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-bukkit
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-bukkit
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-gson-legacy-impl
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-gson-legacy-impl
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-gson
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-gson
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-json
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-json
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for option
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for option
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-facet
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-facet
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-api
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-api
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-viaversion
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-viaversion
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-bungeecord
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-bungeecord
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-legacy
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-legacy
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for bstats-bukkit
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for bstats-bukkit
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for bstats-base
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for bstats-base
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for paperlib
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for paperlib
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for ConfigurationMaster-API
+[04:21:26] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for ConfigurationMaster-API
+[04:21:26] [Server thread/INFO]: [LightFly] Loading server plugin LightFly v1.0.2
+[04:21:26] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.21
+[04:21:26] [Server thread/INFO]: [PhoenixCratesLite] Loading server plugin PhoenixCratesLite v4.0
+[04:21:26] [Server thread/INFO]: [StaffPlusPlus] Loading server plugin StaffPlusPlus v1.21.11
+[04:21:26] [Server thread/INFO]: [ExecutableItems] Loading server plugin ExecutableItems v7.25.2.6
+[04:21:26] [Server thread/INFO]: [VoidTeleport] Loading server plugin VoidTeleport v2.4.5
+[04:21:26] [Server thread/INFO]: [ProtectionStones] Loading server plugin ProtectionStones v2.10.5
+[04:21:26] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.5
+[04:21:26] [Server thread/INFO]: [ServerListPlus] Loading server plugin ServerListPlus v3.5.0
+[04:21:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:21:26] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.153
+[04:21:27] [Server thread/INFO]:         __    
+[04:21:27] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.153
+[04:21:27] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[04:21:27] [Server thread/INFO]: 
+[04:21:27] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[04:21:27] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[04:21:28] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[04:21:28] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[04:21:28] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1548ms)
+[04:21:28] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[04:21:28] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[04:21:28] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[04:21:28] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[04:21:28] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.4-SNAPSHOT-1036;2b31428
+[04:21:28] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[04:21:28] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[04:21:28] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[04:21:28] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[04:21:29] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightFaweAdapter as the Bukkit adapter
+[04:21:30] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[04:21:30] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
+[04:21:30] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.2
+[04:21:30] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[04:21:30] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 5 build(s) out of date.
+You are running build 1036, the latest version is build 1041.
+Update at https://ci.athion.net/job/FastAsyncWorldEdit
+[04:21:30] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
+[04:21:30] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[04:21:31] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[04:21:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.5.2]
+[04:21:31] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[04:21:31] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v6.1.27
+[04:21:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:21:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[04:21:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[04:21:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[04:21:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[04:21:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[04:21:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:21:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.2
+[04:21:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ae257f6
+[04:21:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[04:21:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:21:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[04:21:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[04:21:31] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.51s)
+[04:21:31] [Server thread/INFO]:           _         _   _   ___       _   
+[04:21:31] [Server thread/INFO]:   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[04:21:31] [Server thread/INFO]:  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[04:21:31] [Server thread/INFO]:  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[04:21:31] [Server thread/INFO]:  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[04:21:31] [Server thread/INFO]:                                          
+[04:21:31] [Server thread/INFO]:  By: www.nickuc.com - V 6.1.27
+[04:21:31] [Server thread/INFO]: 
+[04:21:32] [Folia Async Scheduler Thread #3/INFO]: [nAntiBot] Connecting to the remote server antibot.nickuc.com...
+[04:21:32] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.21
+[04:21:32] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.48s)
+[04:21:32] [Server thread/INFO]:           __             _       
+[04:21:32] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[04:21:32] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[04:21:32] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[04:21:32] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[04:21:32] [Server thread/INFO]:                   |___/            
+[04:21:32] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.21
+[04:21:32] [Server thread/INFO]:  
+[04:21:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:21:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:21:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:21:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:21:33] [Server thread/INFO]: Preparing level "world"
+[04:21:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:21:34] [Server thread/INFO]: Preparing spawn area: 0%
+[04:21:34] [Server thread/INFO]: Preparing spawn area: 2%
+[04:21:35] [Server thread/INFO]: Preparing spawn area: 38%
+[04:21:35] [Server thread/INFO]: Time elapsed: 1290 ms
+[04:21:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:21:35] [Server thread/INFO]: Preparing spawn area: 0%
+[04:21:36] [Server thread/INFO]: Time elapsed: 397 ms
+[04:21:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:21:36] [Server thread/INFO]: Preparing spawn area: 0%
+[04:21:36] [Server thread/INFO]: Time elapsed: 141 ms
+[04:21:36] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[04:21:36] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[04:21:36] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[04:21:36] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[04:21:36] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[04:21:36] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[04:21:36] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[04:21:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[04:21:36] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[04:21:36] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[04:21:36] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[04:21:36] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[04:21:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[04:21:36] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[04:21:36] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[04:21:36] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[04:21:36] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[04:21:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[04:21:36] [Server thread/INFO]: [WorldGuard] Loading region data...
+[04:21:36] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.14
+[04:21:36] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.14" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[04:21:36] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[04:21:37] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby
+[04:21:37] [Server thread/INFO]: Preparing spawn area: 0%
+[04:21:37] [Server thread/INFO]: Time elapsed: 365 ms
+[04:21:37] [Server thread/INFO]: [WorldGuard] (lobby) TNT ignition is PERMITTED.
+[04:21:37] [Server thread/INFO]: [WorldGuard] (lobby) Lighters are PERMITTED.
+[04:21:37] [Server thread/INFO]: [WorldGuard] (lobby) Lava fire is PERMITTED.
+[04:21:37] [Server thread/INFO]: [WorldGuard] (lobby) Fire spread is UNRESTRICTED.
+[04:21:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lobby'
+[04:21:37] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
+[04:21:37] [Server thread/INFO]: Preparing spawn area: 0%
+[04:21:38] [Server thread/INFO]: Time elapsed: 411 ms
+[04:21:38] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
+[04:21:38] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
+[04:21:38] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
+[04:21:38] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
+[04:21:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
+[04:21:38] [Server thread/INFO]: Preparing start region for dimension minecraft:asdasd
+[04:21:38] [Server thread/INFO]: Preparing spawn area: 0%
+[04:21:38] [Server thread/INFO]: Time elapsed: 121 ms
+[04:21:38] [Server thread/INFO]: [WorldGuard] (asdasd) TNT ignition is PERMITTED.
+[04:21:38] [Server thread/INFO]: [WorldGuard] (asdasd) Lighters are PERMITTED.
+[04:21:38] [Server thread/INFO]: [WorldGuard] (asdasd) Lava fire is PERMITTED.
+[04:21:38] [Server thread/INFO]: [WorldGuard] (asdasd) Fire spread is UNRESTRICTED.
+[04:21:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'asdasd'
+[04:21:38] [Server thread/INFO]: Preparing start region for dimension minecraft:selector
+[04:21:38] [Server thread/INFO]: Preparing spawn area: 0%
+[04:21:38] [Server thread/INFO]: Time elapsed: 368 ms
+[04:21:38] [Server thread/INFO]: [WorldGuard] (selector) TNT ignition is PERMITTED.
+[04:21:38] [Server thread/INFO]: [WorldGuard] (selector) Lighters are PERMITTED.
+[04:21:38] [Server thread/INFO]: [WorldGuard] (selector) Lava fire is PERMITTED.
+[04:21:38] [Server thread/INFO]: [WorldGuard] (selector) Fire spread is UNRESTRICTED.
+[04:21:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'selector'
+[04:21:38] [Server thread/INFO]: [Multiverse-Core] 7 - World(s) loaded.
+[04:21:38] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[04:21:38] [Server thread/INFO]: [Multiverse-Core] Version 4.3.14 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[04:21:38] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[04:21:39] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[04:21:39] [Server thread/INFO]: [SCore] Enabling SCore v5.25.2.6
+[04:21:39] [Server thread/INFO]: ================ SCore ================
+[04:21:39] [Server thread/INFO]: SCore is running on Folia
+[04:21:39] [Server thread/INFO]: SCore is running on Paper or fork
+[04:21:39] [Server thread/INFO]: SCore Version of the server 1.21.4-138-5395ae3 (MC: 1.21.4) !
+[04:21:39] [Server thread/INFO]: SCore ExecutableItems hooked !  (7.25.2.6) Load After
+[04:21:39] [Server thread/INFO]: SCore PlaceholderAPI hooked !  (2.11.6)  Load Before
+[04:21:39] [Server thread/INFO]: SCore WorldGuard hooked !  (7.0.12+829a4a4)  Load Before
+[04:21:39] [Server thread/INFO]: SCore Vault hooked !  (1.7.3-b131)  Load Before
+[04:21:39] [Server thread/INFO]: SCore Multiverse-Core hooked !  (4.3.14)  Load Before
+[04:21:39] [Server thread/INFO]: SCore ProtocolLib hooked !
+[04:21:39] [Server thread/INFO]: SCore Locale setup: EN
+[04:21:39] [Server thread/INFO]: SCore ProtectionStones hooked !  (2.10.5) Load After
+[04:21:39] [Server thread/INFO]: SCore TAB hooked !  (5.0.5) Load After
+[04:21:39] [Server thread/INFO]: SCore WorldEdit hooked !  (2.12.4-SNAPSHOT-1036;2b31428)  Load Before
+[04:21:39] [Server thread/INFO]: SCore Language of the editor setup on EN
+[04:21:39] [Server thread/INFO]: SCore Language for in-game messages setup on EN
+[04:21:39] [Server thread/INFO]: SCore will connect to the database hosted: In Local
+[04:21:39] [Server thread/INFO]: SCore Connection to the db...
+[04:21:39] [Server thread/INFO]: SCore will connect to the database hosted: In Local
+[04:21:39] [Server thread/INFO]: SCore Creating table SecurityOP if not exists...
+[04:21:39] [Server thread/INFO]: SCore Creating table Commands if not exists...
+[04:21:39] [Server thread/INFO]: SCore Creating table Cooldowns if not exists...
+[04:21:39] [Server thread/INFO]: SCore Creating table Commands Player if not exists...
+[04:21:39] [Server thread/INFO]: SCore Creating table Commands Entity if not exists...
+[04:21:39] [Server thread/INFO]: SCore Creating table Commands Block if not exists...
+[04:21:39] [Server thread/INFO]: SCore Creating table UsePerDay if not exists...
+[04:21:40] [Server thread/INFO]: SCore SCore loaded 1 variables from local files !
+[04:21:40] [Server thread/INFO]: SCore SCore loaded 0 delayed commands saved
+[04:21:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: SCore [1.0.0]
+[04:21:40] [Server thread/INFO]: ================ SCore ================
+[04:21:40] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[04:21:40] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[04:21:40] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.37-SNAPSHOT (build 3714)
+[04:21:41] [Server thread/INFO]: [Citizens] Using mojmapped server, avoiding server package checks
+[04:21:41] [Server thread/INFO]: [Citizens] Loaded 0 templates.
+[04:21:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
+[04:21:41] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[04:21:42] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.6.3
+[04:21:42] [Server thread/INFO]: [ItemEdit] Hooking into MiniMessageAPI see https://webui.advntr.dev/
+[04:21:42] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[04:21:42] [Server thread/INFO]: [ItemEdit] Unable to hook into Vault
+[04:21:42] [Server thread/INFO]: [ItemEdit] Hooking into PlaceHolderAPI
+[04:21:42] [Server thread/INFO]: [ItemEdit] placeholders:
+[04:21:42] [Server thread/INFO]: [ItemEdit]   %itemedit_amount_<{itemid}>_[{slot}]_[{player}]%
+[04:21:42] [Server thread/INFO]: [ItemEdit]     shows how many itemid player has on slot
+[04:21:42] [Server thread/INFO]: [ItemEdit]     <{itemid}> for item id on serveritem
+[04:21:42] [Server thread/INFO]: [ItemEdit]     [{slot}] for the slot where the item should be counted, by default inventory
+[04:21:42] [Server thread/INFO]: [ItemEdit]       Values: inventory (include offhand), equip (include offhand), inventoryandequip (include offhand), hand, offhand, head, chest, legs, feet
+[04:21:42] [Server thread/INFO]: [ItemEdit]     [{player}] for the player, by default self
+[04:21:42] [Server thread/INFO]: [ItemEdit]     example: %itemedit_amount_{my_item_id}_{hand}%
+[04:21:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemedit [1.0]
+[04:21:42] [Server thread/INFO]: [ItemEdit] # Enabled (took 365 ms)
+[04:21:42] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v4.0.5
+[04:21:42] [Server thread/WARN]: [ChestCommands] Couldn't find Vault and a compatible economy plugin! Money-related features will not work.
+[04:21:42] [Server thread/INFO]: [ChestCommands] Hooked PlaceholderAPI
+[04:21:42] [Server thread/INFO]: [40ServidoresMC] Enabling 40ServidoresMC v2.5
+[04:21:42] [Server thread/INFO]: [40ServidoresMC] Plugin 40ServidoresMC v2.5 cargado completamente
+[04:21:42] [Server thread/INFO]: [SpawnerMeta] Enabling SpawnerMeta v25.0
+[04:21:42] [Server thread/INFO]: [SpawnerMeta v25.0] enabled!
+[04:21:43] [Server thread/INFO]: [Tip4serv] Enabling Tip4serv v1.2.8
+[04:21:43] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.23.3
+[04:21:43] [Server thread/INFO]: [Shopkeepers] Citizens found: Enabling NPC shopkeepers.
+[04:21:43] [Server thread/INFO]: [Shopkeepers] Loading the data of 8 shopkeepers ...
+[04:21:43] [Server thread/INFO]: [ItemTag] Enabling ItemTag v3.5.1
+[04:21:43] [Server thread/INFO]: [ItemTag] Data using Spigot PersistentDataContainer
+[04:21:43] [Server thread/INFO]: [ItemTag] EquipmentChangeListener
+[04:21:43] [Server thread/INFO]: [ItemTag] Hooking into PlaceholderApi
+[04:21:43] [Server thread/INFO]: [ItemTag] Hooked into PlaceHolderAPI:
+[04:21:43] [Server thread/INFO]: [ItemTag] placeholders:
+[04:21:43] [Server thread/INFO]: [ItemTag]   %itemtag_cooldown_<timeunit>_[cooldownid]%
+[04:21:43] [Server thread/INFO]: [ItemTag]     shows how much cooldown has selected cooldownid for player
+[04:21:43] [Server thread/INFO]: [ItemTag]     <timeunit> may be h, s or ms
+[04:21:43] [Server thread/INFO]: [ItemTag]     [cooldownid] for cooldown type, by default default
+[04:21:43] [Server thread/INFO]: [ItemTag]     example: %itemtag_cooldown_s_anid%
+[04:21:43] [Server thread/INFO]: [ItemTag]   %itemtag_handcooldown_<timeunit>%
+[04:21:43] [Server thread/INFO]: [ItemTag]     shows how much cooldown has player on the item in his hand
+[04:21:43] [Server thread/INFO]: [ItemTag]     <timeunit> may be h, s or ms
+[04:21:43] [Server thread/INFO]: [ItemTag]     example: %itemtag_handcooldown_s%
+[04:21:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemtag [1.0]
+[04:21:43] [Server thread/INFO]: [ItemTag] # Enabled (took 75 ms)
+[04:21:43] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
+[04:21:43] [Server thread/INFO]: [AdvancedTeleport] Enabling AdvancedTeleport v6.1.2
+[04:21:44] [Server thread/INFO]: [AdvancedTeleport] Performing server version check.
+[04:21:44] [Server thread/INFO]: [AdvancedTeleport] Detected major version: 21
+[04:21:44] [Server thread/INFO]: [AdvancedTeleport] Advanced Teleport is now enabling...
+[04:21:44] [Server thread/INFO]: [AdvancedTeleport] Setting up permissions integration with Vault.
+[04:21:44] [Server thread/INFO]: [AdvancedTeleport] LuckPerms hooked into successfully.
+[04:21:44] [Server thread/INFO]: [AdvancedTeleport] Loading MainConfig.
+[04:21:44] [Server thread/INFO]: [AdvancedTeleport] Registered the image warp_default!
+[04:21:44] [Server thread/INFO]: [AdvancedTeleport] Registered the image home_default!
+[04:21:44] [Server thread/INFO]: [AdvancedTeleport] Registered the image spawn_default!
+[04:21:44] [Server thread/INFO]: [LightFly] Enabling LightFly v1.0.2
+[04:21:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: lightfly [1.0.2]
+[04:21:44] [Server thread/INFO]: Fly > Registered placeholders!
+[04:21:44] [Server thread/INFO]: Fly > Plugin enabled!
+[04:21:44] [Server thread/INFO]: [PhoenixCratesLite] Enabling PhoenixCratesLite v4.0
+[04:21:44] [Server thread/INFO]: Loading cross version adapter...
+[04:21:44] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[04:21:52] [Server thread/INFO]:   ____    ____                               
+[04:21:52] [Server thread/INFO]:  |  _ \  / ___|                              
+[04:21:52] [Server thread/INFO]:  | |_) || |       Phoenix Crates Lite v4.0      
+[04:21:52] [Server thread/INFO]:  |  __/ | |___    https://myphoenixstore.com/
+[04:21:52] [Server thread/INFO]:  |_|     \____|                             
+[04:21:52] [Server thread/INFO]:                                                  
+[04:21:52] [Server thread/INFO]: You are using a Lite version of Phoenix Crates.
+[04:21:52] [Server thread/INFO]: Some of the features are locked behind the premium version.
+[04:21:52] [Server thread/INFO]: 
+[04:21:52] [Server thread/INFO]: If you want to unlock the next level for your server, upgrade now:
+[04:21:52] [Server thread/INFO]: https://www.myphoenixstore.com/plans/phoenix-crates
+[04:21:52] [Server thread/INFO]: 
+[04:21:52] [Server thread/INFO]: Loading settings...
+[04:21:52] [Server thread/INFO]: Loading file "config.yml".
+[04:21:52] [Server thread/INFO]: File "config.yml" is up to date. Importing configurations.
+[04:21:52] [Server thread/INFO]: Checking for possible migrations...
+[04:21:52] [Server thread/INFO]: [PhoenixCratesLite] No migrations to run.
+[04:21:52] [Server thread/INFO]: Vault founded. Preparing Economy...
+[04:21:52] [Server thread/INFO]: Placeholder API founded. Preparing placeholders...
+[04:21:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: phoenixcrates [1.0.0]
+[04:21:52] [Server thread/INFO]: Loading components...
+[04:21:52] [Server thread/INFO]: Loading database...
+[04:21:52] [Server thread/WARN]: 5 [Server thread] INFO com.phoenixplugins.phoenixcrates.lib.hikari.HikariDataSource - CyberSQLitePool - Starting...
+[04:21:52] [Server thread/WARN]: 28 [Server thread] INFO com.phoenixplugins.phoenixcrates.lib.hikari.HikariDataSource - CyberSQLitePool - Start completed.
+[04:21:52] [Server thread/INFO]: Loading menus...
+[04:21:52] [Server thread/INFO]: Loading file "menus/default_rewards_preview.yml".
+[04:21:52] [Server thread/INFO]: File "menus/default_rewards_preview.yml" is up to date. Importing configurations.
+[04:21:52] [Server thread/INFO]: Loading file "menus/default_crate_milestones.yml".
+[04:21:52] [Server thread/INFO]: File "menus/default_crate_milestones.yml" is up to date. Importing configurations.
+[04:21:52] [Server thread/INFO]: Loading file "menus/default_select_reward.yml".
+[04:21:52] [Server thread/INFO]: File "menus/default_select_reward.yml" is up to date. Importing configurations.
+[04:21:52] [Server thread/INFO]: Menu "default_rewards_preview" loaded successfully
+[04:21:52] [Server thread/INFO]: Menu "default_crate_milestones" loaded successfully
+[04:21:52] [Server thread/INFO]: Menu "default_select_reward" loaded successfully
+[04:21:52] [Server thread/INFO]: Loading players data...
+[04:21:52] [Server thread/INFO]: Loading crates...
+[04:21:52] [Server thread/INFO]: Loading file "locations.yml".
+[04:21:52] [Server thread/INFO]: File "locations.yml" is up to date. Importing configurations.
+[04:21:52] [Server thread/INFO]: Loading file "crates/example1.yml".
+[04:21:52] [Server thread/INFO]: File "crates/example1.yml" is up to date. Importing configurations.
+[04:21:52] [Server thread/INFO]: Loading file "crates/&#F13E3E&lC&#F05151&lo&#EE6464&lm&#ED7777&lu&#EB8A8A&ln&#EA9D9D&l.yml".
+[04:21:52] [Server thread/INFO]: File "crates/&#F13E3E&lC&#F05151&lo&#EE6464&lm&#ED7777&lu&#EB8A8A&ln&#EA9D9D&l.yml" is up to date. Importing configurations.
+[04:21:52] [Server thread/INFO]: Loading file "crates/example2.yml".
+[04:21:52] [Server thread/INFO]: File "crates/example2.yml" is up to date. Importing configurations.
+[04:21:52] [Server thread/INFO]: Loading file "crates/&x&F&F&8&7&0&0&lS&x&F&D&8&C&0&F&lp&x&F&B&9&1&1&F&la&x&F&8&9&6&2&E&lw&x&F&6&9&B&3&D&ln&x&F&4&A&0&4&D&le&x&F&2&A&5&5&C&lr&x&F&0&A&A&6&B&l.yml".
+[04:21:53] [Server thread/INFO]: File "crates/&x&F&F&8&7&0&0&lS&x&F&D&8&C&0&F&lp&x&F&B&9&1&1&F&la&x&F&8&9&6&2&E&lw&x&F&6&9&B&3&D&ln&x&F&4&A&0&4&D&le&x&F&2&A&5&5&C&lr&x&F&0&A&A&6&B&l.yml" is up to date. Importing configurations.
+[04:21:53] [Server thread/INFO]: Loading file "crates/&#0064FF&lC&#3385F9&lo&#65A7F4&lm&#98C8EE&lú&#98C8EE&ln.yml".
+[04:21:53] [Server thread/INFO]: File "crates/&#0064FF&lC&#3385F9&lo&#65A7F4&lm&#98C8EE&lú&#98C8EE&ln.yml" is up to date. Importing configurations.
+[04:21:53] [Server thread/INFO]: Crate "ie" was not loaded. Maximum amount (5) allowed exceeded for the lite version.
+[04:21:53] [Server thread/INFO]: Crate "&x&1&B&B&5&B&C&lL&x&2&C&B&B&C&1&le&x&3&D&C&0&C&6&lg&x&4&E&C&6&C&B&le&x&5&F&C&C&D&0&ln&x&7&0&D&1&D&6&ld&x&8&1&D&7&D&B&la&x&9&2&D&D&E&0&lr&x&A&3&E&2&E&5&ly&x&B&4&E&8&E&A&l" was not loaded. Maximum amount (5) allowed exceeded for the lite version.
+[04:21:53] [Server thread/INFO]: Crate "example3" was not loaded. Maximum amount (5) allowed exceeded for the lite version.
+[04:21:53] [Server thread/INFO]: Crate "&#FF8700&lS&#FD8B0D&lp&#FB8F1A&la&#FA9426&lw&#F89833&ln&#F69C40&le&#F4A04D&lr&#F2A459&l" was not loaded. Maximum amount (5) allowed exceeded for the lite version.
+[04:21:53] [Server thread/INFO]: Crate "&#1BB5BC&lL&#2CBBC1&le&#3DC0C6&lg&#4EC6CB&le&#5FCCD0&ln&#70D1D6&ld&#81D7DB&la&#92DDE0&lr&#A3E2E5&ly&#B4E8EA&l" was not loaded. Maximum amount (5) allowed exceeded for the lite version.
+[04:21:53] [Server thread/WARN]: [PhoenixCratesLite] There was an attempt to add crates with an invalid type: "example3"!
+[04:21:53] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:21:53] [Server thread/WARN]: [PhoenixCratesLite] There was an attempt to add crates with an invalid type: "vote"!
+[04:21:53] [Server thread/WARN]: [PhoenixCratesLite] There was an attempt to add crates with an invalid type: "Legendary"!
+[04:21:53] [Server thread/INFO]: Loaded 5 types.
+[04:21:53] [Server thread/INFO]: Loaded 4 crates.
+[04:21:53] [Server thread/INFO]: [StaffPlusPlus] Enabling StaffPlusPlus v1.21.11
+[04:21:56] [Server thread/INFO]: [StaffPlusPlus] Using SQLITE storage
+[04:21:56] [Server thread/INFO]: [StaffPlusPlus] Vault found. Permissions will be handled by Vault
+[04:21:56] [Server thread/INFO]: [StaffPlusPlus] No styles directory present
+[04:21:56] [Server thread/INFO]: [StaffPlusPlus] Hooked into PlaceholderAPI 2.11.6
+[04:21:57] [Server thread/INFO]: [StaffPlusPlus] Hooked into PlaceholderAPI 2.11.6
+[04:21:57] [Server thread/INFO]: [StaffPlusPlus] Luckperms enabled
+[04:21:57] [Server thread/INFO]: [StaffPlusPlus] Registering 'StaffMode' calculator.
+[04:21:57] [Server thread/INFO]: [StaffPlusPlus] Registering 'Frozen' calculator.
+[04:21:57] [Server thread/INFO]: [StaffPlusPlus] Registering 'Vanished' calculator.
+[04:21:57] [Server thread/INFO]: [StaffPlusPlus] Staff++ has been enabled!
+[04:21:57] [Server thread/INFO]: [StaffPlusPlus] Plugin created by Shortninja continued by Qball - Revisited by Garagepoort
+[04:21:57] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v7.25.2.6
+[04:21:57] [Server thread/INFO]: ================ ExecutableItems ================
+[04:21:59] [Server thread/INFO]: ExecutableItems Amount of Executable Items configurations loaded: 18
+[04:21:59] [Server thread/INFO]: ExecutableItems Items with display conditions :  
+[04:21:59] [Server thread/INFO]: ================ ExecutableItems ================
+[04:21:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ExecutableItems [1.0.0]
+[04:21:59] [Server thread/INFO]: [VoidTeleport] Enabling VoidTeleport v2.4.5
+[04:21:59] [Server thread/INFO]: 
+
+                ===================================================
+                                    VoidTeleport
+                ===================================================
+
+                              Current version: 2.4.5
+                        You are running the latest version!
+
+                ===================================================
+
+[04:21:59] [Server thread/INFO]: [VoidTeleport] Developed by EndlessGames.
+[04:21:59] [Server thread/INFO]: [ProtectionStones] Enabling ProtectionStones v2.10.5
+[04:21:59] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.GreetingFlagHandler
+[04:21:59] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.FarewellFlagHandler
+[04:22:00] [Server thread/WARN]: [ProtectionStones] No economy plugin found by Vault! There will be no economy support!
+[04:22:00] [Server thread/INFO]: [ProtectionStones] PlaceholderAPI support enabled!
+[04:22:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: protectionstones [2.10.5]
+[04:22:00] [Server thread/INFO]: [ProtectionStones] LuckPerms support enabled!
+[04:22:00] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[04:22:00] [Server thread/INFO]: [ProtectionStones] - EMERALD_ORE (64)
+[04:22:00] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[04:22:00] [Server thread/INFO]: [ProtectionStones] Building region cache...
+[04:22:00] [Server thread/INFO]: [ProtectionStones] Building UUID cache... (if slow change async-load-uuid-cache in the config to true)
+[04:22:00] [Server thread/INFO]: [ProtectionStones] Checking if PS regions have been updated to UUIDs...
+[04:22:00] [Server thread/INFO]: [ProtectionStones] §fProtectionStones has successfully started!
+[04:22:00] [Server thread/INFO]: [TAB] Enabling TAB v5.0.5
+[04:22:00] [Server thread/INFO]: [TAB] Loaded NMS hook in 22ms
+[04:22:00] [Server thread/INFO]: [TAB] Enabled in 197ms
+[04:22:00] [Server thread/INFO]: [ServerListPlus] Enabling ServerListPlus v3.5.0
+[04:22:00] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[04:22:00] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[04:22:00] [Server thread/WARN]: [ServerListPlus] [Core] Unknown configuration property: Folder @ FaviconConf
+[04:22:00] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[04:22:00] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: BukkitConf
+[04:22:00] [Server thread/INFO]: [ServerListPlus] ProtocolLib is no longer required (and used) by default when using Paper. If this causes compatibility issues with other plugins, try setting ProtocolLib: ENABLE
+[04:22:01] [Server thread/INFO]: [ServerListPlus] [Core] Reloading saved player identities...
+[04:22:01] [Server thread/INFO]: [ServerListPlus] Successfully loaded!
+[04:22:01] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.5.0 enabled.
+[04:22:01] [Server thread/INFO]: [spark] Starting background profiler...
+[04:22:02] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[04:22:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:22:02] [Server thread/INFO]: [Geyser-Spigot] 
+[04:22:02] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b756 (git-master-b96f915)
+[04:22:02] [Server thread/INFO]: [Geyser-Spigot] 
+[04:22:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:22:05] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 25565
+[04:22:05] [Server thread/INFO]: [Geyser-Spigot] Done (3.214s)! Run /geyser help for help!
+[04:22:05] [Server thread/INFO]: Done preparing level "world" (31.540s)
+[04:22:05] [Server thread/INFO]: Running delayed init tasks
+[04:22:05] [ForkJoinPool.commonPool-worker-2/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.60. Download it here: https://geysermc.org/download
+[04:22:05] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[04:22:05] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[04:22:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[04:22:05] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[04:22:05] [Craft Scheduler Thread - 7 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[04:22:05] [Craft Scheduler Thread - 15 - AdvancedTeleport/INFO]: [AdvancedTeleport] Preparing random teleportation locations. If your server performance or memory suffers, please set `use-rapid-response` to false in the config.yml file.
+[04:22:05] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] Checking for Updates ... 
+[04:22:05] [Craft Scheduler Thread - 15 - AdvancedTeleport/INFO]: [AdvancedTeleport] Plugin is up to date!
+[04:22:05] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] No new version available
+[04:22:05] [Server thread/INFO]: [Citizens] Loaded 1 NPCs.
+[04:22:05] [Server thread/INFO]: [40ServidoresMC] No se ha encontrado plugin para la versión de servidor que estas ejecutando
+[04:22:05] [Server thread/INFO]: Done (62.002s)! For help, type "help"
+[04:22:07] [Geyser Spigot connection thread-6-2/ERROR]: Could not pass event StandardPaperServerListPingEventImpl to ServerListPlus v3.5.0
+java.lang.IllegalArgumentException: Name cannot be longer than 16 characters
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-33.3.1-jre.jar:?]
+	at com.destroystokyo.paper.profile.CraftPlayerProfile.createAuthLibProfile(CraftPlayerProfile.java:297) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
+	at com.destroystokyo.paper.profile.CraftPlayerProfile.<init>(CraftPlayerProfile.java:44) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
+	at org.bukkit.craftbukkit.CraftServer.createProfile(CraftServer.java:3240) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
+	at ServerListPlus-3.5.0-Universal.jar/net.minecrell.serverlistplus.bukkit.handlers.PaperEventHandler.handlePaperServerListPing(PaperEventHandler.java:113) ~[ServerListPlus-3.5.0-Universal.jar:?]
+	at ServerListPlus-3.5.0-Universal.jar/net.minecrell.serverlistplus.bukkit.handlers.PaperEventHandler.onServerListPing(PaperEventHandler.java:47) ~[ServerListPlus-3.5.0-Universal.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.network.StandardPaperServerListPingEventImpl.processRequest(StandardPaperServerListPingEventImpl.java:68) ~[paper-1.21.4.jar:?]
+	at net.minecraft.server.network.ServerStatusPacketListenerImpl.handleStatusRequest(ServerStatusPacketListenerImpl.java:40) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
+	at net.minecraft.network.protocol.status.ServerboundStatusRequestPacket.handle(ServerboundStatusRequestPacket.java:22) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
+	at net.minecraft.network.protocol.status.ServerboundStatusRequestPacket.handle(ServerboundStatusRequestPacket.java:8) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
+	at net.minecraft.network.Connection.genericsFtw(Connection.java:310) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
+	at net.minecraft.network.Connection.channelRead0(Connection.java:293) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
+	at net.minecraft.network.Connection.channelRead0(Connection.java:69) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.InboundPacketInterceptor.channelRead(InboundPacketInterceptor.java:42) ~[ProtocolLib.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at ProtocolLib.jar/com.comphenix.protocol.injector.netty.channel.InboundProtocolReader.channelRead(InboundProtocolReader.java:25) ~[ProtocolLib.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107) ~[netty-codec-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at net.minecraft.server.network.LegacyQueryHandler.channelRead(LegacyQueryHandler.java:112) ~[paper-1.21.4.jar:1.21.4-138-5395ae3]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[netty-handler-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152) ~[netty-handler-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.local.LocalChannel.readInbound(LocalChannel.java:323) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.local.LocalChannel.doBeginRead(LocalChannel.java:346) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.beginRead(AbstractChannel.java:832) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.read(DefaultChannelPipeline.java:1309) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeRead(AbstractChannelHandlerContext.java:845) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.read(AbstractChannelHandlerContext.java:824) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.handler.flow.FlowControlHandler.read(FlowControlHandler.java:144) ~[netty-handler-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeRead(AbstractChannelHandlerContext.java:847) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.read(AbstractChannelHandlerContext.java:824) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.DefaultChannelPipeline.read(DefaultChannelPipeline.java:953) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannel.read(AbstractChannel.java:289) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at Geyser-Spigot.jar/org.geysermc.geyser.network.netty.ChannelWrapper.read(ChannelWrapper.java:198) ~[Geyser-Spigot.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.readIfIsAutoRead(DefaultChannelPipeline.java:1369) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelActive(DefaultChannelPipeline.java:1347) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelActive(AbstractChannelHandlerContext.java:258) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelActive(AbstractChannelHandlerContext.java:238) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:844) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:521) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:428) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:485) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:22:09] [OkHttp https://staffplusplus.org/.../INFO]: Your Staff++ version is up to date!
+[04:22:10] [pool-28-thread-1/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 45, threads = 4, took 38.50s)
+[04:25:01] [Server thread/INFO]: Stopping server
+[04:25:01] [Server thread/INFO]: [ServerListPlus] Disabling ServerListPlus v3.5.0
+[04:25:01] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.5.0 disabled.
+[04:25:01] [Server thread/INFO]: [TAB] Disabling TAB v5.0.5
+[04:25:01] [Server thread/INFO]: [TAB] Disabled in 0ms
+[04:25:01] [Server thread/INFO]: [ProtectionStones] Disabling ProtectionStones v2.10.5
+[04:25:01] [Server thread/INFO]: [VoidTeleport] Disabling VoidTeleport v2.4.5
+[04:25:01] [Server thread/INFO]: [ExecutableItems] Disabling ExecutableItems v7.25.2.6
+[04:25:01] [Server thread/INFO]: [SCore] Disabling SCore v5.25.2.6
+[04:25:01] [Server thread/INFO]: SCore Save UsagePerDay....
+[04:25:02] [Server thread/INFO]: SCore Save UsagePerDay done !
+[04:25:02] [Server thread/INFO]: SCore Save Commands...
+[04:25:02] [Server thread/INFO]: SCore Save Commands done !
+[04:25:02] [Server thread/INFO]: SCore Save Cooldowns...
+[04:25:02] [Server thread/INFO]: SCore 0 cooldowns saved
+[04:25:02] [Server thread/INFO]: SCore Save Cooldowns done !
+[04:25:02] [Server thread/INFO]: SCore Run delayed saving tasks...
+[04:25:02] [Server thread/INFO]: SCore Run delayed saving tasks done !
+[04:25:02] [Server thread/INFO]: [StaffPlusPlus] Disabling StaffPlusPlus v1.21.11
+[04:25:02] [Server thread/INFO]: [StaffPlusPlus] Staff++ is now disabling!
+[04:25:02] [Server thread/INFO]: [StaffPlusPlus] Staff++ disabled!
+[04:25:02] [Server thread/INFO]: [PhoenixCratesLite] Disabling PhoenixCratesLite v4.0
+[04:25:02] [Server thread/INFO]: [nLogin] Disabling nLogin v10.4.21
+[04:25:02] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[04:25:02] [Server thread/INFO]: [LightFly] Disabling LightFly v1.0.2
+[04:25:02] [Server thread/INFO]: [AdvancedTeleport] Disabling AdvancedTeleport v6.1.2
+[04:25:02] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
+[04:25:02] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[04:25:02] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[04:25:02] [Server thread/INFO]: [ItemTag] Disabling ItemTag v3.5.1
+[04:25:02] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion itemtag
+[04:25:02] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin ItemTag was disabled.
+[04:25:02] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.23.3
+[04:25:02] [Server thread/INFO]: [Tip4serv] Disabling Tip4serv v1.2.8
+[04:25:02] [Server thread/INFO]: [SpawnerMeta] Disabling SpawnerMeta v25.0
+[04:25:02] [Server thread/INFO]: [SpawnerMeta v25.0] disabled!
+[04:25:02] [Server thread/INFO]: [40ServidoresMC] Disabling 40ServidoresMC v2.5
+[04:25:02] [Server thread/INFO]: [nAntiBot] Disabling nAntiBot v6.1.27
+[04:25:02] [Server thread/INFO]: [nAntiBot] Successful plugin core shutdown (took 0.00s)
+[04:25:02] [Server thread/INFO]: [nAntiBot] Disconnecting from remote server...
+[04:25:02] [WebSocketConnectReadThread-164/INFO]: [Geyser-Spigot] The skin uploader has been closed

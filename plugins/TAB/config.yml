@@ -7,11 +7,11 @@ header-footer:
     # - "&7&l>> %animation:Welcome%&3 &l%player%&7&l! &7&l<<"
     # - "&7Online players: &f%online%"
     # - "&6Online staff: &e%staffonline%"
-    - ""
-    - ""
-    - ""
-    - "ヮ"
-    - ""
+    - "<#FFFFFF>&m"
+    - "&8[&#1da7df&lCubySoft&8]"
+    - "&7&l>> %animation:&aBienvenido%&3 &l%player%&7&l! &7&l<<"
+    - "&7Jugadores Conectados: &f%online%"
+    - "&6Online staff: &e%staffonline%"
 
 
   footer:
